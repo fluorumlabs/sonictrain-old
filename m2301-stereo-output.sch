@@ -3929,6 +3929,8 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="PWR2" library="supply" deviceset="+15V" device=""/>
 <part name="PWR6" library="supply" deviceset="-15V" device=""/>
 <part name="PWR7" library="supply" deviceset="-15V" device=""/>
+<part name="U5" library="hardware" deviceset="?" device="FX2-20P-1.27DS"/>
+<part name="U6" library="hardware" deviceset="?" device="FX2-20S-1.27DS"/>
 </parts>
 <sheets>
 <sheet>
@@ -4070,6 +4072,8 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <instance part="PWR2" gate="G$1" x="139.7" y="-116.84" rot="R90"/>
 <instance part="PWR6" gate="G$1" x="160.02" y="-68.58" rot="R270"/>
 <instance part="PWR7" gate="G$1" x="160.02" y="-116.84" rot="R270"/>
+<instance part="U5" gate="G$1" x="109.22" y="12.7"/>
+<instance part="U6" gate="G$1" x="109.22" y="5.08"/>
 </instances>
 <busses>
 </busses>

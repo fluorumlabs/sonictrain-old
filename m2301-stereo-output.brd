@@ -1177,6 +1177,12 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R17" library="resistors" package="R-0805" value="12K" x="21.5" y="32.5" rot="R90">
 <attribute name="MOUSER" value="660-RK73H2ATTD1202F" x="21.5" y="32.5" size="0.8128" layer="27" ratio="15" rot="R90" display="off"/>
 </element>
+<element name="U5" library="hardware" package="EMPTY" value="FX2-20P-1.27DS" x="-97" y="-16">
+<attribute name="MOUSER" value="798-FX2-20P-1.27DS71" x="-97" y="-16" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U6" library="hardware" package="EMPTY" value="FX2-20S-1.27DS" x="-98" y="-18">
+<attribute name="MOUSER" value="798-FX2-20S-1.27DS71" x="-98" y="-18" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="+15V" class="1">

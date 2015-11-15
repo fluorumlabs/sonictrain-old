@@ -3383,6 +3383,8 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="R8" library="resistors" deviceset="?" device="100K"/>
 <part name="GND2" library="supply" deviceset="GND" device=""/>
 <part name="GND5" library="supply" deviceset="GND" device=""/>
+<part name="U3" library="hardware" deviceset="?" device="FX2-20P-1.27DS"/>
+<part name="U4" library="hardware" deviceset="?" device="FX2-20S-1.27DS"/>
 </parts>
 <sheets>
 <sheet>
@@ -3527,6 +3529,8 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <instance part="R8" gate="G$1" x="86.36" y="-35.56" rot="R90"/>
 <instance part="GND2" gate="VR1" x="81.28" y="-43.18"/>
 <instance part="GND5" gate="VR1" x="86.36" y="-43.18"/>
+<instance part="U3" gate="G$1" x="109.22" y="12.7"/>
+<instance part="U4" gate="G$1" x="109.22" y="5.08"/>
 </instances>
 <busses>
 </busses>

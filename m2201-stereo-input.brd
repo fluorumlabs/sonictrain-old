@@ -1033,6 +1033,12 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R8" library="resistors" package="R-0805" value="100K" x="51" y="32" rot="R90">
 <attribute name="MOUSER" value="660-RK73H2ATTD1003F" x="51" y="32" size="0.8128" layer="27" ratio="15" rot="R90" display="off"/>
 </element>
+<element name="U3" library="hardware" package="EMPTY" value="FX2-20P-1.27DS" x="-60" y="-7">
+<attribute name="MOUSER" value="798-FX2-20P-1.27DS71" x="-60" y="-7" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U4" library="hardware" package="EMPTY" value="FX2-20S-1.27DS" x="-61" y="-9">
+<attribute name="MOUSER" value="798-FX2-20S-1.27DS71" x="-61" y="-9" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="+15V" class="1">
