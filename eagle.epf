@@ -1,0 +1,51 @@
+[Eagle]
+Version="07 04 02"
+Platform="Mac OS X"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/capacitors-electrolytic.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/capacitors.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/connectors.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/diodes-schottky.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/diodes-zener.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/diodes.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/frequency.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/hardware.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/ic-alfa-rpar.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/ic-atmel.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/ic-coolaudio.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/ic-diodes-inc.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/ic-fairchild.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/ic-jrc.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/ic-logic.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/ic-princeton-technologies.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/ic-sanyo.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/ic-siliconix.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/inductors.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/module-footprints.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/optoelectronics.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/potentiometers.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/regulators-linear.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/regulators-switch-mode.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/resistors.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/supply.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/switches.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/text.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/transistors-n-jfet.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/transistors-npn.lbr"
+UsedLibrary="/Users/arigy/FluorumLabs/eagle-library/transistors-pnp.lbr"
+UsedLibrary="/Users/arigy/Documents/protoplasm/hardware/eagle/lib/f-leds.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="0 -22 745 377"
+State=1
+Number=0
+
+[Desktop]
+Screen="1920 1080"
+Window="Win_1"
