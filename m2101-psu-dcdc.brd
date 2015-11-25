@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.2">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1266,14 +1266,18 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="27.15" y1="11.5" x2="27.19" y2="11.46" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$2">
-<contactref element="XS1" pad="2"/>
+<contactref element="XS1" pad="3"/>
 <contactref element="VD1" pad="1"/>
 <wire x1="27.19" y1="16.54" x2="24.23670625" y2="17.76329375" width="0.6096" layer="1" curve="-44.99997"/>
 <wire x1="24.23670625" y1="17.76329375" x2="23.464465625" y2="18.535534375" width="0.6096" layer="1"/>
 <wire x1="23.464465625" y1="18.535534375" x2="19.92893125" y2="20" width="0.6096" layer="1" curve="45"/>
-<wire x1="19.92893125" y1="20" x2="17.37106875" y2="20" width="0.6096" layer="1"/>
-<wire x1="17.37106875" y1="20" x2="13.835534375" y2="21.464465625" width="0.6096" layer="1" curve="-45"/>
-<wire x1="13.835534375" y1="21.464465625" x2="10.3" y2="25" width="0.6096" layer="1"/>
+<wire x1="19.92893125" y1="20" x2="15.828428125" y2="20" width="0.6096" layer="1"/>
+<wire x1="15.828428125" y1="20" x2="14.4142125" y2="20.5857875" width="0.6096" layer="1" curve="-45.000063"/>
+<wire x1="14.4142125" y1="20.5857875" x2="13.5857875" y2="21.4142125" width="0.6096" layer="1"/>
+<wire x1="13.5857875" y1="21.4142125" x2="13" y2="22.828428125" width="0.6096" layer="1" curve="-45.00009"/>
+<wire x1="13" y1="22.828428125" x2="13" y2="26.671571875" width="0.6096" layer="1"/>
+<wire x1="13" y1="26.671571875" x2="12.4142125" y2="28.0857875" width="0.6096" layer="1" curve="45.000063"/>
+<wire x1="12.4142125" y1="28.0857875" x2="10.3" y2="30.2" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="SA1" pad="2"/>

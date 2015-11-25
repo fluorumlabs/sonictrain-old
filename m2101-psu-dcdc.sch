@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.2">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1742,8 +1742,8 @@ type 0207, grid 10 mm</description>
 <device name="AH" package="PJ-051AH">
 <connects>
 <connect gate="G$1" pin="P" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-<connect gate="G$1" pin="SS" pad="3"/>
+<connect gate="G$1" pin="S" pad="3"/>
+<connect gate="G$1" pin="SS" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1754,8 +1754,8 @@ type 0207, grid 10 mm</description>
 <device name="BH" package="PJ-051AH">
 <connects>
 <connect gate="G$1" pin="P" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-<connect gate="G$1" pin="SS" pad="3"/>
+<connect gate="G$1" pin="S" pad="3"/>
+<connect gate="G$1" pin="SS" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
