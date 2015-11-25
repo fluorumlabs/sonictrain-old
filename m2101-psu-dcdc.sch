@@ -2946,7 +2946,7 @@ Solder type</description>
 </part>
 <part name="O1" library="text" deviceset="TITLE" device="" value="Designed by Artem Godin // fluorumlabs.com"/>
 <part name="XS1" library="connectors" deviceset="PJ-051?" device="AH"/>
-<part name="PCB1" library="module-footprints" deviceset="ST2-BOARD-50-PSU" device="" value="rev.A"/>
+<part name="PCB1" library="module-footprints" deviceset="ST2-BOARD-50-PSU" device="" value="rev.B"/>
 <part name="GND1" library="supply" deviceset="GND" device=""/>
 <part name="VD1" library="diodes" deviceset="DF?M" device="01"/>
 <part name="R1" library="resistors" deviceset="?" device="100K(TH)" value="100K(TH)"/>

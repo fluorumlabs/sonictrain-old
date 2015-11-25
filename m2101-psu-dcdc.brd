@@ -864,7 +864,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U2" library="regulators-switch-mode" package="DC/DC-C1" value="SHHN000A3CL41Z" x="81" y="25" rot="R90">
 <attribute name="MOUSER" value="894-SHHN000A3CL41Z" x="81" y="25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="PCB1" library="module-footprints" package="ST2-BOARD-50-PSU" value="rev.A" x="0" y="0"/>
+<element name="PCB1" library="module-footprints" package="ST2-BOARD-50-PSU" value="rev.B" x="0" y="0"/>
 <element name="VD1" library="diodes" package="MDIP-4" value="DF01M" x="31" y="14" rot="R270">
 <attribute name="MOUSER" value="512-DF01M" x="31" y="14" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
