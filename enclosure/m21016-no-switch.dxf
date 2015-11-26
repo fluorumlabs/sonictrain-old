@@ -2197,7 +2197,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-st2-board-50
+led
 340
 0
   0
@@ -2209,7 +2209,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-led
+st2-board-50
 340
 0
   0
@@ -2337,1636 +2337,6 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-st2-board-50
- 70
-0
- 10
-0.0
- 20
-0.0
- 30
-0.0
-  3
-st2-board-50
-  1
-
-  0
-LINE
-  5
-64
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Cut
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-1.9999999999999998
- 20
--0.2
- 30
-0.0
- 11
-47.9999999999999929
- 21
--0.2
- 31
-0.0
-  0
-LINE
-  5
-65
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Cut
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-50.1999999999999957
- 20
-2.0
- 30
-0.0
- 11
-50.1999999999999957
- 21
-97.9999999999999858
- 31
-0.0
-  0
-LINE
-  5
-66
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Cut
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-47.9999999999999858
- 20
-100.2000000000000028
- 30
-0.0
- 11
-2.0
- 21
-100.2000000000000028
- 31
-0.0
-  0
-LINE
-  5
-67
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Cut
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
--0.2
- 20
-98.0
- 30
-0.0
- 11
--0.2
- 21
-2.0000000000000142
- 31
-0.0
-  0
-LINE
-  5
-68
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Panel
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
--2.0
- 20
-100.0
- 30
-0.0
- 11
-52.0
- 21
-100.0
- 31
-0.0
-  0
-LINE
-  5
-69
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Panel
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
--2.0
- 20
-0.0
- 30
-0.0
- 11
-52.0
- 21
-0.0
- 31
-0.0
-  0
-LINE
-  5
-6A
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Panel
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-50.0
- 20
--2.0
- 30
-0.0
- 11
-50.0
- 21
-102.0
- 31
-0.0
-  0
-LINE
-  5
-6B
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Panel
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-0.0
- 20
-102.0
- 30
-0.0
- 11
-0.0
- 21
--2.0
- 31
-0.0
-  0
-LINE
-  5
-6C
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Panel
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-25.0
- 20
-102.0
- 30
-0.0
- 11
-25.0
- 21
--2.0
- 31
-0.0
-  0
-LINE
-  5
-6D
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Panel
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-13.0
- 20
-102.0
- 30
-0.0
- 11
-13.0
- 21
--2.0
- 31
-0.0
-  0
-LINE
-  5
-6E
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Panel
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-13.0
- 20
--2.0
- 30
-0.0
- 11
-13.0
- 21
--2.0
- 31
-0.0
-  0
-LINE
-  5
-6F
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Panel
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-37.0
- 20
--2.0
- 30
-0.0
- 11
-37.0
- 21
-102.0
- 31
-0.0
-  0
-LINE
-  5
-70
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Panel
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
--2.0
- 20
-17.0
- 30
-0.0
- 11
-52.0
- 21
-17.0
- 31
-0.0
-  0
-LINE
-  5
-71
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Panel
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
--2.0
- 20
-39.0
- 30
-0.0
- 11
-52.0
- 21
-39.0
- 31
-0.0
-  0
-LINE
-  5
-72
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Panel
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
--2.0
- 20
-61.0
- 30
-0.0
- 11
-52.0
- 21
-61.0
- 31
-0.0
-  0
-LINE
-  5
-73
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Panel
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
--2.0
- 20
-83.0
- 30
-0.0
- 11
-52.0
- 21
-83.0
- 31
-0.0
-  0
-LINE
-  5
-74
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-4.0
- 20
-102.0
- 30
-0.0
- 11
-4.0
- 21
--2.0000000000000009
- 31
-0.0
-  0
-LINE
-  5
-75
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-46.0
- 20
--1.9999999999999996
- 30
-0.0
- 11
-46.0
- 21
-102.0
- 31
-0.0
-  0
-LINE
-  5
-76
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
--1.9999999999999998
- 20
-96.0
- 30
-0.0
- 11
-52.0
- 21
-96.0
- 31
-0.0
-  0
-LINE
-  5
-77
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
--1.9999999999999998
- 20
-4.0
- 30
-0.0
- 11
-52.0
- 21
-4.0
- 31
-0.0
-  0
-LINE
-  5
-78
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
--1.9999999999999978
- 20
-65.0
- 30
-0.0
- 11
-52.0
- 21
-65.0
- 31
-0.0
-  0
-LINE
-  5
-79
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
--1.9999999999999978
- 20
-35.0
- 30
-0.0
- 11
-52.0
- 21
-35.0
- 31
-0.0
-  0
-CIRCLE
-  5
-7A
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-Cut
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-4.0
- 20
-96.0
- 30
-0.0
- 40
-1.0
-  0
-CIRCLE
-  5
-7B
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-Cut
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-46.0
- 20
-96.0
- 30
-0.0
- 40
-1.0
-  0
-CIRCLE
-  5
-7C
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-Cut
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-4.0
- 20
-65.0
- 30
-0.0
- 40
-1.0
-  0
-CIRCLE
-  5
-7D
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-Cut
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-46.0
- 20
-65.0
- 30
-0.0
- 40
-1.0
-  0
-CIRCLE
-  5
-7E
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-Cut
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-4.0
- 20
-35.0
- 30
-0.0
- 40
-1.0
-  0
-CIRCLE
-  5
-7F
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-Cut
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-46.0
- 20
-35.0
- 30
-0.0
- 40
-1.0
-  0
-CIRCLE
-  5
-80
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-Cut
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-4.0
- 20
-4.0
- 30
-0.0
- 40
-1.0
-  0
-CIRCLE
-  5
-81
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-Cut
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-46.0
- 20
-4.0
- 30
-0.0
- 40
-1.0
-  0
-LINE
-  5
-82
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-7.0
- 20
-68.0
- 30
-0.0
- 11
-7.0
- 21
-62.0
- 31
-0.0
-  0
-LINE
-  5
-83
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-43.0
- 20
-62.0
- 30
-0.0
- 11
-43.0
- 21
-68.0
- 31
-0.0
-  0
-LINE
-  5
-84
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-43.0
- 20
-32.0
- 30
-0.0
- 11
-43.0
- 21
-38.0
- 31
-0.0
-  0
-LINE
-  5
-85
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-7.0
- 20
-38.0
- 30
-0.0
- 11
-7.0
- 21
-32.0
- 31
-0.0
-  0
-LINE
-  5
-86
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-4.0
- 20
-62.0
- 30
-0.0
- 11
-7.0000000000000009
- 21
-62.0
- 31
-0.0
-  0
-LINE
-  5
-87
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-4.0
- 20
-68.0
- 30
-0.0
- 11
-7.0000000000000009
- 21
-68.0
- 31
-0.0
-  0
-LINE
-  5
-88
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-4.0
- 20
-32.0
- 30
-0.0
- 11
-7.0000000000000009
- 21
-32.0
- 31
-0.0
-  0
-LINE
-  5
-89
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-4.0
- 20
-38.0
- 30
-0.0
- 11
-7.0000000000000009
- 21
-38.0
- 31
-0.0
-  0
-LINE
-  5
-8A
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-4.0
- 20
-7.0
- 30
-0.0
- 11
-7.0
- 21
-7.0
- 31
-0.0
-  0
-LINE
-  5
-8B
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-7.0
- 20
-7.0
- 30
-0.0
- 11
-7.0
- 21
-4.0
- 31
-0.0
-  0
-LINE
-  5
-8C
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-43.0
- 20
-4.0
- 30
-0.0
- 11
-43.0
- 21
-7.0000000000000009
- 31
-0.0
-  0
-LINE
-  5
-8D
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-43.0
- 20
-7.0
- 30
-0.0
- 11
-46.0
- 21
-7.0
- 31
-0.0
-  0
-LINE
-  5
-8E
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-43.0
- 20
-32.0
- 30
-0.0
- 11
-46.0
- 21
-32.0
- 31
-0.0
-  0
-LINE
-  5
-8F
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-43.0
- 20
-38.0
- 30
-0.0
- 11
-46.0
- 21
-38.0
- 31
-0.0
-  0
-LINE
-  5
-90
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-43.0
- 20
-62.0
- 30
-0.0
- 11
-46.0
- 21
-62.0
- 31
-0.0
-  0
-LINE
-  5
-91
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-43.0
- 20
-68.0
- 30
-0.0
- 11
-46.0
- 21
-68.0
- 31
-0.0
-  0
-LINE
-  5
-92
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-43.0
- 20
-93.0
- 30
-0.0
- 11
-46.0
- 21
-93.0
- 31
-0.0
-  0
-LINE
-  5
-93
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-43.0
- 20
-93.0
- 30
-0.0
- 11
-43.0
- 21
-96.0
- 31
-0.0
-  0
-LINE
-  5
-94
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-4.0
- 20
-93.0
- 30
-0.0
- 11
-7.0
- 21
-93.0
- 31
-0.0
-  0
-LINE
-  5
-95
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Guide Enclosure
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
- 10
-7.0
- 20
-96.0
- 30
-0.0
- 11
-7.0
- 21
-93.0
- 31
-0.0
-  0
-ARC
-  5
-96
-100
-AcDbEntity
-  8
-Cut
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
-100
-AcDbCircle
- 10
-2.0
- 20
-98.0
- 30
-0.0
- 40
-2.2000000000000002
-100
-AcDbArc
- 50
-90.0
- 51
-180.0
-  0
-ARC
-  5
-97
-100
-AcDbEntity
-  8
-Cut
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
-100
-AcDbCircle
- 10
-47.9999999999999858
- 20
-97.9999999999999858
- 30
-0.0
- 40
-2.2000000000000002
-100
-AcDbArc
- 50
-0.0
- 51
-90.0
-  0
-ARC
-  5
-98
-100
-AcDbEntity
-  8
-Cut
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
-100
-AcDbCircle
- 10
-47.9999999999999929
- 20
-2.0
- 30
-0.0
- 40
-2.2000000000000002
-100
-AcDbArc
- 50
-270.0
- 51
-0.0
-  0
-ARC
-  5
-99
-100
-AcDbEntity
-  8
-Cut
- 62
-256
-370
--1
- 48
-1.0
-  6
-BYLAYER
-100
-AcDbCircle
- 10
-2.0
- 20
-2.0
- 30
-0.0
- 40
-2.2000000000000002
-100
-AcDbArc
- 50
-180.0
- 51
-270.0
-  0
-ENDBLK
-  5
-9A
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockEnd
-  0
-BLOCK
-  5
-9B
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockBegin
-  2
 led
  70
 0
@@ -3983,7 +2353,7 @@ led
   0
 TEXT
   5
-9C
+64
 100
 AcDbEntity
 100
@@ -4031,7 +2401,7 @@ AcDbText
   0
 LINE
   5
-9D
+65
 100
 AcDbEntity
 100
@@ -4060,12 +2430,1634 @@ BYLAYER
 0.0
   0
 LINE
+  5
+66
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Cut
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+2.5
+ 20
+-1.0
+ 30
+0.0
+ 11
+2.5
+ 21
+1.0
+ 31
+0.0
+  0
+LINE
+  5
+67
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Cut
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+2.5
+ 20
+1.0
+ 30
+0.0
+ 11
+-2.5
+ 21
+1.0
+ 31
+0.0
+  0
+LINE
+  5
+68
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Cut
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+-2.5
+ 20
+1.0
+ 30
+0.0
+ 11
+-2.5
+ 21
+-1.0
+ 31
+0.0
+  0
+ENDBLK
+  5
+69
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+6A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+st2-board-50
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+st2-board-50
+  1
+
+  0
+LINE
+  5
+6B
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Cut
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+1.9999999999999998
+ 20
+-0.2
+ 30
+0.0
+ 11
+47.9999999999999929
+ 21
+-0.2
+ 31
+0.0
+  0
+LINE
+  5
+6C
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Cut
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+50.1999999999999957
+ 20
+2.0
+ 30
+0.0
+ 11
+50.1999999999999957
+ 21
+97.9999999999999858
+ 31
+0.0
+  0
+LINE
+  5
+6D
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Cut
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+47.9999999999999858
+ 20
+100.2000000000000028
+ 30
+0.0
+ 11
+2.0
+ 21
+100.2000000000000028
+ 31
+0.0
+  0
+LINE
+  5
+6E
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Cut
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+-0.2
+ 20
+98.0
+ 30
+0.0
+ 11
+-0.2
+ 21
+2.0000000000000142
+ 31
+0.0
+  0
+LINE
+  5
+6F
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Panel
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+-2.0
+ 20
+100.0
+ 30
+0.0
+ 11
+52.0
+ 21
+100.0
+ 31
+0.0
+  0
+LINE
+  5
+70
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Panel
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+-2.0
+ 20
+0.0
+ 30
+0.0
+ 11
+52.0
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+71
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Panel
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+50.0
+ 20
+-2.0
+ 30
+0.0
+ 11
+50.0
+ 21
+102.0
+ 31
+0.0
+  0
+LINE
+  5
+72
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Panel
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+0.0
+ 20
+102.0
+ 30
+0.0
+ 11
+0.0
+ 21
+-2.0
+ 31
+0.0
+  0
+LINE
+  5
+73
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Panel
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+25.0
+ 20
+102.0
+ 30
+0.0
+ 11
+25.0
+ 21
+-2.0
+ 31
+0.0
+  0
+LINE
+  5
+74
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Panel
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+13.0
+ 20
+102.0
+ 30
+0.0
+ 11
+13.0
+ 21
+-2.0
+ 31
+0.0
+  0
+LINE
+  5
+75
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Panel
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+13.0
+ 20
+-2.0
+ 30
+0.0
+ 11
+13.0
+ 21
+-2.0
+ 31
+0.0
+  0
+LINE
+  5
+76
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Panel
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+37.0
+ 20
+-2.0
+ 30
+0.0
+ 11
+37.0
+ 21
+102.0
+ 31
+0.0
+  0
+LINE
+  5
+77
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Panel
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+-2.0
+ 20
+17.0
+ 30
+0.0
+ 11
+52.0
+ 21
+17.0
+ 31
+0.0
+  0
+LINE
+  5
+78
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Panel
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+-2.0
+ 20
+39.0
+ 30
+0.0
+ 11
+52.0
+ 21
+39.0
+ 31
+0.0
+  0
+LINE
+  5
+79
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Panel
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+-2.0
+ 20
+61.0
+ 30
+0.0
+ 11
+52.0
+ 21
+61.0
+ 31
+0.0
+  0
+LINE
+  5
+7A
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Panel
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+-2.0
+ 20
+83.0
+ 30
+0.0
+ 11
+52.0
+ 21
+83.0
+ 31
+0.0
+  0
+LINE
+  5
+7B
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+4.0
+ 20
+102.0
+ 30
+0.0
+ 11
+4.0
+ 21
+-2.0000000000000009
+ 31
+0.0
+  0
+LINE
+  5
+7C
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+46.0
+ 20
+-1.9999999999999996
+ 30
+0.0
+ 11
+46.0
+ 21
+102.0
+ 31
+0.0
+  0
+LINE
+  5
+7D
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+-1.9999999999999998
+ 20
+96.0
+ 30
+0.0
+ 11
+52.0
+ 21
+96.0
+ 31
+0.0
+  0
+LINE
+  5
+7E
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+-1.9999999999999998
+ 20
+4.0
+ 30
+0.0
+ 11
+52.0
+ 21
+4.0
+ 31
+0.0
+  0
+LINE
+  5
+7F
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+-1.9999999999999978
+ 20
+65.0
+ 30
+0.0
+ 11
+52.0
+ 21
+65.0
+ 31
+0.0
+  0
+LINE
+  5
+80
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+-1.9999999999999978
+ 20
+35.0
+ 30
+0.0
+ 11
+52.0
+ 21
+35.0
+ 31
+0.0
+  0
+CIRCLE
+  5
+81
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Cut
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+4.0
+ 20
+96.0
+ 30
+0.0
+ 40
+1.0
+  0
+CIRCLE
+  5
+82
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Cut
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+46.0
+ 20
+96.0
+ 30
+0.0
+ 40
+1.0
+  0
+CIRCLE
+  5
+83
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Cut
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+4.0
+ 20
+65.0
+ 30
+0.0
+ 40
+1.0
+  0
+CIRCLE
+  5
+84
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Cut
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+46.0
+ 20
+65.0
+ 30
+0.0
+ 40
+1.0
+  0
+CIRCLE
+  5
+85
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Cut
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+4.0
+ 20
+35.0
+ 30
+0.0
+ 40
+1.0
+  0
+CIRCLE
+  5
+86
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Cut
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+46.0
+ 20
+35.0
+ 30
+0.0
+ 40
+1.0
+  0
+CIRCLE
+  5
+87
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Cut
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+4.0
+ 20
+4.0
+ 30
+0.0
+ 40
+1.0
+  0
+CIRCLE
+  5
+88
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Cut
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+46.0
+ 20
+4.0
+ 30
+0.0
+ 40
+1.0
+  0
+LINE
+  5
+89
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+7.0
+ 20
+68.0
+ 30
+0.0
+ 11
+7.0
+ 21
+62.0
+ 31
+0.0
+  0
+LINE
+  5
+8A
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+43.0
+ 20
+62.0
+ 30
+0.0
+ 11
+43.0
+ 21
+68.0
+ 31
+0.0
+  0
+LINE
+  5
+8B
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+43.0
+ 20
+32.0
+ 30
+0.0
+ 11
+43.0
+ 21
+38.0
+ 31
+0.0
+  0
+LINE
+  5
+8C
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+7.0
+ 20
+38.0
+ 30
+0.0
+ 11
+7.0
+ 21
+32.0
+ 31
+0.0
+  0
+LINE
+  5
+8D
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+4.0
+ 20
+62.0
+ 30
+0.0
+ 11
+7.0000000000000009
+ 21
+62.0
+ 31
+0.0
+  0
+LINE
+  5
+8E
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+4.0
+ 20
+68.0
+ 30
+0.0
+ 11
+7.0000000000000009
+ 21
+68.0
+ 31
+0.0
+  0
+LINE
+  5
+8F
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+4.0
+ 20
+32.0
+ 30
+0.0
+ 11
+7.0000000000000009
+ 21
+32.0
+ 31
+0.0
+  0
+LINE
+  5
+90
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+4.0
+ 20
+38.0
+ 30
+0.0
+ 11
+7.0000000000000009
+ 21
+38.0
+ 31
+0.0
+  0
+LINE
+  5
+91
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+4.0
+ 20
+7.0
+ 30
+0.0
+ 11
+7.0
+ 21
+7.0
+ 31
+0.0
+  0
+LINE
+  5
+92
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+7.0
+ 20
+7.0
+ 30
+0.0
+ 11
+7.0
+ 21
+4.0
+ 31
+0.0
+  0
+LINE
+  5
+93
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+43.0
+ 20
+4.0
+ 30
+0.0
+ 11
+43.0
+ 21
+7.0000000000000009
+ 31
+0.0
+  0
+LINE
+  5
+94
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+43.0
+ 20
+7.0
+ 30
+0.0
+ 11
+46.0
+ 21
+7.0
+ 31
+0.0
+  0
+LINE
+  5
+95
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+43.0
+ 20
+32.0
+ 30
+0.0
+ 11
+46.0
+ 21
+32.0
+ 31
+0.0
+  0
+LINE
+  5
+96
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+43.0
+ 20
+38.0
+ 30
+0.0
+ 11
+46.0
+ 21
+38.0
+ 31
+0.0
+  0
+LINE
+  5
+97
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+43.0
+ 20
+62.0
+ 30
+0.0
+ 11
+46.0
+ 21
+62.0
+ 31
+0.0
+  0
+LINE
+  5
+98
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+43.0
+ 20
+68.0
+ 30
+0.0
+ 11
+46.0
+ 21
+68.0
+ 31
+0.0
+  0
+LINE
+  5
+99
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+43.0
+ 20
+93.0
+ 30
+0.0
+ 11
+46.0
+ 21
+93.0
+ 31
+0.0
+  0
+LINE
+  5
+9A
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+43.0
+ 20
+93.0
+ 30
+0.0
+ 11
+43.0
+ 21
+96.0
+ 31
+0.0
+  0
+LINE
+  5
+9B
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+4.0
+ 20
+93.0
+ 30
+0.0
+ 11
+7.0
+ 21
+93.0
+ 31
+0.0
+  0
+LINE
+  5
+9C
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Guide Enclosure
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+ 10
+7.0
+ 20
+96.0
+ 30
+0.0
+ 11
+7.0
+ 21
+93.0
+ 31
+0.0
+  0
+ARC
+  5
+9D
+100
+AcDbEntity
+  8
+Cut
+ 62
+256
+370
+-1
+ 48
+1.0
+  6
+BYLAYER
+100
+AcDbCircle
+ 10
+2.0
+ 20
+98.0
+ 30
+0.0
+ 40
+2.2000000000000002
+100
+AcDbArc
+ 50
+90.0
+ 51
+180.0
+  0
+ARC
   5
 9E
 100
 AcDbEntity
-100
-AcDbLine
   8
 Cut
  62
@@ -4076,26 +4068,28 @@ Cut
 1.0
   6
 BYLAYER
+100
+AcDbCircle
  10
-2.5
+47.9999999999999858
  20
--1.0
+97.9999999999999858
  30
 0.0
- 11
-2.5
- 21
-1.0
- 31
+ 40
+2.2000000000000002
+100
+AcDbArc
+ 50
 0.0
+ 51
+90.0
   0
-LINE
+ARC
   5
 9F
 100
 AcDbEntity
-100
-AcDbLine
   8
 Cut
  62
@@ -4106,26 +4100,28 @@ Cut
 1.0
   6
 BYLAYER
+100
+AcDbCircle
  10
-2.5
+47.9999999999999929
  20
-1.0
+2.0
  30
 0.0
- 11
--2.5
- 21
-1.0
- 31
+ 40
+2.2000000000000002
+100
+AcDbArc
+ 50
+270.0
+ 51
 0.0
   0
-LINE
+ARC
   5
 A0
 100
 AcDbEntity
-100
-AcDbLine
   8
 Cut
  62
@@ -4136,18 +4132,22 @@ Cut
 1.0
   6
 BYLAYER
+100
+AcDbCircle
  10
--2.5
+2.0
  20
-1.0
+2.0
  30
 0.0
- 11
--2.5
- 21
--1.0
- 31
-0.0
+ 40
+2.2000000000000002
+100
+AcDbArc
+ 50
+180.0
+ 51
+270.0
   0
 ENDBLK
   5
@@ -4419,7 +4419,7 @@ BYLAYER
  40
 1.5
   1
-fluorumlabs.com
+FluorumLabs M2101 PSU 9W
  50
 0.0
  41
@@ -4461,13 +4461,13 @@ BYLAYER
  10
 24.9999999999999929
  20
-99.9696970205729514
+101.9696970205729514
  30
 0.0
  40
 1.5
   1
-M2101 PSU 9-36V DC 9W
+DC In 9-36V
  50
 0.0
  41
@@ -4481,7 +4481,7 @@ textstyle3
  11
 25.0
  21
-97.9696970205729514
+98.0
  31
 0.0
 100
