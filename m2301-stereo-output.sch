@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.2">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1386,6 +1386,28 @@ type 0207, grid 10 mm</description>
 <technologies>
 <technology name="">
 <attribute name="MOUSER" value="660-RK73H2ATTD1204F" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10M" package="R-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="660-RK73H2ATTD1005F" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="330K" package="R-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="660-RK73H2ATTD3303F" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3917,10 +3939,10 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="R18" library="resistors" deviceset="?" device="10R(1206)"/>
 <part name="R19" library="resistors" deviceset="?" device="10R(1206)"/>
 <part name="DA3" library="ic-sanyo" deviceset="LA6515" device=""/>
-<part name="R14" library="resistors" deviceset="?" device="2K2"/>
-<part name="R15" library="resistors" deviceset="?" device="2K2"/>
-<part name="R16" library="resistors" deviceset="?" device="12K"/>
-<part name="R17" library="resistors" deviceset="?" device="12K"/>
+<part name="R14" library="resistors" deviceset="?" device="10K" value="10K"/>
+<part name="R15" library="resistors" deviceset="?" device="10K" value="10K"/>
+<part name="R16" library="resistors" deviceset="?" device="33K" value="33K"/>
+<part name="R17" library="resistors" deviceset="?" device="33K" value="33K"/>
 <part name="GND11" library="supply" deviceset="GND" device=""/>
 <part name="GND13" library="supply" deviceset="GND" device=""/>
 <part name="GND14" library="supply" deviceset="GND" device=""/>

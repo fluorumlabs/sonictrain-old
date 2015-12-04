@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.2">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1165,17 +1165,17 @@ Please make sure your boards conform to these design rules.</description>
 <element name="DA3" library="ic-sanyo" package="SIL10" value="LA6515" x="28" y="25" smashed="yes" rot="R90">
 <attribute name="NAME" x="25.46" y="25" size="0.8128" layer="25" ratio="15" rot="R270" align="bottom-center"/>
 </element>
-<element name="R14" library="resistors" package="R-0805" value="2K2" x="24" y="22" rot="R270">
-<attribute name="MOUSER" value="660-RK73H2ATTD2201F" x="24" y="22" size="0.8128" layer="27" ratio="15" rot="R270" display="off"/>
+<element name="R14" library="resistors" package="R-0805" value="10K" x="24" y="22" rot="R270">
+<attribute name="MOUSER" value="660-RK73H2ATTD1002F" x="24" y="22" size="0.8128" layer="27" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="R15" library="resistors" package="R-0805" value="2K2" x="24" y="28" rot="R90">
-<attribute name="MOUSER" value="660-RK73H2ATTD2201F" x="24" y="28" size="0.8128" layer="27" ratio="15" rot="R90" display="off"/>
+<element name="R15" library="resistors" package="R-0805" value="10K" x="24" y="28" rot="R90">
+<attribute name="MOUSER" value="660-RK73H2ATTD1002F" x="24" y="28" size="0.8128" layer="27" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="R16" library="resistors" package="R-0805" value="12K" x="21.5" y="17.5" rot="R270">
-<attribute name="MOUSER" value="660-RK73H2ATTD1202F" x="21.5" y="17.5" size="0.8128" layer="27" ratio="15" rot="R270" display="off"/>
+<element name="R16" library="resistors" package="R-0805" value="33K" x="21.5" y="17.5" rot="R270">
+<attribute name="MOUSER" value="660-RK73H2ATTD3302F" x="21.5" y="17.5" size="0.8128" layer="27" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="R17" library="resistors" package="R-0805" value="12K" x="21.5" y="32.5" rot="R90">
-<attribute name="MOUSER" value="660-RK73H2ATTD1202F" x="21.5" y="32.5" size="0.8128" layer="27" ratio="15" rot="R90" display="off"/>
+<element name="R17" library="resistors" package="R-0805" value="33K" x="21.5" y="32.5" rot="R90">
+<attribute name="MOUSER" value="660-RK73H2ATTD3302F" x="21.5" y="32.5" size="0.8128" layer="27" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="U5" library="hardware" package="EMPTY" value="FX2-20P-1.27DS" x="-97" y="-16">
 <attribute name="MOUSER" value="798-FX2-20P-1.27DS71" x="-97" y="-16" size="1.778" layer="27" display="off"/>
