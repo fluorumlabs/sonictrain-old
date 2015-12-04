@@ -1467,7 +1467,7 @@ type 0207, grid 10 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MOUSER" value="660-RK73H2ATTD1005F" constant="no"/>
+<attribute name="MOUSER" value="660-RK73H2ATTD3303F" constant="no"/>
 </technology>
 </technologies>
 </device>

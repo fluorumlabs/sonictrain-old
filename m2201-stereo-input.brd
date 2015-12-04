@@ -1094,7 +1094,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MOUSER" value="77-VJ0805V104MXBPBC" x="29.5" y="38" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R36" library="resistors" package="R-0805" value="330K" x="27" y="38" rot="R270">
-<attribute name="MOUSER" value="660-RK73H2ATTD1005F" x="27" y="38" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER" value="660-RK73H2ATTD3303F" x="27" y="38" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="DA5" library="ic-fairchild" package="SO-8" value="LM2903M" x="22" y="36" smashed="yes">
 <attribute name="MOUSER" value="512-LM2903M" x="22" y="36" size="1.778" layer="27" display="off"/>
