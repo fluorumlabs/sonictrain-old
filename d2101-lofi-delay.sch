@@ -2731,6 +2731,68 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <rectangle x1="5" y1="4" x2="6.5" y2="6" layer="41"/>
 <rectangle x1="-6.5" y1="4" x2="-5" y2="6" layer="41"/>
 </package>
+<package name="RV11-SINGLE">
+<wire x1="-6" y1="6.5" x2="-5" y2="7.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="-5" y1="7.5" x2="5" y2="7.5" width="0.127" layer="21"/>
+<wire x1="5" y1="7.5" x2="6" y2="6.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="6" y1="6.5" x2="6" y2="1.75" width="0.127" layer="21"/>
+<wire x1="6" y1="1.75" x2="6" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="6" y1="-1.75" x2="6" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="6" y1="-6.5" x2="5" y2="-7.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="5" y1="-7.5" x2="-5" y2="-7.5" width="0.127" layer="21"/>
+<wire x1="-5" y1="-7.5" x2="-6" y2="-6.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="-6" y1="-6.5" x2="-6" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-6" y1="-1.75" x2="-6" y2="1.75" width="0.127" layer="51"/>
+<wire x1="-6" y1="1.75" x2="-6" y2="6.5" width="0.127" layer="21"/>
+<wire x1="-6" y1="-6.5" x2="-6" y2="-8.5" width="0.127" layer="21"/>
+<wire x1="-6" y1="-8.5" x2="-5" y2="-9.5" width="0.127" layer="21" curve="90"/>
+<wire x1="-5" y1="-9.5" x2="5" y2="-9.5" width="0.127" layer="21"/>
+<wire x1="5" y1="-9.5" x2="6" y2="-8.5" width="0.127" layer="21" curve="90"/>
+<wire x1="6" y1="-8.5" x2="6" y2="-6.5" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="4" width="0.127" layer="21"/>
+<circle x="-5" y="6.5" radius="0.5" width="0.127" layer="21"/>
+<circle x="5" y="6.5" radius="0.5" width="0.127" layer="21"/>
+<circle x="-5" y="-6.5" radius="0.5" width="0.127" layer="21"/>
+<circle x="5" y="-6.5" radius="0.5" width="0.127" layer="21"/>
+<pad name="1" x="-3.75" y="-11" drill="1"/>
+<pad name="2" x="-1.25" y="-11" drill="1"/>
+<pad name="3" x="1.25" y="-11" drill="1"/>
+<pad name="S1" x="-6.5" y="0" drill="2.2" rot="R90"/>
+<pad name="S2" x="6.5" y="0" drill="2.2" rot="R90"/>
+<pad name="4" x="3.75" y="-11" drill="1"/>
+<text x="0" y="7" size="0.8128" layer="25" ratio="15" rot="R180" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-6.5" y1="3.5" x2="-5" y2="5.5" layer="41"/>
+<rectangle x1="5" y1="3.5" x2="6.5" y2="5.5" layer="41"/>
+<rectangle x1="5" y1="-5.5" x2="6.5" y2="-3.5" layer="41"/>
+<rectangle x1="-6.5" y1="-5.5" x2="-5" y2="-3.5" layer="41"/>
+</package>
+<package name="RV09-SINGLE">
+<wire x1="-5" y1="4.5" x2="-4" y2="5.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="-4" y1="5.5" x2="4" y2="5.5" width="0.127" layer="21"/>
+<wire x1="4" y1="5.5" x2="5" y2="4.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="5" y1="4.5" x2="5" y2="1.75" width="0.127" layer="21"/>
+<wire x1="5" y1="1.75" x2="5" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="5" y1="-1.75" x2="5" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="5" y1="-4.5" x2="4" y2="-5.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="4" y1="-5.5" x2="-4" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="-5.5" x2="-5" y2="-4.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="-5" y1="-4.5" x2="-5" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-5" y1="-1.75" x2="-5" y2="1.75" width="0.127" layer="51"/>
+<wire x1="-5" y1="1.75" x2="-5" y2="4.5" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="4" width="0.127" layer="21"/>
+<circle x="-4" y="4.5" radius="0.5" width="0.127" layer="21"/>
+<circle x="4" y="4.5" radius="0.5" width="0.127" layer="21"/>
+<circle x="-4" y="-4.5" radius="0.5" width="0.127" layer="21"/>
+<circle x="4" y="-4.5" radius="0.5" width="0.127" layer="21"/>
+<pad name="1" x="-2.5" y="-7" drill="1"/>
+<pad name="2" x="0" y="-7" drill="1"/>
+<pad name="3" x="2.5" y="-7" drill="1"/>
+<pad name="S1" x="-5.5" y="0" drill="2.2" rot="R90"/>
+<pad name="S2" x="5.5" y="0" drill="2.2" rot="R90"/>
+<text x="0" y="5" size="0.8128" layer="25" ratio="15" rot="R180" align="bottom-center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="POTENTIOMETER">
@@ -2868,20 +2930,282 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="?" prefix="R">
+<gates>
+<gate name="G$1" symbol="POTENTIOMETER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="B20K" package="RV11-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="688-RK11K113002F" constant="no"/>
+<attribute name="MOUSER_" value="858-P110KH0F25BR20K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B10K(CD)" package="RV11-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="688-RK11K1130A07" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B1M" package="RV11-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV111-4425AB105 " constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B10K" package="RV11-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV111-4425AB103" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B5K(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="858-P090S-04F25BR5K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="A100K(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="688-RK09D113AF25A15" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="A500K(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="688-RK09D113AF25A55" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B100K(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="688-RK09D113BF25B15" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B50K**" package="RV11-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV111-3415AB503" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="A100K**" package="RV11-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV1113415AA104" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B5K(CD)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A-4225FB502" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B20K(CD)(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A-4225FB203" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B100K(CD)(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A-4225FB104" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B10K(CD)(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A-4225FB103 " constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B1K(CD)(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A-4225FB102 " constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="A50K(CD)(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A-4225FA503" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B50K(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A-4025FB503" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B10K(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A-4025FB103" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B1K(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A-4025FB102" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="A20K(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A-4025FA203" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="A10K(9MM)" package="RV09-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV09A4025FA103" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="A10K**" package="RV11-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="652-PTV111-3415AA103" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="switches">
 <packages>
-<package name="108-0051-EVX">
-<pad name="1" x="0" y="-2.54" drill="1.1" shape="square"/>
-<pad name="2" x="0" y="0" drill="1.1"/>
-<pad name="3" x="0" y="2.54" drill="1.1"/>
-<wire x1="-3" y1="4.06" x2="3" y2="4.06" width="0.127" layer="21"/>
-<wire x1="3" y1="4.06" x2="3" y2="-4.06" width="0.127" layer="21"/>
-<wire x1="3" y1="-4.06" x2="-3" y2="-4.06" width="0.127" layer="21"/>
-<wire x1="-3" y1="-4.06" x2="-3" y2="4.06" width="0.127" layer="21"/>
-<text x="0" y="5.08" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
-</package>
 <package name="108-0052-EVX">
 <pad name="1" x="-2.54" y="-2.54" drill="1.1" shape="square"/>
 <pad name="2" x="-2.54" y="0" drill="1.1"/>
@@ -2909,25 +3233,6 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="108-0051-EVX" prefix="SA">
-<gates>
-<gate name="G$1" symbol="SWITCH-2POS-BUTTON" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="108-0051-EVX">
-<connects>
-<connect gate="G$1" pin="CM" pad="2"/>
-<connect gate="G$1" pin="NC" pad="1"/>
-<connect gate="G$1" pin="NO" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MOUSER" value="108-0051-EVX" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="108-0052-EVX" prefix="SA">
 <gates>
 <gate name=".1" symbol="SWITCH-2POS-BUTTON" x="0" y="5.08" swaplevel="1"/>
@@ -3082,11 +3387,6 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="R45" library="resistors" deviceset="?" device="1K"/>
 <part name="C37" library="capacitors" deviceset="?" device="47N(FILM)"/>
 <part name="C39" library="capacitors-electrolytic" deviceset="?" device="47U/35V"/>
-<part name="R40" library="potentiometers" deviceset="2**?" device="B50K*"/>
-<part name="R42" library="potentiometers" deviceset="2**?" device="B50K*"/>
-<part name="SA2" library="switches" deviceset="108-0051-EVX" device=""/>
-<part name="GND24" library="supply" deviceset="GND" device=""/>
-<part name="GND28" library="supply" deviceset="GND" device=""/>
 <part name="GND15" library="supply" deviceset="GND" device=""/>
 <part name="GND27" library="supply" deviceset="GND" device=""/>
 <part name="GND34" library="supply" deviceset="GND" device=""/>
@@ -3168,6 +3468,9 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="R11" library="resistors" deviceset="?" device="10K"/>
 <part name="R17" library="resistors" deviceset="?" device="1K"/>
 <part name="R18" library="resistors" deviceset="?" device="1K"/>
+<part name="R19" library="potentiometers" deviceset="?" device="B50K**"/>
+<part name="R20" library="potentiometers" deviceset="?" device="B50K**"/>
+<part name="GND24" library="supply" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3219,11 +3522,6 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <instance part="R45" gate="G$1" x="332.74" y="15.24"/>
 <instance part="C37" gate="G$1" x="340.36" y="10.16" rot="R90"/>
 <instance part="C39" gate="G$1" x="345.44" y="15.24"/>
-<instance part="R40" gate=".1" x="309.88" y="-208.28" rot="MR270"/>
-<instance part="R42" gate=".2" x="314.96" y="-208.28" rot="R270"/>
-<instance part="SA2" gate="G$1" x="312.42" y="-190.5" rot="MR270"/>
-<instance part="GND24" gate="VR1" x="309.88" y="-220.98"/>
-<instance part="GND28" gate="VR1" x="314.96" y="-220.98"/>
 <instance part="GND15" gate="VR1" x="281.94" y="0"/>
 <instance part="GND27" gate="VR1" x="317.5" y="0"/>
 <instance part="GND34" gate="VR1" x="340.36" y="0"/>
@@ -3289,7 +3587,6 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <instance part="GND4" gate="VR1" x="78.74" y="-127"/>
 <instance part="R5" gate=".2" x="78.74" y="-144.78" rot="R90"/>
 <instance part="DA2" gate=".2" x="109.22" y="-134.62" rot="MR180"/>
-<instance part="R42" gate=".1" x="314.96" y="-60.96" rot="R270"/>
 <instance part="DA2" gate="*" x="134.62" y="-208.28"/>
 <instance part="PCB1" gate="G$2" x="35.56" y="-88.9"/>
 <instance part="PCB1" gate="G$3" x="35.56" y="-137.16"/>
@@ -3315,6 +3612,9 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <instance part="R11" gate="G$1" x="86.36" y="-152.4"/>
 <instance part="R17" gate="G$1" x="231.14" y="15.24"/>
 <instance part="R18" gate="G$1" x="231.14" y="-111.76"/>
+<instance part="R19" gate="G$1" x="314.96" y="-60.96" rot="R270"/>
+<instance part="R20" gate="G$1" x="312.42" y="-187.96" rot="R270"/>
+<instance part="GND24" gate="VR1" x="312.42" y="-200.66"/>
 </instances>
 <busses>
 </busses>
@@ -3715,28 +4015,6 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <pinref part="PCB1" gate="G$9" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R40" gate=".1" pin="CW"/>
-<pinref part="GND24" gate="VR1" pin="GND"/>
-<wire x1="309.88" y1="-213.36" x2="309.88" y2="-215.9" width="0.1524" layer="91"/>
-<pinref part="R40" gate=".1" pin="W"/>
-<wire x1="309.88" y1="-215.9" x2="309.88" y2="-218.44" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="-208.28" x2="302.26" y2="-208.28" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="-208.28" x2="302.26" y2="-215.9" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="-215.9" x2="309.88" y2="-215.9" width="0.1524" layer="91"/>
-<junction x="309.88" y="-215.9"/>
-</segment>
-<segment>
-<pinref part="R42" gate=".2" pin="CW"/>
-<pinref part="GND28" gate="VR1" pin="GND"/>
-<wire x1="314.96" y1="-213.36" x2="314.96" y2="-215.9" width="0.1524" layer="91"/>
-<pinref part="R42" gate=".2" pin="W"/>
-<wire x1="314.96" y1="-215.9" x2="314.96" y2="-218.44" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="-208.28" x2="322.58" y2="-208.28" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="-208.28" x2="322.58" y2="-215.9" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="-215.9" x2="314.96" y2="-215.9" width="0.1524" layer="91"/>
-<junction x="314.96" y="-215.9"/>
-</segment>
-<segment>
 <wire x1="281.94" y1="7.62" x2="281.94" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="1"/>
 <pinref part="GND15" gate="VR1" pin="GND"/>
@@ -3815,8 +4093,8 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <wire x1="322.58" y1="-60.96" x2="322.58" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-68.58" x2="314.96" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="314.96" y="-68.58"/>
-<pinref part="R42" gate=".1" pin="CW"/>
-<pinref part="R42" gate=".1" pin="W"/>
+<pinref part="R19" gate="G$1" pin="CW"/>
+<pinref part="R19" gate="G$1" pin="W"/>
 </segment>
 <segment>
 <wire x1="279.4" y1="-119.38" x2="279.4" y2="-124.46" width="0.1524" layer="91"/>
@@ -3895,28 +4173,23 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <pinref part="VD3" gate="G$1" pin="A"/>
 <pinref part="GND11" gate="VR1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="CW"/>
+<pinref part="GND24" gate="VR1" pin="GND"/>
+<wire x1="312.42" y1="-193.04" x2="312.42" y2="-195.58" width="0.1524" layer="91"/>
+<pinref part="R20" gate="G$1" pin="W"/>
+<wire x1="312.42" y1="-195.58" x2="312.42" y2="-198.12" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="-187.96" x2="320.04" y2="-187.96" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="-187.96" x2="320.04" y2="-195.58" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="-195.58" x2="312.42" y2="-195.58" width="0.1524" layer="91"/>
+<junction x="312.42" y="-195.58"/>
+</segment>
 </net>
 <net name="N$36" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="-218.44" x2="88.9" y2="-218.44" width="0.1524" layer="91"/>
 <pinref part="PCB1" gate="G$9" pin="P-15V"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="R40" gate=".1" pin="CCW"/>
-<pinref part="SA2" gate="G$1" pin="NC"/>
-<wire x1="309.88" y1="-203.2" x2="309.88" y2="-198.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="SA2" gate="G$1" pin="NO"/>
-<wire x1="312.42" y1="-198.12" x2="312.42" y2="-200.66" width="0.1524" layer="91"/>
-<wire x1="312.42" y1="-200.66" x2="314.96" y2="-200.66" width="0.1524" layer="91"/>
-<pinref part="R42" gate=".2" pin="CCW"/>
-<wire x1="314.96" y1="-203.2" x2="314.96" y2="-200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OUT_RIGHT" class="0">
@@ -4202,16 +4475,16 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R42" gate=".1" pin="CCW"/>
 <pinref part="R43" gate="G$1" pin="1"/>
 <wire x1="314.96" y1="-55.88" x2="314.96" y2="-53.34" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="CCW"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="SA2" gate="G$1" pin="CM"/>
 <pinref part="R41" gate="G$1" pin="1"/>
 <wire x1="312.42" y1="-182.88" x2="312.42" y2="-180.34" width="0.1524" layer="91"/>
+<pinref part="R20" gate="G$1" pin="CCW"/>
 </segment>
 </net>
 <net name="N$11" class="0">
