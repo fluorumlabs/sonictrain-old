@@ -957,39 +957,39 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R13" library="potentiometers" package="RV11-DUAL" value="2*B20K(CD)" x="61" y="25" rot="R90">
 <attribute name="MOUSER" value="688-RK12L1230C1M" x="61" y="25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R16" library="resistors" package="R-0805" value="9K1" x="67" y="14.5" rot="R180">
+<element name="R20" library="resistors" package="R-0805" value="9K1" x="67" y="14.5" rot="R180">
 <attribute name="MOUSER" value="660-RK73H2ATTD9101F" x="67" y="14.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R17" library="resistors" package="R-0805" value="9K1" x="67" y="17" rot="R180">
+<element name="R21" library="resistors" package="R-0805" value="9K1" x="67" y="17" rot="R180">
 <attribute name="MOUSER" value="660-RK73H2ATTD9101F" x="67" y="17" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R4" library="resistors" package="R-1206" value="10R(1206)" x="35" y="9" rot="R180">
 <attribute name="MOUSER" value="660-RK73H2BTTD10R0F" x="35" y="9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R18" library="resistors" package="R-0805" value="9K1" x="66" y="33" smashed="yes">
+<element name="R22" library="resistors" package="R-0805" value="9K1" x="66" y="33" smashed="yes">
 <attribute name="MOUSER" value="660-RK73H2ATTD9101F" x="66" y="33" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="66" y="34.27" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="R19" library="resistors" package="R-0805" value="9K1" x="66" y="35.5" smashed="yes" rot="R180">
+<element name="R23" library="resistors" package="R-0805" value="9K1" x="66" y="35.5" smashed="yes" rot="R180">
 <attribute name="MOUSER" value="660-RK73H2ATTD9101F" x="66" y="35.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="66" y="36.73" size="0.8128" layer="25" ratio="15" align="center"/>
 </element>
-<element name="R24" library="resistors" package="R-0805" value="33K" x="93.5" y="23" rot="R270">
+<element name="R30" library="resistors" package="R-0805" value="33K" x="93.5" y="23" rot="R270">
 <attribute name="MOUSER" value="660-RK73H2ATTD3302F" x="93.5" y="23" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R25" library="resistors" package="R-0805" value="33K" x="74.5" y="25" rot="R270">
+<element name="R31" library="resistors" package="R-0805" value="33K" x="74.5" y="25" rot="R270">
 <attribute name="MOUSER" value="660-RK73H2ATTD3302F" x="74.5" y="25" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R26" library="potentiometers" package="RV11-DUAL" value="2*A10K" x="83" y="13" rot="R90">
+<element name="R33" library="potentiometers" package="RV11-DUAL" value="2*A10K" x="83" y="13" rot="R90">
 <attribute name="MOUSER" value="688-RK12L12C0A0E" x="83" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R27" library="potentiometers" package="RV11-DUAL" value="2*A10K" x="83" y="37" rot="R90">
+<element name="R35" library="potentiometers" package="RV11-DUAL" value="2*A10K" x="83" y="37" rot="R90">
 <attribute name="MOUSER" value="688-RK12L12C0A0E" x="83" y="37" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="SA1" library="switches" package="APEM-MJS12R" value="MJS12R" x="0" y="13" rot="R90">
 <attribute name="MOUSER" value="642-MJS12R" x="0" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U1" library="hardware" package="EMPTY" value="ERM1-5MM" x="-57.15" y="99.06"/>
+<element name="U3" library="hardware" package="EMPTY" value="ERM1-5MM" x="-57.15" y="99.06"/>
 <element name="XS1" library="connectors" package="35RAP" value="35RAPC4BHN2" x="0" y="25">
 <attribute name="MOUSER" value="502-35RAPC4BHN2" x="0" y="25" size="1.778" layer="27" display="off"/>
 </element>
@@ -1007,17 +1007,17 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R12" library="resistors" package="R-0805" value="10K" x="39" y="32.5" rot="R180">
 <attribute name="MOUSER" value="660-RK73H2ATTD1002F" x="39" y="32.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R23" library="resistors" package="R-0805" value="10K" x="75.5" y="28.5" smashed="yes" rot="R180">
+<element name="R26" library="resistors" package="R-0805" value="10K" x="75.5" y="28.5" smashed="yes" rot="R180">
 <attribute name="MOUSER" value="660-RK73H2ATTD1002F" x="75.5" y="28.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="75.5" y="29.73" size="0.8128" layer="25" ratio="15" align="center"/>
 </element>
-<element name="R22" library="resistors" package="R-0805" value="10K" x="92.5" y="26.5">
+<element name="R25" library="resistors" package="R-0805" value="10K" x="92.5" y="26.5">
 <attribute name="MOUSER" value="660-RK73H2ATTD1002F" x="92.5" y="26.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R28" library="resistors" package="R-0805" value="10K" x="63.5" y="14.5" rot="R90">
+<element name="R37" library="resistors" package="R-0805" value="10K" x="63.5" y="14.5" rot="R90">
 <attribute name="MOUSER" value="660-RK73H2ATTD1002F" x="63.5" y="14.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R29" library="resistors" package="R-0805" value="10K" x="63.5" y="10" rot="R90">
+<element name="R38" library="resistors" package="R-0805" value="10K" x="63.5" y="10" rot="R90">
 <attribute name="MOUSER" value="660-RK73H2ATTD1002F" x="63.5" y="10" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C13" library="capacitors" package="C-0805" value="22P" x="38" y="16" rot="R180">
@@ -1026,10 +1026,10 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C14" library="capacitors" package="C-0805" value="22P" x="39" y="30" rot="R180">
 <attribute name="MOUSER" value="77-VJ0805A220GXACBC" x="39" y="30" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C17" library="capacitors" package="C-0805" value="22P" x="91" y="23" rot="R270">
+<element name="C22" library="capacitors" package="C-0805" value="22P" x="91" y="23" rot="R270">
 <attribute name="MOUSER" value="77-VJ0805A220GXACBC" x="91" y="23" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C18" library="capacitors" package="C-0805" value="22P" x="77" y="25" rot="R270">
+<element name="C23" library="capacitors" package="C-0805" value="22P" x="77" y="25" rot="R270">
 <attribute name="MOUSER" value="77-VJ0805A220GXACBC" x="77" y="25" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R1" library="resistors" package="R-0805" value="10K" x="50" y="15.5">
@@ -1051,10 +1051,10 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R8" library="resistors" package="R-0805" value="100K" x="51" y="32" rot="R90">
 <attribute name="MOUSER" value="660-RK73H2ATTD1003F" x="51" y="32" size="0.8128" layer="27" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="U3" library="hardware" package="EMPTY" value="FX2-20P-1.27DS" x="-60" y="-7">
+<element name="U1" library="hardware" package="EMPTY" value="FX2-20P-1.27DS" x="-60" y="-7">
 <attribute name="MOUSER" value="798-FX2-20P-1.27DS71" x="-60" y="-7" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U4" library="hardware" package="EMPTY" value="FX2-20S-1.27DS" x="-61" y="-9">
+<element name="U2" library="hardware" package="EMPTY" value="FX2-20S-1.27DS" x="-61" y="-9">
 <attribute name="MOUSER" value="798-FX2-20S-1.27DS71" x="-61" y="-9" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C19" library="capacitors" package="C-0805" value="100N" x="24" y="20.5" rot="R90">
@@ -1063,79 +1063,79 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C20" library="capacitors" package="C-0805" value="100N" x="31.5" y="25" rot="R90">
 <attribute name="MOUSER" value="77-VJ0805V104MXBPBC" x="31.5" y="25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R30" library="resistors" package="R-0805" value="10M" x="26.5" y="25" rot="R90">
+<element name="R14" library="resistors" package="R-0805" value="10M" x="26.5" y="25" rot="R90">
 <attribute name="MOUSER" value="660-RK73H2ATTD1005F" x="26.5" y="25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R31" library="resistors" package="R-0805" value="10M" x="29" y="25" rot="R90">
+<element name="R16" library="resistors" package="R-0805" value="10M" x="29" y="25" rot="R90">
 <attribute name="MOUSER" value="660-RK73H2ATTD1005F" x="29" y="25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R32" library="resistors" package="R-0805" value="100K" x="26.5" y="20.5" rot="R90">
+<element name="R15" library="resistors" package="R-0805" value="100K" x="26.5" y="20.5" rot="R90">
 <attribute name="MOUSER" value="660-RK73H2ATTD1003F" x="26.5" y="20.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R33" library="resistors" package="R-0805" value="100K" x="29" y="20.5" rot="R90">
+<element name="R17" library="resistors" package="R-0805" value="100K" x="29" y="20.5" rot="R90">
 <attribute name="MOUSER" value="660-RK73H2ATTD1003F" x="29" y="20.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R34" library="resistors" package="R-0805" value="47K" x="27.5" y="29">
+<element name="R18" library="resistors" package="R-0805" value="47K" x="27.5" y="29">
 <attribute name="MOUSER" value="660-RK73H2ATTD4702F" x="27.5" y="29" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R35" library="resistors" package="R-0805" value="47K" x="32" y="29" smashed="yes" rot="R180">
+<element name="R19" library="resistors" package="R-0805" value="47K" x="32" y="29" smashed="yes" rot="R180">
 <attribute name="MOUSER" value="660-RK73H2ATTD4702F" x="32" y="29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="32" y="30.23" size="0.8128" layer="25" ratio="15" align="center"/>
 </element>
-<element name="VD3" library="diodes" package="SOT23" value="BAS16" x="28" y="34" smashed="yes" rot="R90">
+<element name="VD1" library="diodes" package="SOT23" value="BAS16" x="28" y="34" smashed="yes" rot="R90">
 <attribute name="MOUSER" value="863-BAS16LT3G" x="28" y="34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="25.155" y="34" size="0.8128" layer="25" ratio="15" rot="R270" align="bottom-center"/>
 </element>
-<element name="VD4" library="diodes" package="SOT23" value="BAS16" x="33" y="34" smashed="yes" rot="R90">
+<element name="VD2" library="diodes" package="SOT23" value="BAS16" x="33" y="34" smashed="yes" rot="R90">
 <attribute name="MOUSER" value="863-BAS16LT3G" x="33" y="34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="30.155" y="34" size="0.8128" layer="25" ratio="15" rot="R270" align="bottom-center"/>
 </element>
 <element name="C21" library="capacitors" package="C-0805" value="100N" x="29.5" y="38" rot="R270">
 <attribute name="MOUSER" value="77-VJ0805V104MXBPBC" x="29.5" y="38" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R36" library="resistors" package="R-0805" value="330K" x="27" y="38" rot="R270">
+<element name="R24" library="resistors" package="R-0805" value="330K" x="27" y="38" rot="R270">
 <attribute name="MOUSER" value="660-RK73H2ATTD3303F" x="27" y="38" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="DA5" library="ic-fairchild" package="SO-8" value="LM2903M" x="22" y="36" smashed="yes">
 <attribute name="MOUSER" value="512-LM2903M" x="22" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="18.19" y="36" size="0.8128" layer="25" ratio="15" rot="R270" align="bottom-center"/>
 </element>
-<element name="C22" library="capacitors" package="C-0805" value="100N" x="14.5" y="36" smashed="yes" rot="R90">
+<element name="C17" library="capacitors" package="C-0805" value="100N" x="14.5" y="36" smashed="yes" rot="R90">
 <attribute name="MOUSER" value="77-VJ0805V104MXBPBC" x="14.5" y="36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="13.23" y="36" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="C23" library="capacitors" package="C-0805" value="100N" x="23" y="29" smashed="yes" rot="R180">
+<element name="C18" library="capacitors" package="C-0805" value="100N" x="23" y="29" smashed="yes" rot="R180">
 <attribute name="MOUSER" value="77-VJ0805V104MXBPBC" x="23" y="29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="23" y="30.23" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="R37" library="resistors" package="R-0805" value="22K" x="22.5" y="43" smashed="yes" rot="R90">
+<element name="R27" library="resistors" package="R-0805" value="22K" x="22.5" y="43" smashed="yes" rot="R90">
 <attribute name="MOUSER" value="660-RK73H2ATTD2202F" x="22.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="21.23" y="43" size="0.8128" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="R38" library="resistors" package="R-0805" value="4K7" x="17" y="36" smashed="yes" rot="R90">
+<element name="R28" library="resistors" package="R-0805" value="4K7" x="17" y="36" smashed="yes" rot="R90">
 <attribute name="MOUSER" value="660-RK73H2ATTD4701F" x="17" y="36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="15.73" y="36" size="0.8128" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="R39" library="resistors" package="R-0805" value="100R" x="18.5" y="29">
+<element name="R29" library="resistors" package="R-0805" value="100R" x="18.5" y="29">
 <attribute name="MOUSER" value="660-RK73H2ATTD1000F" x="18.5" y="29" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R40" library="resistors" package="R-0805" value="2K2" x="6" y="40" smashed="yes" rot="R270">
+<element name="R34" library="resistors" package="R-0805" value="2K2" x="6" y="40" smashed="yes" rot="R270">
 <attribute name="MOUSER" value="660-RK73H2ATTD2201F" x="6" y="40" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="4.77" y="40" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R41" library="resistors" package="R-0805" value="10K" x="17" y="43" smashed="yes" rot="R90">
+<element name="R32" library="resistors" package="R-0805" value="10K" x="17" y="43" smashed="yes" rot="R90">
 <attribute name="MOUSER" value="660-RK73H2ATTD1002F" x="17" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="15.73" y="43" size="0.8128" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="R42" library="resistors" package="R-0805" value="1K8" x="6" y="35.5" smashed="yes" rot="R270">
+<element name="R36" library="resistors" package="R-0805" value="1K8" x="6" y="35.5" smashed="yes" rot="R270">
 <attribute name="MOUSER" value="660-RK73H2ATTD1801F" x="6" y="35.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="4.77" y="35.5" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="VT3" library="transistors-npn" package="SOT23" value="BC848" x="13" y="41" smashed="yes" rot="R180">
+<element name="VT1" library="transistors-npn" package="SOT23" value="BC848" x="13" y="41" smashed="yes" rot="R180">
 <attribute name="MOUSER" value="863-BC848BLT3G" x="13" y="41" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="13" y="38.155" size="0.8128" layer="25" ratio="15" align="bottom-center"/>
 </element>
-<element name="HL3" library="optoelectronics" package="LED2X5-3PIN" value="RED/BLUE(2MMX5MM,CC)" x="9" y="42" smashed="yes" rot="R270">
+<element name="HL1" library="optoelectronics" package="LED2X5-3PIN" value="RED/BLUE(2MMX5MM,CC)" x="9" y="42" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.29" y="44.25" size="0.8128" layer="25" ratio="15" rot="R90" align="bottom-center"/>
 </element>
 </elements>
@@ -1201,11 +1201,11 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="65.5857875" y1="44" x2="31.4302125" y2="44" width="0.254" layer="1"/>
 <wire x1="31.4302125" y1="44" x2="30.72310625" y2="43.70710625" width="0.254" layer="1" curve="45"/>
 <wire x1="30.72310625" y1="43.70710625" x2="29" y2="41.984" width="0.254" layer="1"/>
-<contactref element="C22" pad="2"/>
+<contactref element="C17" pad="2"/>
 <contactref element="DA5" pad="8"/>
-<contactref element="R30" pad="2"/>
-<contactref element="R31" pad="2"/>
-<contactref element="R37" pad="2"/>
+<contactref element="R14" pad="2"/>
+<contactref element="R16" pad="2"/>
+<contactref element="R27" pad="2"/>
 <wire x1="20" y1="38.75" x2="19" y2="38.75" width="0.254" layer="1"/>
 <wire x1="14.5" y1="36.95" x2="14.5" y2="37.3357875" width="0.254" layer="1"/>
 <wire x1="14.5" y1="37.3357875" x2="14.79289375" y2="38.04289375" width="0.254" layer="1" curve="-45"/>
@@ -1366,10 +1366,10 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="38.70710625" y1="2.29289375" x2="39.4142125" y2="2" width="0.254" layer="1" curve="45"/>
 <wire x1="39.4142125" y1="2" x2="59.0857875" y2="2" width="0.254" layer="1"/>
 <wire x1="59.0857875" y1="2" x2="59.79289375" y2="2.29289375" width="0.254" layer="1" curve="45"/>
-<contactref element="C23" pad="1"/>
+<contactref element="C18" pad="1"/>
 <contactref element="DA5" pad="4"/>
-<contactref element="VT3" pad="2"/>
-<contactref element="HL3" pad="K"/>
+<contactref element="VT1" pad="2"/>
+<contactref element="HL1" pad="K"/>
 <wire x1="9" y1="42" x2="11.75" y2="42" width="0.254" layer="1"/>
 <wire x1="12" y1="41.75" x2="11.75" y2="42" width="0.254" layer="1"/>
 <wire x1="12.25" y1="42" x2="12" y2="41.75" width="0.254" layer="1"/>
@@ -1401,7 +1401,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$15">
 <contactref element="DA1" pad="7"/>
-<contactref element="R18" pad="2"/>
+<contactref element="R22" pad="2"/>
 <contactref element="R13" pad="3"/>
 <wire x1="72" y1="28" x2="68.4142125" y2="28" width="0.254" layer="1"/>
 <wire x1="68.4142125" y1="28" x2="67.70710625" y2="28.29289375" width="0.254" layer="1" curve="-45"/>
@@ -1447,7 +1447,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$19">
 <contactref element="DA1" pad="1"/>
-<contactref element="R16" pad="2"/>
+<contactref element="R20" pad="2"/>
 <contactref element="R13" pad="1'"/>
 <contactref element="R11" pad="2"/>
 <contactref element="C13" pad="2"/>
@@ -1531,8 +1531,8 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$3">
 <contactref element="R13" pad="2'"/>
-<contactref element="R16" pad="1"/>
-<contactref element="R17" pad="2"/>
+<contactref element="R20" pad="1"/>
+<contactref element="R21" pad="2"/>
 <contactref element="DA2" pad="3"/>
 <wire x1="72" y1="20" x2="67.4142125" y2="20" width="0.254" layer="1"/>
 <wire x1="67.4142125" y1="20" x2="66.70710625" y2="19.70710625" width="0.254" layer="1" curve="45"/>
@@ -1555,8 +1555,8 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$8">
 <contactref element="R13" pad="2"/>
-<contactref element="R18" pad="1"/>
-<contactref element="R19" pad="2"/>
+<contactref element="R22" pad="1"/>
+<contactref element="R23" pad="2"/>
 <contactref element="DA2" pad="5"/>
 <wire x1="65.05" y1="35.5" x2="65.05" y2="33" width="0.254" layer="1"/>
 <wire x1="72" y1="26" x2="66.4142125" y2="26" width="0.254" layer="1"/>
@@ -1626,9 +1626,9 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$11">
 <contactref element="DA2" pad="7"/>
-<contactref element="R25" pad="2"/>
-<contactref element="R27" pad="3'"/>
-<contactref element="R26" pad="3'"/>
+<contactref element="R31" pad="2"/>
+<contactref element="R35" pad="3'"/>
+<contactref element="R33" pad="3'"/>
 <wire x1="80.9266" y1="24.365" x2="77.315" y2="24.365" width="0.254" layer="1"/>
 <wire x1="77.315" y1="24.365" x2="77" y2="24.05" width="0.254" layer="1"/>
 <wire x1="77" y1="24.05" x2="74.5" y2="24.05" width="0.254" layer="1"/>
@@ -1648,13 +1648,13 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="90" y1="33" x2="90" y2="37.5857875" width="0.254" layer="16"/>
 <wire x1="90" y1="37.5857875" x2="90.29289375" y2="38.29289375" width="0.254" layer="16" curve="-45"/>
 <wire x1="90.29289375" y1="38.29289375" x2="94" y2="42" width="0.254" layer="16"/>
-<contactref element="C18" pad="2"/>
+<contactref element="C23" pad="2"/>
 </signal>
 <signal name="N$12">
 <contactref element="DA2" pad="1"/>
-<contactref element="R24" pad="2"/>
-<contactref element="R27" pad="3"/>
-<contactref element="R26" pad="3"/>
+<contactref element="R30" pad="2"/>
+<contactref element="R35" pad="3"/>
+<contactref element="R33" pad="3"/>
 <wire x1="87.0734" y1="23.095" x2="87.4907875" y2="23.095" width="0.254" layer="1"/>
 <wire x1="87.4907875" y1="23.095" x2="88.19789375" y2="22.80210625" width="0.254" layer="1" curve="-45"/>
 <wire x1="88.19789375" y1="22.80210625" x2="88.70710625" y2="22.29289375" width="0.254" layer="1"/>
@@ -1678,29 +1678,29 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="96" y1="17.4142125" x2="96" y2="20.5857875" width="0.254" layer="1"/>
 <wire x1="96" y1="20.5857875" x2="95.70710625" y2="21.29289375" width="0.254" layer="1" curve="45"/>
 <wire x1="95.70710625" y1="21.29289375" x2="95" y2="22" width="0.254" layer="1"/>
-<contactref element="C17" pad="2"/>
+<contactref element="C22" pad="2"/>
 </signal>
 <signal name="N$13">
 <contactref element="DA2" pad="2"/>
-<contactref element="R24" pad="1"/>
+<contactref element="R30" pad="1"/>
 <wire x1="87.0734" y1="24.365" x2="90.585" y2="24.365" width="0.254" layer="1"/>
 <wire x1="90.585" y1="24.365" x2="91" y2="23.95" width="0.254" layer="1"/>
 <wire x1="91" y1="23.95" x2="93.5" y2="23.95" width="0.254" layer="1"/>
 <wire x1="93.5" y1="23.95" x2="93.5" y2="26.45" width="0.254" layer="1"/>
 <wire x1="93.5" y1="26.45" x2="93.45" y2="26.5" width="0.254" layer="1"/>
-<contactref element="R22" pad="2"/>
-<contactref element="C17" pad="1"/>
+<contactref element="R25" pad="2"/>
+<contactref element="C22" pad="1"/>
 </signal>
 <signal name="N$14">
 <contactref element="DA2" pad="6"/>
-<contactref element="R25" pad="1"/>
+<contactref element="R31" pad="1"/>
 <wire x1="80.9266" y1="25.635" x2="77.315" y2="25.635" width="0.254" layer="1"/>
 <wire x1="77.315" y1="25.635" x2="77" y2="25.95" width="0.254" layer="1"/>
 <wire x1="77" y1="25.95" x2="74.5" y2="25.95" width="0.254" layer="1"/>
 <wire x1="74.5" y1="25.95" x2="74.5" y2="28.45" width="0.254" layer="1"/>
 <wire x1="74.5" y1="28.45" x2="74.55" y2="28.5" width="0.254" layer="1"/>
-<contactref element="R23" pad="2"/>
-<contactref element="C18" pad="1"/>
+<contactref element="R26" pad="2"/>
+<contactref element="C23" pad="1"/>
 </signal>
 <signal name="N$18">
 <contactref element="DA3" pad="6"/>
@@ -1726,7 +1726,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="70.365" y1="11" x2="66.4642125" y2="11" width="0.254" layer="1"/>
 <wire x1="66.4642125" y1="11" x2="65.75710625" y2="11.29289375" width="0.254" layer="1" curve="-45"/>
 <wire x1="65.75710625" y1="11.29289375" x2="63.5" y2="13.55" width="0.254" layer="1"/>
-<contactref element="R28" pad="1"/>
+<contactref element="R37" pad="1"/>
 </signal>
 <signal name="N$21">
 <contactref element="DA3" pad="2"/>
@@ -1747,10 +1747,10 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="66.0376125" y1="6.9266" x2="65.33050625" y2="7.21949375" width="0.254" layer="1" curve="-45"/>
 <wire x1="65.33050625" y1="7.21949375" x2="63.5" y2="9.05" width="0.254" layer="1"/>
 <wire x1="70.095" y1="6.9266" x2="71.365" y2="6.9266" width="0.254" layer="1"/>
-<contactref element="R29" pad="1"/>
+<contactref element="R38" pad="1"/>
 </signal>
 <signal name="N$23">
-<contactref element="R27" pad="2"/>
+<contactref element="R35" pad="2"/>
 <contactref element="DA3" pad="5"/>
 <wire x1="73.905" y1="43.0734" x2="73.905" y2="41" width="0.254" layer="1"/>
 <wire x1="73.905" y1="41" x2="74.905" y2="40" width="0.254" layer="1" curve="90"/>
@@ -1759,7 +1759,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="92.29289375" y1="39.70710625" x2="94" y2="38" width="0.254" layer="1"/>
 </signal>
 <signal name="N$24">
-<contactref element="R26" pad="2"/>
+<contactref element="R33" pad="2"/>
 <contactref element="DA4" pad="5"/>
 <wire x1="73.905" y1="13.0734" x2="73.905" y2="13.905" width="0.254" layer="1"/>
 <wire x1="73.905" y1="13.905" x2="74.70710625" y2="14.70710625" width="0.254" layer="1"/>
@@ -1769,7 +1769,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="93.29289375" y1="14.70710625" x2="94" y2="14" width="0.254" layer="1"/>
 </signal>
 <signal name="N$25">
-<contactref element="R27" pad="2'"/>
+<contactref element="R35" pad="2'"/>
 <contactref element="DA3" pad="3"/>
 <wire x1="72.635" y1="36.9266" x2="72.635" y2="38" width="0.254" layer="1"/>
 <wire x1="72.635" y1="38" x2="73.635" y2="39" width="0.254" layer="1" curve="-90"/>
@@ -1778,7 +1778,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="87.29289375" y1="38.70710625" x2="94" y2="32" width="0.254" layer="1"/>
 </signal>
 <signal name="N$28">
-<contactref element="R26" pad="2'"/>
+<contactref element="R33" pad="2'"/>
 <contactref element="DA4" pad="3"/>
 <wire x1="72.635" y1="6.9266" x2="72.635" y2="8.2207875" width="0.254" layer="1"/>
 <wire x1="72.635" y1="8.2207875" x2="72.92789375" y2="8.92789375" width="0.254" layer="1" curve="-45"/>
@@ -1806,7 +1806,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="PCB1" pad="ALMIX"/>
 <contactref element="PCB1" pad="ALMIX'"/>
 <wire x1="46.825" y1="7.31" x2="46.825" y2="37.69" width="0.254" layer="16"/>
-<contactref element="R28" pad="2"/>
+<contactref element="R37" pad="2"/>
 <contactref element="R2" pad="1"/>
 <wire x1="49.05" y1="13" x2="47.75" y2="13" width="0.254" layer="1"/>
 <wire x1="47.75" y1="13" x2="47.575" y2="13" width="0.254" layer="1"/>
@@ -1843,7 +1843,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="50" y1="17" x2="49" y2="16" width="0.254" layer="1" curve="90"/>
 <wire x1="49" y1="16" x2="49" y2="15.55" width="0.254" layer="1"/>
 <wire x1="49" y1="15.55" x2="49.05" y2="15.5" width="0.254" layer="1"/>
-<contactref element="R29" pad="2"/>
+<contactref element="R38" pad="2"/>
 <contactref element="R1" pad="1"/>
 </signal>
 <signal name="N$39">
@@ -1912,15 +1912,15 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C12" pad="2"/>
 <contactref element="C16" pad="2"/>
 <contactref element="C15" pad="1"/>
-<contactref element="R27" pad="1"/>
-<contactref element="R26" pad="1"/>
-<contactref element="R27" pad="1'"/>
-<contactref element="R26" pad="1'"/>
-<contactref element="R19" pad="1"/>
+<contactref element="R35" pad="1"/>
+<contactref element="R33" pad="1"/>
+<contactref element="R35" pad="1'"/>
+<contactref element="R33" pad="1'"/>
+<contactref element="R23" pad="1"/>
 <contactref element="R13" pad="1"/>
 <contactref element="XS1" pad="1"/>
 <contactref element="R13" pad="3'"/>
-<contactref element="R17" pad="1"/>
+<contactref element="R21" pad="1"/>
 <polygon width="0.254" layer="16">
 <vertex x="0" y="50"/>
 <vertex x="100" y="50"/>
@@ -1935,8 +1935,8 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 <contactref element="R9" pad="1"/>
 <contactref element="R10" pad="1"/>
-<contactref element="R23" pad="1"/>
-<contactref element="R22" pad="1"/>
+<contactref element="R26" pad="1"/>
+<contactref element="R25" pad="1"/>
 <contactref element="R6" pad="1"/>
 <contactref element="R7" pad="1"/>
 <contactref element="PCB1" pad="B8'"/>
@@ -1951,15 +1951,15 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="PCB1" pad="B6'"/>
 <contactref element="R5" pad="1"/>
 <contactref element="R8" pad="1"/>
-<contactref element="C23" pad="2"/>
-<contactref element="C22" pad="1"/>
-<contactref element="R32" pad="1"/>
-<contactref element="R33" pad="1"/>
+<contactref element="C18" pad="2"/>
+<contactref element="C17" pad="1"/>
+<contactref element="R15" pad="1"/>
+<contactref element="R17" pad="1"/>
 <contactref element="C21" pad="1"/>
-<contactref element="R36" pad="1"/>
-<contactref element="R39" pad="1"/>
-<contactref element="R42" pad="2"/>
-<contactref element="R40" pad="2"/>
+<contactref element="R24" pad="1"/>
+<contactref element="R29" pad="1"/>
+<contactref element="R36" pad="2"/>
+<contactref element="R34" pad="2"/>
 <contactref element="XS1" pad="10"/>
 <contactref element="XS1" pad="11"/>
 <wire x1="67" y1="35.75" x2="67.25" y2="35.5" width="0.254" layer="1"/>
@@ -1994,9 +1994,9 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$17">
 <contactref element="C19" pad="2"/>
-<contactref element="R34" pad="1"/>
-<contactref element="R30" pad="1"/>
-<contactref element="R32" pad="2"/>
+<contactref element="R18" pad="1"/>
+<contactref element="R14" pad="1"/>
+<contactref element="R15" pad="2"/>
 <wire x1="26.5" y1="24" x2="25.75" y2="24" width="0.254" layer="1"/>
 <wire x1="25.75" y1="24" x2="24.75" y2="25" width="0.254" layer="1" curve="-90"/>
 <wire x1="24.75" y1="25" x2="24.75" y2="26.3357875" width="0.254" layer="1"/>
@@ -2011,8 +2011,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="26.5" y1="21.5" x2="26.5" y2="21.45" width="0.254" layer="1"/>
 </signal>
 <signal name="N$29">
-<contactref element="R34" pad="2"/>
-<contactref element="VD3" pad="1"/>
+<contactref element="R18" pad="2"/>
+<contactref element="VD1" pad="1"/>
 <wire x1="29" y1="32.75" x2="29" y2="29.9142125" width="0.254" layer="1"/>
 <wire x1="29" y1="29.9142125" x2="28.70710625" y2="29.20710625" width="0.254" layer="1" curve="-45"/>
 <wire x1="28.70710625" y1="29.20710625" x2="28.5" y2="29" width="0.254" layer="1"/>
@@ -2023,9 +2023,9 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$31">
 <contactref element="C20" pad="2"/>
-<contactref element="R35" pad="1"/>
-<contactref element="R31" pad="1"/>
-<contactref element="R33" pad="2"/>
+<contactref element="R19" pad="1"/>
+<contactref element="R16" pad="1"/>
+<contactref element="R17" pad="2"/>
 <wire x1="29" y1="24" x2="29.25" y2="24" width="0.254" layer="1"/>
 <wire x1="31.25" y1="26" x2="29.25" y2="24" width="0.254" layer="1"/>
 <wire x1="31.5" y1="26" x2="31.25" y2="26" width="0.254" layer="1"/>
@@ -2045,8 +2045,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="29" y1="21.25" x2="29" y2="21.45" width="0.254" layer="1"/>
 </signal>
 <signal name="N$44">
-<contactref element="R35" pad="2"/>
-<contactref element="VD4" pad="1"/>
+<contactref element="R19" pad="2"/>
+<contactref element="VD2" pad="1"/>
 <wire x1="32.95710625" y1="32.70710625" x2="31.29289375" y2="31.04289375" width="0.254" layer="1"/>
 <wire x1="31.29289375" y1="31.04289375" x2="31" y2="30.3357875" width="0.254" layer="1" curve="45"/>
 <wire x1="31" y1="30.3357875" x2="31" y2="29" width="0.254" layer="1"/>
@@ -2056,11 +2056,11 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="34" y1="33" x2="34.1" y2="33.05" width="0.254" layer="1"/>
 </signal>
 <signal name="N$45">
-<contactref element="VD4" pad="2"/>
+<contactref element="VD2" pad="2"/>
 <contactref element="C21" pad="2"/>
-<contactref element="R36" pad="2"/>
+<contactref element="R24" pad="2"/>
 <contactref element="DA5" pad="5"/>
-<contactref element="VD3" pad="2"/>
+<contactref element="VD1" pad="2"/>
 <contactref element="DA5" pad="3"/>
 <wire x1="25.5" y1="37.75" x2="25.29289375" y2="37.95710625" width="0.254" layer="1"/>
 <wire x1="25.29289375" y1="37.95710625" x2="24.5857875" y2="38.25" width="0.254" layer="1" curve="45"/>
@@ -2089,8 +2089,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="22.75" y1="33" x2="22.635" y2="32.9266" width="0.254" layer="1"/>
 </signal>
 <signal name="N$46">
-<contactref element="R39" pad="2"/>
-<contactref element="R38" pad="1"/>
+<contactref element="R29" pad="2"/>
+<contactref element="R28" pad="1"/>
 <contactref element="DA5" pad="2"/>
 <wire x1="21.25" y1="33" x2="21.25" y2="34" width="0.254" layer="1"/>
 <wire x1="21.25" y1="34" x2="20.25" y2="35" width="0.254" layer="1" curve="90"/>
@@ -2105,8 +2105,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="19.5" y1="29" x2="19.45" y2="29" width="0.254" layer="1"/>
 </signal>
 <signal name="N$47">
-<contactref element="R38" pad="2"/>
-<contactref element="R37" pad="1"/>
+<contactref element="R28" pad="2"/>
+<contactref element="R27" pad="1"/>
 <contactref element="DA5" pad="6"/>
 <wire x1="22.75" y1="39" x2="22.75" y2="38" width="0.254" layer="1"/>
 <wire x1="22.75" y1="38" x2="21.75" y2="37" width="0.254" layer="1" curve="-90"/>
@@ -2120,9 +2120,9 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$48">
 <contactref element="DA5" pad="7"/>
-<contactref element="R41" pad="2"/>
-<contactref element="R40" pad="1"/>
-<contactref element="HL3" pad="A1"/>
+<contactref element="R32" pad="2"/>
+<contactref element="R34" pad="1"/>
+<contactref element="HL1" pad="A1"/>
 <wire x1="9" y1="44.5" x2="6.29289375" y2="41.79289375" width="0.254" layer="1"/>
 <wire x1="6.29289375" y1="41.79289375" x2="6" y2="41.0857875" width="0.254" layer="1" curve="45"/>
 <wire x1="6" y1="41.0857875" x2="6" y2="40.95" width="0.254" layer="1"/>
@@ -2139,8 +2139,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="17" y1="44" x2="17" y2="43.95" width="0.254" layer="1"/>
 </signal>
 <signal name="N$49">
-<contactref element="R41" pad="1"/>
-<contactref element="VT3" pad="1"/>
+<contactref element="R32" pad="1"/>
+<contactref element="VT1" pad="1"/>
 <wire x1="14" y1="41.75" x2="14.25" y2="42" width="0.254" layer="1"/>
 <wire x1="13.75" y1="42" x2="14" y2="41.75" width="0.254" layer="1"/>
 <wire x1="13.75" y1="42" x2="13.95" y2="42.1" width="0.254" layer="1"/>
@@ -2149,9 +2149,9 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$51">
 <contactref element="DA5" pad="1"/>
-<contactref element="VT3" pad="3"/>
-<contactref element="R42" pad="1"/>
-<contactref element="HL3" pad="A2"/>
+<contactref element="VT1" pad="3"/>
+<contactref element="R36" pad="1"/>
+<contactref element="HL1" pad="A2"/>
 <wire x1="6.25" y1="36.5" x2="6" y2="36.5" width="0.254" layer="1"/>
 <wire x1="6.25" y1="36.5" x2="8.85150625" y2="39.10150625" width="0.254" layer="1"/>
 <wire x1="8.85150625" y1="39.10150625" x2="9" y2="39.46" width="0.254" layer="1" curve="45"/>
