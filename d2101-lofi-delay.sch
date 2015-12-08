@@ -1930,6 +1930,15 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </technology>
 </technologies>
 </device>
+<device name="33U/25V" package="E2,5-7">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -2102,27 +2111,6 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </library>
 <library name="regulators-linear">
 <packages>
-<package name="SOT223">
-<description>&lt;b&gt;SMALL OUTLINE TRANSISTOR&lt;/b&gt;</description>
-<wire x1="3.277" y1="1.778" x2="3.277" y2="-1.778" width="0.2032" layer="21"/>
-<wire x1="3.277" y1="-1.778" x2="-3.277" y2="-1.778" width="0.2032" layer="21"/>
-<wire x1="-3.277" y1="-1.778" x2="-3.277" y2="1.778" width="0.2032" layer="21"/>
-<wire x1="-3.277" y1="1.778" x2="3.277" y2="1.778" width="0.2032" layer="21"/>
-<smd name="1" x="-2.311" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
-<smd name="2" x="0" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
-<smd name="3" x="2.311" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
-<smd name="4" x="0" y="3.099" dx="3.6" dy="2.2" layer="1"/>
-<text x="-3.81" y="0" size="0.8128" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
-<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
-<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
-<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
-<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
-<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
-<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="35"/>
-</package>
 <package name="SOT89">
 <description>&lt;b&gt;SOT98&lt;/b&gt; PK (R-PDSO-G3)&lt;p&gt;
 Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
@@ -2136,7 +2124,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <smd name="3" x="1.499" y="-1.981" dx="1" dy="1.5" layer="1" stop="no" cream="no"/>
 <smd name="2" x="0" y="-1.727" dx="1" dy="2" layer="1" stop="no" cream="no"/>
 <smd name="2@1" x="0" y="0.94" dx="2.2" dy="3.7" layer="1" roundness="100" cream="no"/>
-<text x="0" y="3.81" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
+<text x="0" y="3.81" size="0.8128" layer="25" ratio="15" rot="R180" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-1.7272" y1="-2.1082" x2="-1.27" y2="-1.27" layer="51"/>
 <rectangle x1="1.27" y1="-2.1082" x2="1.7272" y2="-1.27" layer="51"/>
 <rectangle x1="-0.2794" y1="-2.1082" x2="0.2794" y2="-1.27" layer="51"/>
@@ -2196,19 +2184,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <gate name="G$1" symbol="POSITIVE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="NCP1117ST50T3G" package="SOT223">
-<connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="2 4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MOUSER" value="863-NCP1117ST50T3G" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="NJM78L05UA" package="SOT89">
+<device name="L78L05ACU" package="SOT89">
 <connects>
 <connect gate="G$1" pin="GND" pad="2 2@1"/>
 <connect gate="G$1" pin="IN" pad="3"/>
@@ -2216,7 +2192,19 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MOUSER" value="513-NJM78L05UA-TE1" constant="no"/>
+<attribute name="MOUSER" value="511-L78L05ACU" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="L78L33ACU" package="SOT89">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 2@1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="511-L78L33ACU" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3333,6 +3321,63 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="inductors">
+<packages>
+<package name="1206">
+<description>Multilayer SMD</description>
+<wire x1="-1.7" y1="0" x2="1.7" y2="0" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="51"/>
+<smd name="1" x="-1.7" y="0" dx="1.35" dy="1.2" layer="1"/>
+<smd name="2" x="1.65" y="0" dx="1.35" dy="1.2" layer="1"/>
+<text x="0" y="1.905" size="0.8128" layer="25" ratio="15" rot="R180" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-0.6" y1="-0.3" x2="0.5" y2="0.3" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FERRITE">
+<text x="0" y="5.08" size="1.778" layer="94" rot="MR180" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<wire x1="-5.08" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.27" y="2.54"/>
+<vertex x="1.27" y="2.54"/>
+<vertex x="1.27" y="0.508"/>
+<vertex x="-1.27" y="0.508"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.27" y="-2.54"/>
+<vertex x="1.27" y="-2.54"/>
+<vertex x="1.27" y="-0.508"/>
+<vertex x="-1.27" y="-0.508"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BLM31AJ601SN1L" prefix="L">
+<gates>
+<gate name="G$1" symbol="FERRITE" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="81-BLM31AJ601SN1L" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3356,10 +3401,10 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 </part>
 <part name="PWR3" library="f-supply" deviceset="+5V" device=""/>
 <part name="PWR5" library="f-supply" deviceset="+5V" device=""/>
-<part name="DA1" library="regulators-linear" deviceset="?" device="NJM78L05UA" value="NJM78L05UA"/>
-<part name="R13" library="resistors" deviceset="?" device="10R(1206)"/>
-<part name="R12" library="resistors" deviceset="?" device="10R(1206)"/>
-<part name="R14" library="resistors" deviceset="?" device="10R(1206)"/>
+<part name="DA1" library="regulators-linear" deviceset="?" device="L78L05ACU" value="L78L05ACU"/>
+<part name="L2" library="inductors" deviceset="BLM31AJ601SN1L" device=""/>
+<part name="L1" library="inductors" deviceset="BLM31AJ601SN1L" device=""/>
+<part name="L3" library="inductors" deviceset="BLM31AJ601SN1L" device=""/>
 <part name="GND7" library="supply" deviceset="GND" device=""/>
 <part name="C1" library="capacitors-electrolytic" deviceset="?" device="10U/35V"/>
 <part name="C2" library="capacitors-electrolytic" deviceset="?" device="10U/35V"/>
@@ -3386,7 +3431,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="C29" library="capacitors" deviceset="?" device="10N(FILM)"/>
 <part name="R45" library="resistors" deviceset="?" device="1K"/>
 <part name="C37" library="capacitors" deviceset="?" device="47N(FILM)"/>
-<part name="C39" library="capacitors-electrolytic" deviceset="?" device="47U/35V"/>
+<part name="C39" library="capacitors-electrolytic" deviceset="?" device="33U/25V" value="33U/25V"/>
 <part name="GND15" library="supply" deviceset="GND" device=""/>
 <part name="GND27" library="supply" deviceset="GND" device=""/>
 <part name="GND34" library="supply" deviceset="GND" device=""/>
@@ -3431,7 +3476,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="C28" library="capacitors" deviceset="?" device="10N(FILM)"/>
 <part name="R44" library="resistors" deviceset="?" device="1K"/>
 <part name="C36" library="capacitors" deviceset="?" device="47N(FILM)"/>
-<part name="C38" library="capacitors-electrolytic" deviceset="?" device="47U/35V"/>
+<part name="C38" library="capacitors-electrolytic" deviceset="?" device="33U/25V" value="33U/25V"/>
 <part name="GND25" library="supply" deviceset="GND" device=""/>
 <part name="GND14" library="supply" deviceset="GND" device=""/>
 <part name="GND26" library="supply" deviceset="GND" device=""/>
@@ -3492,9 +3537,9 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <instance part="PWR3" gate="G$1" x="129.54" y="-170.18" rot="R270"/>
 <instance part="PWR5" gate="G$1" x="284.48" y="-40.64" rot="R90"/>
 <instance part="DA1" gate="G$1" x="109.22" y="-170.18"/>
-<instance part="R13" gate="G$1" x="93.98" y="-198.12"/>
-<instance part="R12" gate="G$1" x="93.98" y="-170.18"/>
-<instance part="R14" gate="G$1" x="93.98" y="-218.44"/>
+<instance part="L2" gate="G$1" x="93.98" y="-198.12"/>
+<instance part="L1" gate="G$1" x="93.98" y="-170.18"/>
+<instance part="L3" gate="G$1" x="93.98" y="-218.44"/>
 <instance part="GND7" gate="VR1" x="124.46" y="-213.36"/>
 <instance part="C1" gate="G$1" x="104.14" y="-203.2" rot="R270"/>
 <instance part="C2" gate="G$1" x="104.14" y="-213.36" rot="R270"/>
@@ -3705,8 +3750,8 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <wire x1="86.36" y1="-198.12" x2="88.9" y2="-198.12" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="-198.12" x2="86.36" y2="-170.18" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="-170.18" x2="88.9" y2="-170.18" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="L2" gate="G$1" pin="1"/>
+<pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="-198.12" x2="86.36" y2="-198.12" width="0.1524" layer="91"/>
 <junction x="86.36" y="-198.12"/>
 <pinref part="PCB1" gate="G$9" pin="P+15V"/>
@@ -3725,7 +3770,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <wire x1="114.3" y1="-200.66" x2="114.3" y2="-198.12" width="0.1524" layer="91"/>
 <junction x="114.3" y="-198.12"/>
 <wire x1="134.62" y1="-200.66" x2="134.62" y2="-198.12" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="L2" gate="G$1" pin="2"/>
 <pinref part="C1" gate="G$1" pin="+"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="DA2" gate="*" pin="V+"/>
@@ -3744,7 +3789,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <wire x1="134.62" y1="-215.9" x2="134.62" y2="-218.44" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="-215.9" x2="114.3" y2="-218.44" width="0.1524" layer="91"/>
 <junction x="114.3" y="-218.44"/>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="L3" gate="G$1" pin="2"/>
 <pinref part="C2" gate="G$1" pin="-"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <pinref part="DA2" gate="*" pin="V-"/>
@@ -3880,7 +3925,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <segment>
 <wire x1="101.6" y1="-170.18" x2="99.06" y2="-170.18" width="0.1524" layer="91"/>
 <pinref part="DA1" gate="G$1" pin="IN"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="L1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -4187,7 +4232,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 </net>
 <net name="N$36" class="0">
 <segment>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="L3" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="-218.44" x2="88.9" y2="-218.44" width="0.1524" layer="91"/>
 <pinref part="PCB1" gate="G$9" pin="P-15V"/>
 </segment>
