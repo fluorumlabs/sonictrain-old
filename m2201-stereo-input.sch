@@ -2381,6 +2381,37 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </technology>
 </technologies>
 </device>
+<device name="39U/35V" package="E3,5-8">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="667-35SEPF39M" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="33U/50V" package="E3,5-8">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="661-EKZE500ELL330MH0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="33U/25V" package="E2,5-7">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -3532,6 +3563,63 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="inductors">
+<packages>
+<package name="1206">
+<description>Multilayer SMD</description>
+<wire x1="-1.7" y1="0" x2="1.7" y2="0" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="51"/>
+<smd name="1" x="-1.7" y="0" dx="1.35" dy="1.2" layer="1"/>
+<smd name="2" x="1.65" y="0" dx="1.35" dy="1.2" layer="1"/>
+<text x="0" y="1.905" size="0.8128" layer="25" ratio="15" rot="R180" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-0.6" y1="-0.3" x2="0.5" y2="0.3" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FERRITE">
+<text x="0" y="5.08" size="1.778" layer="94" rot="MR180" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<wire x1="-5.08" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.27" y="2.54"/>
+<vertex x="1.27" y="2.54"/>
+<vertex x="1.27" y="0.508"/>
+<vertex x="-1.27" y="0.508"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.27" y="-2.54"/>
+<vertex x="1.27" y="-2.54"/>
+<vertex x="1.27" y="-0.508"/>
+<vertex x="-1.27" y="-0.508"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BLM31AJ601SN1L" prefix="L">
+<gates>
+<gate name="G$1" symbol="FERRITE" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="81-BLM31AJ601SN1L" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3548,8 +3636,8 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="PCB1" library="module-footprints" deviceset="ST2-BOARD-50" device="" value="rev.B"/>
 <part name="XS1" library="connectors" deviceset="35RAPC4BHN2" device=""/>
 <part name="SA1" library="switches" deviceset="MJS12R" device=""/>
-<part name="R3" library="resistors" deviceset="?" device="10R(1206)"/>
-<part name="R4" library="resistors" deviceset="?" device="10R(1206)"/>
+<part name="L1" library="inductors" deviceset="BLM31AJ601SN1L" device=""/>
+<part name="L2" library="inductors" deviceset="BLM31AJ601SN1L" device=""/>
 <part name="C5" library="capacitors-electrolytic" deviceset="?" device="10U/35V" value="10U/35V"/>
 <part name="C6" library="capacitors-electrolytic" deviceset="?" device="10U/35V" value="10U/35V"/>
 <part name="PWR5" library="supply" deviceset="+15V" device=""/>
@@ -3564,8 +3652,8 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="R21" library="resistors" deviceset="?" device="9K1" value="9K1"/>
 <part name="R22" library="resistors" deviceset="?" device="9K1" value="9K1"/>
 <part name="R23" library="resistors" deviceset="?" device="9K1" value="9K1"/>
-<part name="C2" library="capacitors-electrolytic" deviceset="?" device="47U/35V" value="47U/35V"/>
-<part name="C4" library="capacitors-electrolytic" deviceset="?" device="47U/35V" value="47U/35V"/>
+<part name="C2" library="capacitors-electrolytic" deviceset="?" device="33U/25V" value="33U/25V"/>
+<part name="C4" library="capacitors-electrolytic" deviceset="?" device="33U/25V" value="33U/25V"/>
 <part name="DA2" library="ic-jrc" deviceset="NJM2068" device="M"/>
 <part name="C1" library="capacitors" deviceset="?" device="100N(FILM)"/>
 <part name="C3" library="capacitors" deviceset="?" device="100N(FILM)"/>
@@ -3680,8 +3768,8 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <attribute name="VALUE" x="22.86" y="-81.28" size="1.778" layer="96"/>
 </instance>
 <instance part="SA1" gate="G$1" x="58.42" y="-76.2" rot="MR0"/>
-<instance part="R3" gate="G$1" x="73.66" y="-167.64"/>
-<instance part="R4" gate="G$1" x="73.66" y="-187.96"/>
+<instance part="L1" gate="G$1" x="73.66" y="-167.64"/>
+<instance part="L2" gate="G$1" x="73.66" y="-187.96"/>
 <instance part="C5" gate="G$1" x="86.36" y="-172.72" smashed="yes" rot="R270">
 <attribute name="NAME" x="84.328" y="-172.72" size="1.778" layer="94" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="88.9" y="-165.1" size="1.778" layer="96" rot="R180" align="bottom-center"/>
@@ -3829,7 +3917,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <nets>
 <net name="+15V" class="1">
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="C5" gate="G$1" pin="+"/>
 <wire x1="78.74" y1="-167.64" x2="86.36" y2="-167.64" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="-167.64" x2="86.36" y2="-170.18" width="0.1524" layer="91"/>
@@ -3895,14 +3983,14 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="-167.64" x2="68.58" y2="-167.64" width="0.1524" layer="91"/>
 <pinref part="PCB1" gate="G$9" pin="P+15V"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="L2" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="-187.96" x2="66.04" y2="-187.96" width="0.1524" layer="91"/>
 <pinref part="PCB1" gate="G$9" pin="P-15V"/>
 </segment>
@@ -3936,7 +4024,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 </net>
 <net name="-15V" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="L2" gate="G$1" pin="2"/>
 <pinref part="C6" gate="G$1" pin="-"/>
 <wire x1="78.74" y1="-187.96" x2="86.36" y2="-187.96" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="-187.96" x2="86.36" y2="-185.42" width="0.1524" layer="91"/>
