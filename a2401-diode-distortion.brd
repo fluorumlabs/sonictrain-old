@@ -496,47 +496,6 @@ grid 5 mm, outline 2.5 x 7.5 mm</description>
 <rectangle x1="2.286" y1="-0.254" x2="6.691" y2="0.254" layer="21"/>
 <rectangle x1="-6.691" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
 </package>
-<package name="SOT23">
-<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
-<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<text x="0" y="1.905" size="0.8128" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
-<wire x1="1.42" y1="0.8" x2="1.42" y2="-0.8" width="0.127" layer="51"/>
-<wire x1="1.42" y1="-0.8" x2="-1.42" y2="-0.8" width="0.127" layer="51"/>
-<wire x1="-1.42" y1="-0.8" x2="-1.42" y2="0.8" width="0.127" layer="51"/>
-<wire x1="-1.42" y1="0.8" x2="1.42" y2="0.8" width="0.127" layer="51"/>
-<wire x1="-1.27" y1="0.65" x2="-0.55" y2="0.65" width="0.075" layer="21"/>
-<wire x1="-0.55" y1="0.65" x2="0.55" y2="0.65" width="0.075" layer="51"/>
-<wire x1="0.55" y1="0.65" x2="1.28" y2="0.65" width="0.075" layer="21"/>
-<wire x1="1.28" y1="0.65" x2="1.28" y2="-0.35" width="0.075" layer="21"/>
-<wire x1="1.28" y1="-0.35" x2="1.28" y2="-0.65" width="0.075" layer="51"/>
-<wire x1="1.28" y1="-0.65" x2="0.4" y2="-0.65" width="0.075" layer="51"/>
-<wire x1="0.4" y1="-0.65" x2="-0.4" y2="-0.65" width="0.075" layer="21"/>
-<wire x1="-0.4" y1="-0.65" x2="-1.27" y2="-0.65" width="0.075" layer="51"/>
-<wire x1="-1.27" y1="-0.65" x2="-1.27" y2="-0.35" width="0.075" layer="51"/>
-<wire x1="-1.27" y1="-0.35" x2="-1.27" y2="0.65" width="0.075" layer="21"/>
-<rectangle x1="-0.16" y1="0.68" x2="0.17" y2="1.43" layer="51"/>
-<rectangle x1="-1.11" y1="-1.42" x2="-0.78" y2="-0.67" layer="51"/>
-<rectangle x1="0.79" y1="-1.42" x2="1.12" y2="-0.67" layer="51"/>
-</package>
-</packages>
-</library>
-<library name="switches">
-<packages>
-<package name="108-0052-EVX">
-<pad name="1" x="-2.54" y="-2.54" drill="1.1" shape="square"/>
-<pad name="2" x="-2.54" y="0" drill="1.1"/>
-<pad name="3" x="-2.54" y="2.54" drill="1.1"/>
-<pad name="4" x="2.54" y="-2.54" drill="1.1"/>
-<pad name="5" x="2.54" y="0" drill="1.1"/>
-<pad name="6" x="2.54" y="2.54" drill="1.1"/>
-<wire x1="-4.57" y1="4.06" x2="4.57" y2="4.06" width="0.127" layer="21"/>
-<wire x1="4.57" y1="4.06" x2="4.57" y2="-4.06" width="0.127" layer="21"/>
-<wire x1="4.57" y1="-4.06" x2="-4.57" y2="-4.06" width="0.127" layer="21"/>
-<wire x1="-4.57" y1="-4.06" x2="-4.57" y2="4.06" width="0.127" layer="21"/>
-<text x="0" y="5.08" size="0.8128" layer="25" ratio="15" rot="R180" align="bottom-center">&gt;NAME</text>
-</package>
 </packages>
 </library>
 </libraries>
@@ -730,106 +689,133 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="O1" library="text" package="EMPTY" value="" x="19" y="-92"/>
+<element name="O1" library="text" package="EMPTY" value="" x="55" y="-91"/>
 <element name="PCB1" library="module-footprints" package="ST2-BOARD-50" value="rev.A" x="9" y="-55"/>
-<element name="U1" library="hardware" package="EMPTY" value="FX2-20P-1.27DS" x="22" y="-92">
+<element name="U1" library="hardware" package="EMPTY" value="FX2-20P-1.27DS" x="58" y="-91">
 <attribute name="MOUSER" value="798-FX2-20P-1.27DS71" x="-1" y="-63" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U2" library="hardware" package="EMPTY" value="FX2-20S-1.27DS" x="25" y="-92">
+<element name="U2" library="hardware" package="EMPTY" value="FX2-20S-1.27DS" x="61" y="-91">
 <attribute name="MOUSER" value="798-FX2-20S-1.27DS71" x="-2" y="-65" size="1.778" layer="27" display="off"/>
 </element>
-<element name="L2" library="inductors" package="1206" value="BLM31AJ601SN1L" x="35" y="-84">
+<element name="L2" library="inductors" package="1206" value="BLM31AJ601SN1L" x="11" y="-84">
 <attribute name="MOUSER" value="81-BLM31AJ601SN1L" x="0" y="-69" size="1.778" layer="27" display="off"/>
 </element>
-<element name="L3" library="inductors" package="1206" value="BLM31AJ601SN1L" x="40" y="-84">
+<element name="L3" library="inductors" package="1206" value="BLM31AJ601SN1L" x="16" y="-84">
 <attribute name="MOUSER" value="81-BLM31AJ601SN1L" x="0" y="-73" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C1" library="capacitors-electrolytic" package="E2-5" value="10U/35V" x="81" y="-64">
+<element name="C1" library="capacitors-electrolytic" package="E2-5" value="10U/35V" x="76" y="-64">
 <attribute name="MOUSER" value="647-USW1V100MDD" x="0" y="-77" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C2" library="capacitors-electrolytic" package="E2-5" value="10U/35V" x="87" y="-64">
+<element name="C2" library="capacitors-electrolytic" package="E2-5" value="10U/35V" x="82" y="-64">
 <attribute name="MOUSER" value="647-USW1V100MDD" x="0" y="-83" size="1.778" layer="27" display="off"/>
 </element>
-<element name="DA1" library="ic-jrc" package="SO-8" value="NJM2068M" x="68" y="-66">
+<element name="DA1" library="ic-jrc" package="SO-8" value="NJM2068M" x="56" y="-66">
 <attribute name="MOUSER" value="513-NJM2068M" x="-6" y="-81" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C3" library="capacitors" package="C050-025X075" value="47N(FILM)" x="20" y="-84">
+<element name="C3" library="capacitors" package="C050-025X075" value="47N(FILM)" x="89" y="-64">
 <attribute name="MOUSER" value="871-B32529C1473J" x="-6" y="-89" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C4" library="capacitors" package="C050-025X075" value="47N(FILM)" x="28" y="-84">
+<element name="C4" library="capacitors" package="C050-025X075" value="47N(FILM)" x="4" y="-84">
 <attribute name="MOUSER" value="871-B32529C1473J" x="-6" y="-93" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R1" library="resistors" package="R-0805" value="4K7" x="69" y="-83">
+<element name="R1" library="resistors" package="R-0805" value="4K7" x="61" y="-83">
 <attribute name="MOUSER" value="660-RK73H2ATTD4701F" x="-8" y="-97" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R2" library="resistors" package="R-0805" value="4K7" x="73" y="-83">
+<element name="R2" library="resistors" package="R-0805" value="4K7" x="65" y="-83">
 <attribute name="MOUSER" value="660-RK73H2ATTD4701F" x="-8" y="-100" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R3" library="resistors" package="R-0805" value="33K" x="77" y="-83">
+<element name="R3" library="resistors" package="R-0805" value="33K" x="69" y="-83">
 <attribute name="MOUSER" value="660-RK73H2ATTD3302F" x="-8" y="-103" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R4" library="resistors" package="R-0805" value="33K" x="81" y="-83">
+<element name="R4" library="resistors" package="R-0805" value="33K" x="73" y="-83">
 <attribute name="MOUSER" value="660-RK73H2ATTD3302F" x="-8" y="-106" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C5" library="capacitors" package="C-0805" value="22P" x="45" y="-83">
+<element name="C5" library="capacitors" package="C-0805" value="22P" x="21" y="-83">
 <attribute name="MOUSER" value="77-VJ0805A220GXACBC" x="-8" y="-109" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C6" library="capacitors" package="C-0805" value="22P" x="49" y="-83">
+<element name="C6" library="capacitors" package="C-0805" value="22P" x="25" y="-83">
 <attribute name="MOUSER" value="77-VJ0805A220GXACBC" x="-8" y="-112" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R5" library="potentiometers" package="RV11-DUAL" value="2*A1M" x="9" y="-69">
 <attribute name="MOUSER" value="317-2102F-1M" x="-19" y="-100" size="1.778" layer="27" display="off"/>
 </element>
-<element name="VD1" library="diodes" package="DO35-15" value="1N34" x="9" y="-89"/>
-<element name="VD2" library="diodes" package="DO35-15" value="1N34" x="27" y="-89"/>
-<element name="VD3" library="diodes" package="DO35-15" value="1N34" x="45" y="-89"/>
-<element name="VD4" library="diodes" package="DO35-15" value="1N34" x="63" y="-89"/>
-<element name="VD5" library="diodes" package="DO35-15" value="1N34" x="81" y="-89"/>
-<element name="VD6" library="diodes" package="DO35-15" value="1N34" x="9" y="-92"/>
-<element name="SA1" library="switches" package="108-0052-EVX" value="108-0052-EVX" x="39" y="-67">
-<attribute name="MOUSER" value="108-0052-EVX" x="-32" y="-126" size="1.778" layer="27" display="off"/>
+<element name="VD1" library="diodes" package="DO35-15" value="1N34" x="41" y="-88"/>
+<element name="VD2" library="diodes" package="DO35-15" value="1N34" x="59" y="-88"/>
+<element name="VD3" library="diodes" package="DO35-15" value="1N34" x="77" y="-88"/>
+<element name="VD4" library="diodes" package="DO35-15" value="1N34" x="9" y="-91"/>
+<element name="VD5" library="diodes" package="DO35-15" value="1N34" x="27" y="-91"/>
+<element name="VD6" library="diodes" package="DO35-15" value="1N34" x="45" y="-91"/>
+<element name="DA2" library="ic-jrc" package="SO-8" value="NJM5532M" x="63" y="-66">
+<attribute name="MOUSER" value="513-NJM5532M" x="-30" y="-126" size="1.778" layer="27" display="off"/>
 </element>
-<element name="DA2" library="ic-jrc" package="SO-8" value="NJM5532M" x="75" y="-66">
-<attribute name="MOUSER" value="513-NJM5532M" x="-40" y="-126" size="1.778" layer="27" display="off"/>
+<element name="R8" library="potentiometers" package="RV11-DUAL" value="2*A10K" x="43" y="-69">
+<attribute name="MOUSER" value="688-RK12L12C0A0E" x="-43" y="-119" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SA2" library="switches" package="108-0052-EVX" value="108-0052-EVX" x="49" y="-67">
-<attribute name="MOUSER" value="108-0052-EVX" x="-49" y="-126" size="1.778" layer="27" display="off"/>
+<element name="C9" library="capacitors" package="C-0805" value="100N" x="37" y="-83">
+<attribute name="MOUSER" value="77-VJ0805V104MXBPBC" x="-49" y="-134" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R6" library="resistors" package="R-0805" value="100K" x="85" y="-83">
-<attribute name="MOUSER" value="660-RK73H2ATTD1003F" x="-51" y="-134" size="1.778" layer="27" display="off"/>
+<element name="C10" library="capacitors" package="C-0805" value="100N" x="41" y="-83">
+<attribute name="MOUSER" value="77-VJ0805V104MXBPBC" x="-49" y="-137" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R7" library="resistors" package="R-0805" value="100K" x="89" y="-83">
-<attribute name="MOUSER" value="660-RK73H2ATTD1003F" x="-51" y="-137" size="1.778" layer="27" display="off"/>
+<element name="C11" library="capacitors" package="C-0805" value="100N" x="45" y="-83">
+<attribute name="MOUSER" value="77-VJ0805V104MXBPBC" x="-49" y="-140" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R8" library="potentiometers" package="RV11-DUAL" value="2*A10K" x="26" y="-69">
-<attribute name="MOUSER" value="688-RK12L12C0A0E" x="-62" y="-125" size="1.778" layer="27" display="off"/>
+<element name="C12" library="capacitors" package="C-0805" value="100N" x="49" y="-83">
+<attribute name="MOUSER" value="77-VJ0805V104MXBPBC" x="-49" y="-143" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C9" library="capacitors" package="C-0805" value="100N" x="53" y="-83">
-<attribute name="MOUSER" value="77-VJ0805V104MXBPBC" x="-68" y="-140" size="1.778" layer="27" display="off"/>
+<element name="R10" library="resistors" package="R-0805" value="10K" x="77" y="-83">
+<attribute name="MOUSER" value="660-RK73H2ATTD1002F" x="-49" y="-146" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C10" library="capacitors" package="C-0805" value="100N" x="57" y="-83">
-<attribute name="MOUSER" value="77-VJ0805V104MXBPBC" x="-68" y="-143" size="1.778" layer="27" display="off"/>
+<element name="R12" library="resistors" package="R-0805" value="10K" x="81" y="-83">
+<attribute name="MOUSER" value="660-RK73H2ATTD1002F" x="-49" y="-149" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C11" library="capacitors" package="C-0805" value="100N" x="61" y="-83">
-<attribute name="MOUSER" value="77-VJ0805V104MXBPBC" x="-68" y="-146" size="1.778" layer="27" display="off"/>
+<element name="R14" library="resistors" package="R-0805" value="10K" x="85" y="-83">
+<attribute name="MOUSER" value="660-RK73H2ATTD1002F" x="-49" y="-152" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C12" library="capacitors" package="C-0805" value="100N" x="65" y="-83">
-<attribute name="MOUSER" value="77-VJ0805V104MXBPBC" x="-68" y="-149" size="1.778" layer="27" display="off"/>
+<element name="R15" library="resistors" package="R-0805" value="10K" x="89" y="-83">
+<attribute name="MOUSER" value="660-RK73H2ATTD1002F" x="-49" y="-155" size="1.778" layer="27" display="off"/>
 </element>
-<element name="VD7" library="diodes" package="SOT23" value="BAV199" x="6" y="-85">
-<attribute name="MOUSER" value="771-BAV199-T/R" x="-73" y="-148" size="1.778" layer="27" display="off"/>
+<element name="R16" library="resistors" package="R-0805" value="10K" x="2" y="-88">
+<attribute name="MOUSER" value="660-RK73H2ATTD1002F" x="-49" y="-158" size="1.778" layer="27" display="off"/>
 </element>
-<element name="VD8" library="diodes" package="SOT23" value="BAV199" x="10" y="-85">
-<attribute name="MOUSER" value="771-BAV199-T/R" x="-77" y="-148" size="1.778" layer="27" display="off"/>
+<element name="R17" library="resistors" package="R-0805" value="10K" x="6" y="-88">
+<attribute name="MOUSER" value="660-RK73H2ATTD1002F" x="-49" y="-161" size="1.778" layer="27" display="off"/>
 </element>
-<element name="VD9" library="diodes" package="SOT23" value="BAV199" x="14" y="-85">
-<attribute name="MOUSER" value="771-BAV199-T/R" x="-81" y="-148" size="1.778" layer="27" display="off"/>
+<element name="R18" library="resistors" package="R-0805" value="10K" x="10" y="-88">
+<attribute name="MOUSER" value="660-RK73H2ATTD1002F" x="-49" y="-164" size="1.778" layer="27" display="off"/>
 </element>
-<element name="VD10" library="diodes" package="SOT23" value="BAV199" x="2" y="-85">
-<attribute name="MOUSER" value="771-BAV199-T/R" x="-85" y="-148" size="1.778" layer="27" display="off"/>
+<element name="R19" library="resistors" package="R-0805" value="10K" x="14" y="-88">
+<attribute name="MOUSER" value="660-RK73H2ATTD1002F" x="-49" y="-167" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SA3" library="switches" package="108-0052-EVX" value="108-0052-EVX" x="59" y="-67">
-<attribute name="MOUSER" value="108-0052-EVX" x="-92" y="-145" size="1.778" layer="27" display="off"/>
+<element name="R20" library="resistors" package="R-0805" value="10K" x="18" y="-88">
+<attribute name="MOUSER" value="660-RK73H2ATTD1002F" x="-49" y="-170" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R21" library="resistors" package="R-0805" value="10K" x="22" y="-88">
+<attribute name="MOUSER" value="660-RK73H2ATTD1002F" x="-49" y="-173" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C7" library="capacitors" package="C-0805" value="22P" x="29" y="-83">
+<attribute name="MOUSER" value="77-VJ0805A220GXACBC" x="-49" y="-176" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C8" library="capacitors" package="C-0805" value="22P" x="33" y="-83">
+<attribute name="MOUSER" value="77-VJ0805A220GXACBC" x="-49" y="-179" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R22" library="resistors" package="R-0805" value="15K" x="26" y="-88">
+<attribute name="MOUSER" value="660-RK73H2ATTD1502F" x="-49" y="-182" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R23" library="resistors" package="R-0805" value="15K" x="30" y="-88">
+<attribute name="MOUSER" value="660-RK73H2ATTD1502F" x="-49" y="-185" size="1.778" layer="27" display="off"/>
+</element>
+<element name="DA3" library="ic-jrc" package="SO-8" value="NJM2068M" x="70" y="-66">
+<attribute name="MOUSER" value="513-NJM2068M" x="-54" y="-181" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C13" library="capacitors" package="C-0805" value="100N" x="53" y="-83">
+<attribute name="MOUSER" value="77-VJ0805V104MXBPBC" x="-56" y="-188" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C14" library="capacitors" package="C-0805" value="100N" x="57" y="-83">
+<attribute name="MOUSER" value="77-VJ0805V104MXBPBC" x="-56" y="-191" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R6" library="potentiometers" package="RV11-DUAL" value="2*B20K(CD)" x="26" y="-69">
+<attribute name="MOUSER" value="688-RK12L1230C1M" x="-67" y="-179" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -854,8 +840,8 @@ design rules under a new name.</description>
 <wire x1="62.175" y1="-45.785" x2="62.175" y2="-19.215" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$38">
-<contactref element="PCB1" pad="ASMBDAT"/>
 <contactref element="PCB1" pad="ASMBDAT'"/>
+<contactref element="PCB1" pad="ASMBDAT"/>
 <wire x1="63.445" y1="-47.69" x2="63.445" y2="-17.31" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$43">
@@ -880,11 +866,11 @@ design rules under a new name.</description>
 </signal>
 <signal name="P+15V">
 <contactref element="L2" pad="1"/>
-<contactref element="PCB1" pad="B+15"/>
 <contactref element="PCB1" pad="A+15"/>
+<contactref element="PCB1" pad="B+15"/>
 <contactref element="PCB1" pad="A+15'"/>
 <contactref element="PCB1" pad="B+15'"/>
-<wire x1="53.285" y1="-51.5" x2="33.3" y2="-84" width="0" layer="19" extent="1-1"/>
+<wire x1="53.285" y1="-51.5" x2="9.3" y2="-84" width="0" layer="19" extent="1-1"/>
 <wire x1="53.285" y1="-47.69" x2="53.285" y2="-51.5" width="0" layer="19" extent="1-1"/>
 <wire x1="53.285" y1="-17.31" x2="53.285" y2="-47.69" width="0" layer="19" extent="1-1"/>
 <wire x1="53.285" y1="-13.5" x2="53.285" y2="-17.31" width="0" layer="19" extent="1-1"/>
@@ -896,11 +882,15 @@ design rules under a new name.</description>
 <contactref element="DA1" pad="8"/>
 <contactref element="C10" pad="2"/>
 <contactref element="C9" pad="2"/>
-<wire x1="53.95" y1="-83" x2="36.65" y2="-84" width="0" layer="19" extent="1-1"/>
-<wire x1="57.95" y1="-83" x2="53.95" y2="-83" width="0" layer="19" extent="1-1"/>
-<wire x1="66.095" y1="-62.9266" x2="57.95" y2="-83" width="0" layer="19" extent="1-1"/>
-<wire x1="73.095" y1="-62.9266" x2="66.095" y2="-62.9266" width="0" layer="19" extent="1-1"/>
-<wire x1="79.984" y1="-64" x2="73.095" y2="-62.9266" width="0" layer="19" extent="1-1"/>
+<contactref element="C13" pad="2"/>
+<contactref element="DA3" pad="8"/>
+<wire x1="37.95" y1="-83" x2="12.65" y2="-84" width="0" layer="19" extent="1-1"/>
+<wire x1="41.95" y1="-83" x2="37.95" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="53.95" y1="-83" x2="41.95" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="54.095" y1="-62.9266" x2="53.95" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="61.095" y1="-62.9266" x2="54.095" y2="-62.9266" width="0" layer="19" extent="1-1"/>
+<wire x1="68.095" y1="-62.9266" x2="61.095" y2="-62.9266" width="0" layer="19" extent="1-1"/>
+<wire x1="74.984" y1="-64" x2="68.095" y2="-62.9266" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="-15V" class="1">
 <contactref element="L3" pad="2"/>
@@ -909,55 +899,63 @@ design rules under a new name.</description>
 <contactref element="DA1" pad="4"/>
 <contactref element="C11" pad="1"/>
 <contactref element="C12" pad="1"/>
-<wire x1="60.05" y1="-83" x2="41.65" y2="-84" width="0" layer="19" extent="1-1"/>
-<wire x1="64.05" y1="-83" x2="60.05" y2="-83" width="0" layer="19" extent="1-1"/>
-<wire x1="69.905" y1="-69.0734" x2="64.05" y2="-83" width="0" layer="19" extent="1-1"/>
-<wire x1="76.905" y1="-69.0734" x2="69.905" y2="-69.0734" width="0" layer="19" extent="1-1"/>
-<wire x1="88.016" y1="-64" x2="76.905" y2="-69.0734" width="0" layer="19" extent="1-1"/>
+<contactref element="C14" pad="1"/>
+<contactref element="DA3" pad="4"/>
+<wire x1="44.05" y1="-83" x2="17.65" y2="-84" width="0" layer="19" extent="1-1"/>
+<wire x1="48.05" y1="-83" x2="44.05" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="56.05" y1="-83" x2="48.05" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="57.905" y1="-69.0734" x2="56.05" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="64.905" y1="-69.0734" x2="57.905" y2="-69.0734" width="0" layer="19" extent="1-1"/>
+<wire x1="71.905" y1="-69.0734" x2="64.905" y2="-69.0734" width="0" layer="19" extent="1-1"/>
+<wire x1="83.016" y1="-64" x2="71.905" y2="-69.0734" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="C1" pad="-"/>
 <contactref element="C2" pad="+"/>
-<contactref element="PCB1" pad="B6'"/>
-<contactref element="PCB1" pad="B7"/>
-<contactref element="PCB1" pad="B4"/>
 <contactref element="PCB1" pad="B6"/>
-<contactref element="PCB1" pad="B4'"/>
+<contactref element="PCB1" pad="B4"/>
 <contactref element="PCB1" pad="B8'"/>
-<contactref element="PCB1" pad="B5"/>
+<contactref element="PCB1" pad="B7"/>
 <contactref element="PCB1" pad="B5'"/>
-<contactref element="PCB1" pad="B7'"/>
+<contactref element="PCB1" pad="B6'"/>
 <contactref element="PCB1" pad="B8"/>
+<contactref element="PCB1" pad="B5"/>
+<contactref element="PCB1" pad="B4'"/>
+<contactref element="PCB1" pad="B7'"/>
 <contactref element="C10" pad="1"/>
 <contactref element="C9" pad="1"/>
 <contactref element="C11" pad="2"/>
 <contactref element="C12" pad="2"/>
+<contactref element="C14" pad="2"/>
+<contactref element="C13" pad="1"/>
 <contactref element="R1" pad="1"/>
 <contactref element="R2" pad="1"/>
-<contactref element="R7" pad="2"/>
-<contactref element="R6" pad="2"/>
-<contactref element="SA1" pad="6"/>
-<contactref element="SA1" pad="3"/>
 <contactref element="R8" pad="1'"/>
 <contactref element="R8" pad="1"/>
-<wire x1="25" y1="-80" x2="23" y2="-80" width="0" layer="19" extent="1-1"/>
-<wire x1="36.46" y1="-64.46" x2="25" y2="-80" width="0" layer="19" extent="1-1"/>
-<wire x1="41.54" y1="-64.46" x2="36.46" y2="-64.46" width="0" layer="19" extent="1-1"/>
-<wire x1="58.365" y1="-51.5" x2="41.54" y2="-64.46" width="0" layer="19" extent="1-1"/>
-<wire x1="59.635" y1="-49.595" x2="58.365" y2="-51.5" width="0" layer="19" extent="1-1"/>
-<wire x1="60.905" y1="-51.5" x2="59.635" y2="-49.595" width="0" layer="19" extent="1-1"/>
+<contactref element="R6" pad="2'"/>
+<contactref element="R16" pad="1"/>
+<contactref element="R6" pad="2"/>
+<contactref element="R21" pad="1"/>
+<wire x1="21.05" y1="-88" x2="1.05" y2="-88" width="0" layer="19" extent="1-1"/>
+<wire x1="21" y1="-80" x2="21.05" y2="-88" width="0" layer="19" extent="1-1"/>
+<wire x1="27" y1="-80" x2="21" y2="-80" width="0" layer="19" extent="1-1"/>
+<wire x1="36.05" y1="-83" x2="27" y2="-80" width="0" layer="19" extent="1-1"/>
+<wire x1="40.05" y1="-83" x2="36.05" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="40" y1="-80" x2="40.05" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="42" y1="-80" x2="40" y2="-80" width="0" layer="19" extent="1-1"/>
+<wire x1="45.95" y1="-83" x2="42" y2="-80" width="0" layer="19" extent="1-1"/>
+<wire x1="49.95" y1="-83" x2="45.95" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="52.05" y1="-83" x2="49.95" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="57.95" y1="-83" x2="52.05" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="60.05" y1="-83" x2="57.95" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="64.05" y1="-83" x2="60.05" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="77.016" y1="-64" x2="64.05" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="80.984" y1="-64" x2="77.016" y2="-64" width="0" layer="19" extent="1-1"/>
+<wire x1="60.905" y1="-51.5" x2="77.016" y2="-64" width="0" layer="19" extent="1-1"/>
 <wire x1="62.175" y1="-49.595" x2="60.905" y2="-51.5" width="0" layer="19" extent="1-1"/>
+<wire x1="59.635" y1="-49.595" x2="60.905" y2="-51.5" width="0" layer="19" extent="1-1"/>
+<wire x1="58.365" y1="-51.5" x2="59.635" y2="-49.595" width="0" layer="19" extent="1-1"/>
 <wire x1="57.095" y1="-49.595" x2="58.365" y2="-51.5" width="0" layer="19" extent="1-1"/>
-<wire x1="52.05" y1="-83" x2="41.54" y2="-64.46" width="0" layer="19" extent="1-1"/>
-<wire x1="56.05" y1="-83" x2="52.05" y2="-83" width="0" layer="19" extent="1-1"/>
-<wire x1="61.95" y1="-83" x2="56.05" y2="-83" width="0" layer="19" extent="1-1"/>
-<wire x1="65.95" y1="-83" x2="61.95" y2="-83" width="0" layer="19" extent="1-1"/>
-<wire x1="68.05" y1="-83" x2="65.95" y2="-83" width="0" layer="19" extent="1-1"/>
-<wire x1="72.05" y1="-83" x2="68.05" y2="-83" width="0" layer="19" extent="1-1"/>
-<wire x1="85.95" y1="-83" x2="72.05" y2="-83" width="0" layer="19" extent="1-1"/>
-<wire x1="89.95" y1="-83" x2="85.95" y2="-83" width="0" layer="19" extent="1-1"/>
-<wire x1="85.984" y1="-64" x2="85.95" y2="-83" width="0" layer="19" extent="1-1"/>
-<wire x1="82.016" y1="-64" x2="85.984" y2="-64" width="0" layer="19" extent="1-1"/>
 <wire x1="62.175" y1="-15.405" x2="62.175" y2="-49.595" width="0" layer="19" extent="1-1"/>
 <wire x1="60.905" y1="-13.5" x2="62.175" y2="-15.405" width="0" layer="19" extent="1-1"/>
 <wire x1="59.635" y1="-15.405" x2="60.905" y2="-13.5" width="0" layer="19" extent="1-1"/>
@@ -967,10 +965,10 @@ design rules under a new name.</description>
 <signal name="N$36">
 <contactref element="L3" pad="1"/>
 <contactref element="PCB1" pad="A-15'"/>
-<contactref element="PCB1" pad="B-15"/>
-<contactref element="PCB1" pad="A-15"/>
 <contactref element="PCB1" pad="B-15'"/>
-<wire x1="54.555" y1="-49.595" x2="38.3" y2="-84" width="0" layer="19" extent="1-1"/>
+<contactref element="PCB1" pad="A-15"/>
+<contactref element="PCB1" pad="B-15"/>
+<wire x1="54.555" y1="-49.595" x2="14.3" y2="-84" width="0" layer="19" extent="1-1"/>
 <wire x1="54.555" y1="-45.785" x2="54.555" y2="-49.595" width="0" layer="19" extent="1-1"/>
 <wire x1="54.555" y1="-19.215" x2="54.555" y2="-45.785" width="0" layer="19" extent="1-1"/>
 <wire x1="54.555" y1="-15.405" x2="54.555" y2="-19.215" width="0" layer="19" extent="1-1"/>
@@ -978,180 +976,204 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="R3" pad="2"/>
 <contactref element="R5" pad="1"/>
-<wire x1="77.95" y1="-83" x2="8" y2="-80" width="0" layer="19" extent="1-1"/>
+<wire x1="69.95" y1="-83" x2="8" y2="-80" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R4" pad="2"/>
 <contactref element="R5" pad="1'"/>
-<wire x1="81.95" y1="-83" x2="6" y2="-80" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$3">
-<contactref element="PCB1" pad="BINL"/>
-<contactref element="DA1" pad="3"/>
-<contactref element="SA2" pad="1"/>
-<wire x1="68.635" y1="-69.0734" x2="46.46" y2="-69.54" width="0" layer="19" extent="1-1"/>
-<wire x1="63.445" y1="-51.5" x2="68.635" y2="-69.0734" width="0" layer="19" extent="1-1"/>
+<wire x1="73.95" y1="-83" x2="6" y2="-80" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="R1" pad="2"/>
 <contactref element="C3" pad="1"/>
-<wire x1="69.95" y1="-83" x2="17.46" y2="-84" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$5">
-<contactref element="C3" pad="2"/>
-<contactref element="DA1" pad="2"/>
-<contactref element="SA1" pad="1"/>
-<contactref element="R3" pad="1"/>
-<contactref element="C5" pad="1"/>
-<wire x1="36.46" y1="-69.54" x2="22.54" y2="-84" width="0" layer="19" extent="1-1"/>
-<wire x1="44.05" y1="-83" x2="36.46" y2="-69.54" width="0" layer="19" extent="1-1"/>
-<wire x1="67.365" y1="-69.0734" x2="44.05" y2="-83" width="0" layer="19" extent="1-1"/>
-<wire x1="76.05" y1="-83" x2="67.365" y2="-69.0734" width="0" layer="19" extent="1-1"/>
+<wire x1="61.95" y1="-83" x2="86.46" y2="-64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="PCB1" pad="BINR"/>
 <contactref element="DA1" pad="5"/>
-<contactref element="SA2" pad="4"/>
-<wire x1="69.905" y1="-62.9266" x2="51.54" y2="-69.54" width="0" layer="19" extent="1-1"/>
-<wire x1="64.715" y1="-49.595" x2="69.905" y2="-62.9266" width="0" layer="19" extent="1-1"/>
+<contactref element="R10" pad="1"/>
+<wire x1="57.905" y1="-62.9266" x2="64.715" y2="-49.595" width="0" layer="19" extent="1-1"/>
+<wire x1="76.05" y1="-83" x2="57.905" y2="-62.9266" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="C4" pad="1"/>
 <contactref element="R2" pad="2"/>
-<wire x1="73.95" y1="-83" x2="25.46" y2="-84" width="0" layer="19" extent="1-1"/>
+<wire x1="65.95" y1="-83" x2="1.46" y2="-84" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
-<contactref element="SA1" pad="4"/>
 <contactref element="C4" pad="2"/>
 <contactref element="DA1" pad="6"/>
 <contactref element="C6" pad="1"/>
 <contactref element="R4" pad="1"/>
-<wire x1="48.05" y1="-83" x2="30.54" y2="-84" width="0" layer="19" extent="1-1"/>
-<wire x1="41.54" y1="-69.54" x2="48.05" y2="-83" width="0" layer="19" extent="1-1"/>
-<wire x1="68.635" y1="-62.9266" x2="41.54" y2="-69.54" width="0" layer="19" extent="1-1"/>
-<wire x1="80.05" y1="-83" x2="68.635" y2="-62.9266" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$12">
-<contactref element="C5" pad="2"/>
-<contactref element="DA1" pad="1"/>
-<contactref element="R5" pad="3"/>
-<contactref element="R5" pad="2"/>
-<contactref element="VD7" pad="2"/>
-<contactref element="VD8" pad="1"/>
-<contactref element="VD4" pad="A"/>
-<contactref element="VD1" pad="C"/>
-<contactref element="VD7" pad="3"/>
-<contactref element="R8" pad="3"/>
-<wire x1="6.95" y1="-86.1" x2="1.5" y2="-89" width="0" layer="19" extent="1-1"/>
-<wire x1="9.05" y1="-86.1" x2="6.95" y2="-86.1" width="0" layer="19" extent="1-1"/>
-<wire x1="6" y1="-83.9" x2="6.95" y2="-86.1" width="0" layer="19" extent="1-1"/>
-<wire x1="10" y1="-80" x2="6" y2="-83.9" width="0" layer="19" extent="1-1"/>
-<wire x1="12" y1="-80" x2="10" y2="-80" width="0" layer="19" extent="1-1"/>
-<wire x1="29" y1="-80" x2="12" y2="-80" width="0" layer="19" extent="1-1"/>
-<wire x1="45.95" y1="-83" x2="29" y2="-80" width="0" layer="19" extent="1-1"/>
-<wire x1="66.095" y1="-69.0734" x2="45.95" y2="-83" width="0" layer="19" extent="1-1"/>
-<wire x1="70.5" y1="-89" x2="66.095" y2="-69.0734" width="0" layer="19" extent="1-1"/>
+<contactref element="VD5" pad="C"/>
+<contactref element="VD2" pad="A"/>
+<wire x1="19.5" y1="-91" x2="6.54" y2="-84" width="0" layer="19" extent="1-1"/>
+<wire x1="24.05" y1="-83" x2="19.5" y2="-91" width="0" layer="19" extent="1-1"/>
+<wire x1="56.635" y1="-62.9266" x2="24.05" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="72.05" y1="-83" x2="56.635" y2="-62.9266" width="0" layer="19" extent="1-1"/>
+<wire x1="66.5" y1="-88" x2="72.05" y2="-83" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="VD4" pad="C"/>
 <contactref element="VD3" pad="A"/>
-<wire x1="55.5" y1="-89" x2="52.5" y2="-89" width="0" layer="19" extent="1-1"/>
+<wire x1="84.5" y1="-88" x2="1.5" y2="-91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="VD3" pad="C"/>
-<contactref element="SA3" pad="3"/>
 <contactref element="VD1" pad="A"/>
-<wire x1="37.5" y1="-89" x2="16.5" y2="-89" width="0" layer="19" extent="1-1"/>
-<wire x1="56.46" y1="-64.46" x2="37.5" y2="-89" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$18">
-<contactref element="VD8" pad="2"/>
-<contactref element="SA1" pad="2"/>
-<contactref element="VD7" pad="1"/>
-<contactref element="SA3" pad="2"/>
-<wire x1="10.95" y1="-86.1" x2="5.05" y2="-86.1" width="0" layer="19" extent="1-1"/>
-<wire x1="36.46" y1="-67" x2="10.95" y2="-86.1" width="0" layer="19" extent="1-1"/>
-<wire x1="56.46" y1="-67" x2="36.46" y2="-67" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$19">
-<contactref element="C6" pad="2"/>
-<contactref element="DA1" pad="7"/>
-<contactref element="R5" pad="3'"/>
-<contactref element="R5" pad="2'"/>
-<contactref element="VD9" pad="2"/>
-<contactref element="VD10" pad="1"/>
-<contactref element="VD6" pad="A"/>
-<contactref element="VD2" pad="C"/>
-<contactref element="VD9" pad="3"/>
-<contactref element="R8" pad="3'"/>
-<wire x1="4" y1="-80" x2="1.05" y2="-86.1" width="0" layer="19" extent="1-1"/>
-<wire x1="14" y1="-80" x2="4" y2="-80" width="0" layer="19" extent="1-1"/>
-<wire x1="14" y1="-83.9" x2="14" y2="-80" width="0" layer="19" extent="1-1"/>
-<wire x1="14.95" y1="-86.1" x2="14" y2="-83.9" width="0" layer="19" extent="1-1"/>
-<wire x1="19.5" y1="-89" x2="14.95" y2="-86.1" width="0" layer="19" extent="1-1"/>
-<wire x1="16.5" y1="-92" x2="19.5" y2="-89" width="0" layer="19" extent="1-1"/>
-<wire x1="31" y1="-80" x2="19.5" y2="-89" width="0" layer="19" extent="1-1"/>
-<wire x1="49.95" y1="-83" x2="31" y2="-80" width="0" layer="19" extent="1-1"/>
-<wire x1="67.365" y1="-62.9266" x2="49.95" y2="-83" width="0" layer="19" extent="1-1"/>
+<contactref element="C3" pad="2"/>
+<contactref element="DA1" pad="2"/>
+<contactref element="R3" pad="1"/>
+<contactref element="C5" pad="1"/>
+<wire x1="48.5" y1="-88" x2="20.05" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="55.365" y1="-69.0734" x2="48.5" y2="-88" width="0" layer="19" extent="1-1"/>
+<wire x1="68.05" y1="-83" x2="55.365" y2="-69.0734" width="0" layer="19" extent="1-1"/>
+<wire x1="69.5" y1="-88" x2="68.05" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="91.54" y1="-64" x2="68.05" y2="-83" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
 <contactref element="VD6" pad="C"/>
 <contactref element="VD5" pad="A"/>
-<wire x1="88.5" y1="-89" x2="1.5" y2="-92" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$21">
-<contactref element="VD5" pad="C"/>
-<contactref element="SA3" pad="6"/>
-<contactref element="VD2" pad="A"/>
-<wire x1="61.54" y1="-64.46" x2="34.5" y2="-89" width="0" layer="19" extent="1-1"/>
-<wire x1="73.5" y1="-89" x2="61.54" y2="-64.46" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$22">
-<contactref element="VD10" pad="2"/>
-<contactref element="SA1" pad="5"/>
-<contactref element="VD9" pad="1"/>
-<contactref element="SA3" pad="5"/>
-<wire x1="13.05" y1="-86.1" x2="2.95" y2="-86.1" width="0" layer="19" extent="1-1"/>
-<wire x1="41.54" y1="-67" x2="13.05" y2="-86.1" width="0" layer="19" extent="1-1"/>
-<wire x1="61.54" y1="-67" x2="41.54" y2="-67" width="0" layer="19" extent="1-1"/>
+<wire x1="37.5" y1="-91" x2="34.5" y2="-91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$23">
 <contactref element="DA2" pad="5"/>
 <contactref element="R8" pad="2'"/>
-<wire x1="76.905" y1="-62.9266" x2="21" y2="-80" width="0" layer="19" extent="1-1"/>
+<wire x1="64.905" y1="-62.9266" x2="38" y2="-80" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <contactref element="DA2" pad="6"/>
 <contactref element="DA2" pad="7"/>
-<contactref element="SA2" pad="6"/>
-<wire x1="74.365" y1="-62.9266" x2="75.635" y2="-62.9266" width="0" layer="19" extent="1-1"/>
-<wire x1="51.54" y1="-64.46" x2="74.365" y2="-62.9266" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$25">
-<contactref element="SA2" pad="5"/>
-<contactref element="PCB1" pad="BOUTR'"/>
-<contactref element="R7" pad="1"/>
-<wire x1="51.54" y1="-67" x2="64.715" y2="-15.405" width="0" layer="19" extent="1-1"/>
-<wire x1="88.05" y1="-83" x2="51.54" y2="-67" width="0" layer="19" extent="1-1"/>
+<contactref element="R12" pad="1"/>
+<wire x1="62.365" y1="-62.9266" x2="63.635" y2="-62.9266" width="0" layer="19" extent="1-1"/>
+<wire x1="80.05" y1="-83" x2="63.635" y2="-62.9266" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$26">
 <contactref element="DA2" pad="3"/>
 <contactref element="R8" pad="2"/>
-<wire x1="75.635" y1="-69.0734" x2="27" y2="-80" width="0" layer="19" extent="1-1"/>
+<wire x1="63.635" y1="-69.0734" x2="44" y2="-80" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <contactref element="DA2" pad="2"/>
 <contactref element="DA2" pad="1"/>
-<contactref element="SA2" pad="3"/>
-<wire x1="73.095" y1="-69.0734" x2="46.46" y2="-64.46" width="0" layer="19" extent="1-1"/>
-<wire x1="74.365" y1="-69.0734" x2="73.095" y2="-69.0734" width="0" layer="19" extent="1-1"/>
+<contactref element="R18" pad="1"/>
+<wire x1="61.095" y1="-69.0734" x2="9.05" y2="-88" width="0" layer="19" extent="1-1"/>
+<wire x1="62.365" y1="-69.0734" x2="61.095" y2="-69.0734" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$28">
-<contactref element="SA2" pad="2"/>
-<contactref element="PCB1" pad="BOUTL'"/>
+<signal name="N$7">
+<contactref element="VD6" pad="A"/>
+<contactref element="VD2" pad="C"/>
+<contactref element="C6" pad="2"/>
+<contactref element="DA1" pad="7"/>
+<contactref element="R5" pad="3'"/>
+<contactref element="R5" pad="2'"/>
+<contactref element="R8" pad="3'"/>
+<wire x1="14" y1="-80" x2="4" y2="-80" width="0" layer="19" extent="1-1"/>
+<wire x1="25.95" y1="-83" x2="14" y2="-80" width="0" layer="19" extent="1-1"/>
+<wire x1="48" y1="-80" x2="25.95" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="51.5" y1="-88" x2="48" y2="-80" width="0" layer="19" extent="1-1"/>
+<wire x1="52.5" y1="-91" x2="51.5" y2="-88" width="0" layer="19" extent="1-1"/>
+<wire x1="55.365" y1="-62.9266" x2="48" y2="-80" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$9">
+<contactref element="VD1" pad="C"/>
+<contactref element="VD4" pad="A"/>
+<contactref element="C5" pad="2"/>
+<contactref element="DA1" pad="1"/>
+<contactref element="R5" pad="3"/>
+<contactref element="R5" pad="2"/>
+<contactref element="R8" pad="3"/>
+<wire x1="21.95" y1="-83" x2="16.5" y2="-91" width="0" layer="19" extent="1-1"/>
+<wire x1="12" y1="-80" x2="21.95" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="10" y1="-80" x2="12" y2="-80" width="0" layer="19" extent="1-1"/>
+<wire x1="33.5" y1="-88" x2="21.95" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="46" y1="-80" x2="33.5" y2="-88" width="0" layer="19" extent="1-1"/>
+<wire x1="54.095" y1="-69.0734" x2="46" y2="-80" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$5">
+<contactref element="R17" pad="2"/>
+<contactref element="R20" pad="1"/>
+<contactref element="R6" pad="3"/>
+<wire x1="17.05" y1="-88" x2="6.95" y2="-88" width="0" layer="19" extent="1-1"/>
+<wire x1="29" y1="-80" x2="17.05" y2="-88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$11">
+<contactref element="R16" pad="2"/>
+<contactref element="C8" pad="1"/>
+<contactref element="R23" pad="1"/>
+<contactref element="DA3" pad="6"/>
+<wire x1="29.05" y1="-88" x2="2.95" y2="-88" width="0" layer="19" extent="1-1"/>
+<wire x1="32.05" y1="-83" x2="29.05" y2="-88" width="0" layer="19" extent="1-1"/>
+<wire x1="70.635" y1="-62.9266" x2="32.05" y2="-83" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$59">
+<contactref element="R10" pad="2"/>
+<contactref element="R15" pad="1"/>
+<contactref element="R6" pad="3'"/>
+<wire x1="77.95" y1="-83" x2="31" y2="-80" width="0" layer="19" extent="1-1"/>
+<wire x1="88.05" y1="-83" x2="77.95" y2="-83" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$64">
+<contactref element="R21" pad="2"/>
+<contactref element="C7" pad="1"/>
+<contactref element="R22" pad="1"/>
+<contactref element="DA3" pad="2"/>
+<wire x1="25.05" y1="-88" x2="22.95" y2="-88" width="0" layer="19" extent="1-1"/>
+<wire x1="28.05" y1="-83" x2="25.05" y2="-88" width="0" layer="19" extent="1-1"/>
+<wire x1="69.365" y1="-69.0734" x2="28.05" y2="-83" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="R14" pad="2"/>
+<contactref element="R15" pad="2"/>
+<contactref element="DA3" pad="5"/>
+<wire x1="85.95" y1="-83" x2="71.905" y2="-62.9266" width="0" layer="19" extent="1-1"/>
+<wire x1="89.95" y1="-83" x2="85.95" y2="-83" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$13">
+<contactref element="R19" pad="2"/>
+<contactref element="R20" pad="2"/>
+<contactref element="DA3" pad="3"/>
+<wire x1="18.95" y1="-88" x2="14.95" y2="-88" width="0" layer="19" extent="1-1"/>
+<wire x1="70.635" y1="-69.0734" x2="18.95" y2="-88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$15">
+<contactref element="R12" pad="2"/>
+<contactref element="R14" pad="1"/>
+<contactref element="R6" pad="1'"/>
+<wire x1="81.95" y1="-83" x2="23" y2="-80" width="0" layer="19" extent="1-1"/>
+<wire x1="84.05" y1="-83" x2="81.95" y2="-83" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$50">
+<contactref element="R18" pad="2"/>
+<contactref element="R19" pad="1"/>
 <contactref element="R6" pad="1"/>
-<wire x1="46.46" y1="-67" x2="63.445" y2="-13.5" width="0" layer="19" extent="1-1"/>
-<wire x1="84.05" y1="-83" x2="46.46" y2="-67" width="0" layer="19" extent="1-1"/>
+<wire x1="13.05" y1="-88" x2="10.95" y2="-88" width="0" layer="19" extent="1-1"/>
+<wire x1="25" y1="-80" x2="13.05" y2="-88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$18">
+<contactref element="DA1" pad="3"/>
+<contactref element="PCB1" pad="BINL"/>
+<contactref element="R17" pad="1"/>
+<wire x1="56.635" y1="-69.0734" x2="5.05" y2="-88" width="0" layer="19" extent="1-1"/>
+<wire x1="63.445" y1="-51.5" x2="56.635" y2="-69.0734" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="R22" pad="2"/>
+<contactref element="DA3" pad="1"/>
+<contactref element="C7" pad="2"/>
+<contactref element="PCB1" pad="BOUTL'"/>
+<wire x1="29.95" y1="-83" x2="26.95" y2="-88" width="0" layer="19" extent="1-1"/>
+<wire x1="68.095" y1="-69.0734" x2="29.95" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="63.445" y1="-13.5" x2="68.095" y2="-69.0734" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$19">
+<contactref element="R23" pad="2"/>
+<contactref element="DA3" pad="7"/>
+<contactref element="C8" pad="2"/>
+<contactref element="PCB1" pad="BOUTR'"/>
+<wire x1="33.95" y1="-83" x2="30.95" y2="-88" width="0" layer="19" extent="1-1"/>
+<wire x1="69.365" y1="-62.9266" x2="33.95" y2="-83" width="0" layer="19" extent="1-1"/>
+<wire x1="64.715" y1="-15.405" x2="69.365" y2="-62.9266" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
