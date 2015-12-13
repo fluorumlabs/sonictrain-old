@@ -3194,51 +3194,53 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 </library>
 <library name="switches">
 <packages>
-<package name="108-0052-EVX">
-<pad name="1" x="-2.54" y="-2.54" drill="1.1" shape="square"/>
-<pad name="2" x="-2.54" y="0" drill="1.1"/>
-<pad name="3" x="-2.54" y="2.54" drill="1.1"/>
-<pad name="4" x="2.54" y="-2.54" drill="1.1"/>
-<pad name="5" x="2.54" y="0" drill="1.1"/>
-<pad name="6" x="2.54" y="2.54" drill="1.1"/>
-<wire x1="-4.57" y1="4.06" x2="4.57" y2="4.06" width="0.127" layer="21"/>
-<wire x1="4.57" y1="4.06" x2="4.57" y2="-4.06" width="0.127" layer="21"/>
-<wire x1="4.57" y1="-4.06" x2="-4.57" y2="-4.06" width="0.127" layer="21"/>
-<wire x1="-4.57" y1="-4.06" x2="-4.57" y2="4.06" width="0.127" layer="21"/>
-<text x="0" y="5.08" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
+<package name="APEM-MJS22R">
+<pad name="C1" x="0" y="-2" drill="0.8"/>
+<pad name="NO1" x="-2" y="-2" drill="0.8"/>
+<pad name="NC1" x="2" y="-2" drill="0.8"/>
+<wire x1="-5" y1="-6" x2="5" y2="-6" width="0.127" layer="21"/>
+<wire x1="5" y1="-6" x2="5" y2="0" width="0.127" layer="21"/>
+<wire x1="5" y1="0" x2="-5" y2="0" width="0.127" layer="21"/>
+<wire x1="-5" y1="0" x2="-5" y2="-6" width="0.127" layer="21"/>
+<wire x1="1.75" y1="0" x2="1.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="1.75" y1="2.5" x2="0.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="0.25" y1="2.5" x2="0.25" y2="0" width="0.127" layer="51"/>
+<text x="0" y="-1" size="0.8128" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
+<pad name="C2" x="0" y="-4" drill="0.8"/>
+<pad name="NC2" x="2" y="-4" drill="0.8"/>
+<pad name="NO2" x="-2" y="-4" drill="0.8"/>
 </package>
 </packages>
 <symbols>
-<symbol name="SWITCH-2POS-BUTTON">
-<wire x1="-2.54" y1="0" x2="2.54" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="1.524" x2="2.54" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.032" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<symbol name="SWITCH-2POS">
+<pin name="CM" x="-7.62" y="2.54" visible="off" length="middle" direction="pas"/>
+<pin name="1" x="7.62" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="2" x="7.62" y="-2.54" visible="off" length="middle" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
 <text x="0" y="5.08" size="1.778" layer="94" rot="R180" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
-<pin name="CM" x="-7.62" y="0" visible="pad" length="middle" direction="pas"/>
-<pin name="NO" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="NC" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<text x="0" y="-5.08" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="108-0052-EVX" prefix="SA">
+<deviceset name="MJS22R" prefix="SA">
 <gates>
-<gate name=".1" symbol="SWITCH-2POS-BUTTON" x="0" y="5.08" swaplevel="1"/>
-<gate name=".2" symbol="SWITCH-2POS-BUTTON" x="0" y="-5.08" swaplevel="1"/>
+<gate name=".1" symbol="SWITCH-2POS" x="0" y="7.62" swaplevel="1"/>
+<gate name=".2" symbol="SWITCH-2POS" x="0" y="-7.62" swaplevel="1"/>
 </gates>
 <devices>
-<device name="" package="108-0052-EVX">
+<device name="" package="APEM-MJS22R">
 <connects>
-<connect gate=".1" pin="CM" pad="2"/>
-<connect gate=".1" pin="NC" pad="1"/>
-<connect gate=".1" pin="NO" pad="3"/>
-<connect gate=".2" pin="CM" pad="5"/>
-<connect gate=".2" pin="NC" pad="4"/>
-<connect gate=".2" pin="NO" pad="6"/>
+<connect gate=".1" pin="1" pad="NC1"/>
+<connect gate=".1" pin="2" pad="NO1"/>
+<connect gate=".1" pin="CM" pad="C1"/>
+<connect gate=".2" pin="1" pad="NC2"/>
+<connect gate=".2" pin="2" pad="NO2"/>
+<connect gate=".2" pin="CM" pad="C2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MOUSER" value="108-0052-EVX" constant="no"/>
+<attribute name="MOUSER" value="642-MJS22R" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3489,7 +3491,6 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="GND31" library="supply" deviceset="GND" device=""/>
 <part name="R26" library="resistors" deviceset="?" device="100K"/>
 <part name="GND12" library="supply" deviceset="GND" device=""/>
-<part name="SA1" library="switches" deviceset="108-0052-EVX" device=""/>
 <part name="R9" library="resistors" deviceset="?" device="10K"/>
 <part name="R16" library="resistors" deviceset="?" device="15K"/>
 <part name="C4" library="capacitors" deviceset="?" device="22P"/>
@@ -3516,6 +3517,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="R19" library="potentiometers" deviceset="?" device="B50K**"/>
 <part name="R20" library="potentiometers" deviceset="?" device="B50K**"/>
 <part name="GND24" library="supply" deviceset="GND" device=""/>
+<part name="SA2" library="switches" deviceset="MJS22R" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3624,7 +3626,6 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <instance part="GND31" gate="VR1" x="322.58" y="-180.34"/>
 <instance part="R26" gate="G$1" x="261.62" y="-119.38" rot="R90"/>
 <instance part="GND12" gate="VR1" x="261.62" y="-127"/>
-<instance part="SA1" gate=".1" x="215.9" y="-111.76" rot="MR0"/>
 <instance part="R9" gate="G$1" x="86.36" y="-121.92"/>
 <instance part="R16" gate="G$1" x="109.22" y="-121.92"/>
 <instance part="C4" gate="G$1" x="109.22" y="-114.3"/>
@@ -3638,7 +3639,6 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <instance part="PCB1" gate="G$4" x="144.78" y="-86.36"/>
 <instance part="PCB1" gate="G$5" x="144.78" y="-134.62"/>
 <instance part="PCB1" gate="G$9" x="63.5" y="-208.28"/>
-<instance part="SA1" gate=".2" x="215.9" y="15.24" rot="MR0"/>
 <instance part="VD1" gate="G$1" x="246.38" y="7.62" rot="R90"/>
 <instance part="VD2" gate="G$1" x="238.76" y="7.62" rot="R270"/>
 <instance part="VD3" gate="G$1" x="246.38" y="-119.38" rot="R90"/>
@@ -3660,6 +3660,8 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <instance part="R19" gate="G$1" x="314.96" y="-60.96" rot="R270"/>
 <instance part="R20" gate="G$1" x="312.42" y="-187.96" rot="R270"/>
 <instance part="GND24" gate="VR1" x="312.42" y="-200.66"/>
+<instance part="SA2" gate=".1" x="215.9" y="12.7" rot="MR0"/>
+<instance part="SA2" gate=".2" x="215.9" y="-114.3" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -3723,9 +3725,9 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <label x="81.28" y="-2.54" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SA1" gate=".1" pin="NO"/>
-<wire x1="208.28" y1="-111.76" x2="205.74" y2="-111.76" width="0.1524" layer="91"/>
-<label x="205.74" y="-111.76" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<label x="205.74" y="-116.84" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<pinref part="SA2" gate=".2" pin="2"/>
+<wire x1="208.28" y1="-116.84" x2="205.74" y2="-116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FBK_LEFT" class="0">
@@ -3740,9 +3742,9 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <label x="81.28" y="0" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SA1" gate=".2" pin="NO"/>
-<wire x1="208.28" y1="15.24" x2="205.74" y2="15.24" width="0.1524" layer="91"/>
-<label x="205.74" y="15.24" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<label x="205.74" y="10.16" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<pinref part="SA2" gate=".1" pin="2"/>
+<wire x1="208.28" y1="10.16" x2="205.74" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="P+15V" class="0">
@@ -4268,9 +4270,9 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <label x="124.46" y="-66.04" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SA1" gate=".2" pin="NC"/>
-<wire x1="208.28" y1="17.78" x2="205.74" y2="17.78" width="0.1524" layer="91"/>
-<label x="205.74" y="17.78" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<label x="205.74" y="12.7" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<pinref part="SA2" gate=".1" pin="1"/>
+<wire x1="208.28" y1="12.7" x2="205.74" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$48" class="0">
@@ -4513,9 +4515,9 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <label x="124.46" y="-114.3" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SA1" gate=".1" pin="NC"/>
-<wire x1="208.28" y1="-109.22" x2="205.74" y2="-109.22" width="0.1524" layer="91"/>
-<label x="205.74" y="-109.22" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<label x="205.74" y="-114.3" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<pinref part="SA2" gate=".2" pin="1"/>
+<wire x1="208.28" y1="-114.3" x2="205.74" y2="-114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -4578,16 +4580,16 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="SA1" gate=".2" pin="CM"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="15.24" x2="226.06" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="SA2" gate=".1" pin="CM"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="SA1" gate=".1" pin="CM"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="-111.76" x2="226.06" y2="-111.76" width="0.1524" layer="91"/>
+<pinref part="SA2" gate=".2" pin="CM"/>
 </segment>
 </net>
 </nets>
