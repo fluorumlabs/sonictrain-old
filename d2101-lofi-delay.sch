@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -3725,9 +3725,9 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <label x="81.28" y="-2.54" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="205.74" y="-116.84" size="1.4224" layer="95" rot="R180" xref="yes"/>
-<pinref part="SA2" gate=".2" pin="2"/>
-<wire x1="208.28" y1="-116.84" x2="205.74" y2="-116.84" width="0.1524" layer="91"/>
+<label x="205.74" y="-114.3" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<pinref part="SA2" gate=".2" pin="1"/>
+<wire x1="208.28" y1="-114.3" x2="205.74" y2="-114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FBK_LEFT" class="0">
@@ -3742,9 +3742,9 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <label x="81.28" y="0" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="205.74" y="10.16" size="1.4224" layer="95" rot="R180" xref="yes"/>
-<pinref part="SA2" gate=".1" pin="2"/>
-<wire x1="208.28" y1="10.16" x2="205.74" y2="10.16" width="0.1524" layer="91"/>
+<label x="205.74" y="12.7" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<pinref part="SA2" gate=".1" pin="1"/>
+<wire x1="208.28" y1="12.7" x2="205.74" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="P+15V" class="0">
@@ -4270,9 +4270,9 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <label x="124.46" y="-66.04" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="205.74" y="12.7" size="1.4224" layer="95" rot="R180" xref="yes"/>
-<pinref part="SA2" gate=".1" pin="1"/>
-<wire x1="208.28" y1="12.7" x2="205.74" y2="12.7" width="0.1524" layer="91"/>
+<label x="205.74" y="10.16" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<pinref part="SA2" gate=".1" pin="2"/>
+<wire x1="208.28" y1="10.16" x2="205.74" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$48" class="0">
@@ -4515,9 +4515,9 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <label x="124.46" y="-114.3" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="205.74" y="-114.3" size="1.4224" layer="95" rot="R180" xref="yes"/>
-<pinref part="SA2" gate=".2" pin="1"/>
-<wire x1="208.28" y1="-114.3" x2="205.74" y2="-114.3" width="0.1524" layer="91"/>
+<label x="205.74" y="-116.84" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<pinref part="SA2" gate=".2" pin="2"/>
+<wire x1="208.28" y1="-116.84" x2="205.74" y2="-116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
