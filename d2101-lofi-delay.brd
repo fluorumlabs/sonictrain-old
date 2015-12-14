@@ -914,8 +914,8 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MOUSER" value="77-VJ0805V104MXBPBC" x="10" y="113.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="11.27" y="35.5" size="0.8128" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="C7" library="capacitors-electrolytic" package="E2-5" value="47U/16V" x="93" y="22" smashed="yes" rot="R180">
-<attribute name="MOUSER" value="647-USW1C470MDD" x="186" y="53" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C7" library="capacitors-electrolytic" package="E2-5" value="10U/35V" x="93" y="22" smashed="yes" rot="R180">
+<attribute name="MOUSER" value="647-USW1V100MDD" x="186" y="53" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="93" y="23.5875" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
 </element>
 <element name="R29" library="resistors" package="R-0805" value="10K" x="48" y="13" smashed="yes" rot="R90">
@@ -950,8 +950,8 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MOUSER" value="77-VJ0805V104MXBPBC" x="15" y="27" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="72.77" y="11" size="0.8128" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="C23" library="capacitors-electrolytic" package="E2-5" value="47U/16V" x="71" y="7" smashed="yes" rot="R180">
-<attribute name="MOUSER" value="647-USW1C470MDD" x="183" y="90" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C23" library="capacitors-electrolytic" package="E2-5" value="10U/35V" x="71" y="7" smashed="yes" rot="R180">
+<attribute name="MOUSER" value="647-USW1V100MDD" x="183" y="90" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="71" y="8.5875" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
 </element>
 <element name="R43" library="resistors" package="R-0805" value="1K" x="83" y="23" smashed="yes" rot="R180">
@@ -1061,8 +1061,8 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MOUSER" value="77-VJ0805V104MXBPBC" x="-130" y="243" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="72.77" y="31" size="0.8128" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="C22" library="capacitors-electrolytic" package="E2-5" value="47U/16V" x="71" y="26" smashed="yes">
-<attribute name="MOUSER" value="647-USW1C470MDD" x="-133" y="-197" size="1.778" layer="27" display="off"/>
+<element name="C22" library="capacitors-electrolytic" package="E2-5" value="10U/35V" x="71" y="26" smashed="yes">
+<attribute name="MOUSER" value="647-USW1V100MDD" x="-133" y="-197" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="71" y="24.4125" size="0.8128" layer="25" ratio="15" align="center"/>
 </element>
 <element name="R41" library="resistors" package="R-0805" value="1K" x="83" y="27" smashed="yes" rot="R180">

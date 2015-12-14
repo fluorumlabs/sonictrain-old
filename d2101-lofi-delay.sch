@@ -3412,7 +3412,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="C2" library="capacitors-electrolytic" deviceset="?" device="10U/35V"/>
 <part name="C5" library="capacitors" deviceset="?" device="100N"/>
 <part name="C6" library="capacitors" deviceset="?" device="100N"/>
-<part name="C7" library="capacitors-electrolytic" deviceset="?" device="47U/16V"/>
+<part name="C7" library="capacitors-electrolytic" deviceset="?" device="10U/35V" value="10U/35V"/>
 <part name="R29" library="resistors" deviceset="?" device="10K"/>
 <part name="C15" library="capacitors" deviceset="?" device="100N(FILM)"/>
 <part name="C17" library="capacitors" deviceset="?" device="10N(FILM)"/>
@@ -3421,7 +3421,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="C21" library="capacitors" deviceset="?" device="2N2(FILM)"/>
 <part name="C25" library="capacitors" deviceset="?" device="2N2(FILM)"/>
 <part name="C19" library="capacitors" deviceset="?" device="100N"/>
-<part name="C23" library="capacitors-electrolytic" deviceset="?" device="47U/16V"/>
+<part name="C23" library="capacitors-electrolytic" deviceset="?" device="10U/35V" value="10U/35V"/>
 <part name="R43" library="resistors" deviceset="?" device="1K"/>
 <part name="C31" library="capacitors" deviceset="?" device="100N"/>
 <part name="C35" library="capacitors" deviceset="?" device="100N"/>
@@ -3466,7 +3466,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="C20" library="capacitors" deviceset="?" device="2N2(FILM)"/>
 <part name="C24" library="capacitors" deviceset="?" device="2N2(FILM)"/>
 <part name="C18" library="capacitors" deviceset="?" device="100N"/>
-<part name="C22" library="capacitors-electrolytic" deviceset="?" device="47U/16V"/>
+<part name="C22" library="capacitors-electrolytic" deviceset="?" device="10U/35V" value="10U/35V"/>
 <part name="R41" library="resistors" deviceset="?" device="1K"/>
 <part name="C30" library="capacitors" deviceset="?" device="100N"/>
 <part name="C34" library="capacitors" deviceset="?" device="100N"/>
