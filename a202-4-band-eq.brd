@@ -843,6 +843,30 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C6" library="capacitors" package="C050-024X044" value="100N(TH)" x="90" y="45">
 <attribute name="MOUSER" value="81-RCER71H104K0A2H3B" x="12" y="-171" size="1.778" layer="27" display="off"/>
 </element>
+<element name="O1" library="hardware" package="EMPTY" value="450-AA150(15MM,D,BLACK)" x="-8" y="-109.25">
+<attribute name="MOUSER" value="450-AA150" x="-8" y="-109.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="O2" library="hardware" package="EMPTY" value="450-AA150(15MM,D,BLACK)" x="-9" y="-110.5">
+<attribute name="MOUSER" value="450-AA150" x="-9" y="-110.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="O3" library="hardware" package="EMPTY" value="450-AA150(15MM,D,BLACK)" x="-10" y="-111.75">
+<attribute name="MOUSER" value="450-AA150" x="-10" y="-111.75" size="1.778" layer="27" display="off"/>
+</element>
+<element name="O4" library="hardware" package="EMPTY" value="450-AA150(15MM,D,BLACK)" x="-11" y="-113">
+<attribute name="MOUSER" value="450-AA150" x="-11" y="-113" size="1.778" layer="27" display="off"/>
+</element>
+<element name="O5" library="hardware" package="EMPTY" value="450-CP153(15MM,BLUE/WHITE)" x="-12" y="-114.25">
+<attribute name="MOUSER" value="450-CP153" x="-12" y="-114.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="O6" library="hardware" package="EMPTY" value="450-CP153(15MM,BLUE/WHITE)" x="-13" y="-115.5">
+<attribute name="MOUSER" value="450-CP153" x="-13" y="-115.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="O7" library="hardware" package="EMPTY" value="450-CP153(15MM,BLUE/WHITE)" x="-14" y="-116.75">
+<attribute name="MOUSER" value="450-CP153" x="-14" y="-116.75" size="1.778" layer="27" display="off"/>
+</element>
+<element name="O8" library="hardware" package="EMPTY" value="450-CP153(15MM,BLUE/WHITE)" x="-15" y="-118">
+<attribute name="MOUSER" value="450-CP153" x="-15" y="-118" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
