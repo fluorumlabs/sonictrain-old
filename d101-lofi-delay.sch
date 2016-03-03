@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.1">
+<eagle version="7.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -674,6 +674,17 @@ CERN Open Hardware License v1.2</text>
 <vertex x="10.16" y="-3.048"/>
 </polygon>
 </symbol>
+<symbol name="KNOB">
+<circle x="0" y="0" radius="5.08" width="0.254" layer="94"/>
+<text x="0" y="7.62" size="1.778" layer="96" rot="R180" align="bottom-center">&gt;VALUE</text>
+<circle x="0" y="0" radius="3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="3.81" width="0.254" layer="94"/>
+</symbol>
+<symbol name="KNOB_CAP">
+<text x="0" y="-7.62" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<circle x="0" y="0" radius="3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="3.81" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="?" prefix="U">
@@ -740,6 +751,132 @@ CERN Open Hardware License v1.2</text>
 <device name="ERM1-5MM" package="EMPTY">
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="450-AA?" prefix="O">
+<gates>
+<gate name="G$1" symbol="KNOB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="150C(15MM,D,CLEAR)" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="450-AA150C" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="151(15MM,D,GRAY)" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="450-AA151" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="152(15MM,T18,GRAY)" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="450-AA152" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="152C(15MM,T18,CLEAR)" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="450-AA152C" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="191(19MM,T18,DK.GRAY)" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="450-AA191" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="192(19MM,T18,BLACK)" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="450-AA192" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="150(15MM,D,BLACK)" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="450-AA150" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="450-C?" prefix="O">
+<gates>
+<gate name="G$1" symbol="KNOB_CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="P153(15MM,BLUE/WHITE)" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="450-CP153" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="P155(15MM,GRAY/WHITE)" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="450-CP155" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="P156(15MM,BLACK/WHITE)" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="450-CP156" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="P157(15MM,WHITE/BLACK)" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="450-CP157" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="P158(15MM,CLEAR/BLACK)" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="450-CP158" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="P191(19MM,RED/WHITE)" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="450-CP191" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="P193(19MM,BLUE/WHITE)" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="450-CP193" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="P196(19MM,BLACK/WHITE)" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="450-CP196" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="P195(19MM,GRAY/WHITE)" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="450-CP195" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3518,6 +3655,12 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="R20" library="potentiometers" deviceset="?" device="B50K**"/>
 <part name="GND24" library="supply" deviceset="GND" device=""/>
 <part name="SA2" library="switches" deviceset="MJS22R" device=""/>
+<part name="O2" library="hardware" deviceset="450-AA?" device="150(15MM,D,BLACK)"/>
+<part name="O3" library="hardware" deviceset="450-AA?" device="150(15MM,D,BLACK)"/>
+<part name="O4" library="hardware" deviceset="450-AA?" device="150(15MM,D,BLACK)"/>
+<part name="O5" library="hardware" deviceset="450-C?" device="P155(15MM,GRAY/WHITE)"/>
+<part name="O6" library="hardware" deviceset="450-C?" device="P157(15MM,WHITE/BLACK)"/>
+<part name="O7" library="hardware" deviceset="450-C?" device="P157(15MM,WHITE/BLACK)"/>
 </parts>
 <sheets>
 <sheet>
@@ -3662,6 +3805,12 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <instance part="GND24" gate="VR1" x="312.42" y="-200.66"/>
 <instance part="SA2" gate=".1" x="215.9" y="12.7" rot="MR0"/>
 <instance part="SA2" gate=".2" x="215.9" y="-114.3" rot="MR0"/>
+<instance part="O2" gate="G$1" x="55.88" y="-119.38"/>
+<instance part="O3" gate="G$1" x="289.56" y="-66.04"/>
+<instance part="O4" gate="G$1" x="287.02" y="-193.04"/>
+<instance part="O5" gate="G$1" x="55.88" y="-119.38"/>
+<instance part="O6" gate="G$1" x="289.56" y="-66.04"/>
+<instance part="O7" gate="G$1" x="287.02" y="-193.04"/>
 </instances>
 <busses>
 </busses>
