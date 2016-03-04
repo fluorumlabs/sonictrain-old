@@ -187,8 +187,6 @@
 <wire x1="-6" y1="37" x2="-8" y2="38" width="0.127" layer="43"/>
 <wire x1="-8" y1="38" x2="-8" y2="36" width="0.127" layer="43"/>
 <wire x1="-8" y1="36" x2="-6" y2="37" width="0.127" layer="43"/>
-<text x="97" y="25" size="1.27" layer="21" ratio="15" rot="R90" align="center">fluorumlabs.com</text>
-<text x="98" y="25" size="1.27" layer="21" ratio="15" rot="R270" align="bottom-center">&gt;VALUE</text>
 <rectangle x1="0" y1="7" x2="4" y2="43" layer="39"/>
 <rectangle x1="96" y1="7" x2="100" y2="43" layer="39"/>
 <rectangle x1="0" y1="7" x2="4" y2="43" layer="40"/>
@@ -276,6 +274,8 @@
 <circle x="65" y="4" radius="1.6" width="0.4064" layer="42"/>
 <circle x="35" y="4" radius="1.6" width="0.4064" layer="42"/>
 <circle x="4" y="4" radius="1.6" width="0.4064" layer="42"/>
+<text x="98" y="25" size="1.27" layer="21" ratio="15" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="98" y="25" size="1.27" layer="22" ratio="15" rot="SMR270" align="top-center">fluorumlabs.com</text>
 </package>
 <package name="ST2-BOARD-74">
 <text x="0" y="76" size="2.54" layer="51" align="center-left">TOP</text>
@@ -342,8 +342,6 @@
 <wire x1="-8" y1="12" x2="-6" y2="13" width="0.127" layer="43"/>
 <wire x1="-6" y1="37" x2="-8" y2="38" width="0.127" layer="43"/>
 <wire x1="-8" y1="38" x2="-8" y2="36" width="0.127" layer="43"/>
-<text x="97" y="37" size="1.27" layer="21" ratio="15" rot="R90" align="center">fluorumlabs.com</text>
-<text x="98" y="37" size="1.27" layer="21" ratio="15" rot="R270" align="bottom-center">&gt;VALUE</text>
 <rectangle x1="0" y1="7" x2="4" y2="67" layer="39"/>
 <rectangle x1="96" y1="7" x2="100" y2="67" layer="39"/>
 <rectangle x1="0" y1="7" x2="4" y2="67" layer="40"/>
@@ -438,6 +436,8 @@
 <circle x="65" y="4" radius="1.6" width="0.4064" layer="42"/>
 <circle x="35" y="4" radius="1.6" width="0.4064" layer="42"/>
 <circle x="4" y="4" radius="1.6" width="0.4064" layer="42"/>
+<text x="98" y="37" size="1.27" layer="21" ratio="15" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="98" y="37" size="1.27" layer="22" ratio="15" rot="SMR270" align="top-center">fluorumlabs.com</text>
 </package>
 <package name="ST2-BOARD-26">
 <text x="0" y="28" size="2.54" layer="51" align="center-left">TOP</text>
@@ -493,8 +493,8 @@
 <wire x1="-6" y1="13" x2="-8" y2="14" width="0.127" layer="43"/>
 <wire x1="-8" y1="14" x2="-8" y2="12" width="0.127" layer="43"/>
 <wire x1="-8" y1="12" x2="-6" y2="13" width="0.127" layer="43"/>
-<text x="98" y="13" size="1.27" layer="21" ratio="15" rot="R90" align="top-center">fluorumlabs.com</text>
-<text x="97" y="13" size="1.27" layer="21" ratio="15" rot="R270" align="center">&gt;VALUE</text>
+<text x="98" y="13" size="1.27" layer="21" ratio="15" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="98" y="13" size="1.27" layer="22" ratio="15" rot="SMR270" align="top-center">fluorumlabs.com</text>
 <rectangle x1="0" y1="7" x2="4" y2="19" layer="39"/>
 <rectangle x1="96" y1="7" x2="100" y2="19" layer="39"/>
 <rectangle x1="0" y1="7" x2="4" y2="19" layer="40"/>
@@ -1419,6 +1419,7 @@ type 0207, grid 10 mm</description>
 <wire x1="1.27" y1="0.9525" x2="1.905" y2="0.9525" width="0.1016" layer="21"/>
 <wire x1="1.905" y1="0.9525" x2="1.905" y2="-0.9525" width="0.1016" layer="21"/>
 <wire x1="1.905" y1="-0.9525" x2="1.27" y2="-0.9525" width="0.1016" layer="21"/>
+<rectangle x1="-0.25" y1="-0.75" x2="0.25" y2="0.75" layer="41"/>
 </package>
 </packages>
 <symbols>
@@ -2031,6 +2032,203 @@ type 0207, grid 10 mm</description>
 <technology name="">
 <attribute name="MOUSER" value="660-RK73H2ATTD1204F" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="10M" package="R-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="660-RK73H2ATTD1005F" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="330K" package="R-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="660-RK73H2ATTD3303F" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="33K(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4K7(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="15K(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="20R" package="R-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="660-RK73H2ATTD20R0F" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10R" package="R-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="660-RK73H2ATTD10R0F" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="9K1(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="10M(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="47K(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2K2(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1K8(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="330K(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="27K(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2R(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="8K2(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="6K8(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3K9(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2K7(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5K6(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="20K(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -3702,6 +3900,16 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 </technology>
 </technologies>
 </device>
+<device name="B100K" package="RV11-SINGLE">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -3935,16 +4143,16 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="C19" library="capacitors" deviceset="?" device="2N2(FILM)"/>
 <part name="C13" library="capacitors" deviceset="?" device="100N"/>
 <part name="C17" library="capacitors-electrolytic" deviceset="?" device="10U/35V" value="10U/35V"/>
-<part name="R32" library="resistors" deviceset="?" device="1K"/>
+<part name="R34" library="resistors" deviceset="?" device="1K"/>
 <part name="C25" library="capacitors" deviceset="?" device="100N"/>
 <part name="C29" library="capacitors" deviceset="?" device="100N"/>
 <part name="R21" library="resistors" deviceset="?" device="10K"/>
 <part name="R25" library="resistors" deviceset="?" device="10K"/>
 <part name="R27" library="resistors" deviceset="?" device="10K"/>
-<part name="R29" library="resistors" deviceset="?" device="10K"/>
+<part name="R31" library="resistors" deviceset="?" device="10K"/>
 <part name="R23" library="resistors" deviceset="?" device="15K"/>
 <part name="C23" library="capacitors" deviceset="?" device="10N(FILM)"/>
-<part name="R35" library="resistors" deviceset="?" device="1K"/>
+<part name="R37" library="resistors" deviceset="?" device="1K"/>
 <part name="C31" library="capacitors" deviceset="?" device="47N(FILM)"/>
 <part name="C33" library="capacitors-electrolytic" deviceset="?" device="33U/25V" value="33U/25V"/>
 <part name="GND15" library="supply" deviceset="GND" device=""/>
@@ -3980,16 +4188,16 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="C18" library="capacitors" deviceset="?" device="2N2(FILM)"/>
 <part name="C12" library="capacitors" deviceset="?" device="100N"/>
 <part name="C16" library="capacitors-electrolytic" deviceset="?" device="10U/35V" value="10U/35V"/>
-<part name="R30" library="resistors" deviceset="?" device="1K"/>
+<part name="R32" library="resistors" deviceset="?" device="1K"/>
 <part name="C24" library="capacitors" deviceset="?" device="100N"/>
 <part name="C28" library="capacitors" deviceset="?" device="100N"/>
 <part name="R20" library="resistors" deviceset="?" device="10K"/>
 <part name="R24" library="resistors" deviceset="?" device="10K"/>
 <part name="R26" library="resistors" deviceset="?" device="10K"/>
-<part name="R28" library="resistors" deviceset="?" device="10K"/>
+<part name="R30" library="resistors" deviceset="?" device="10K"/>
 <part name="R22" library="resistors" deviceset="?" device="15K"/>
 <part name="C22" library="capacitors" deviceset="?" device="10N(FILM)"/>
-<part name="R34" library="resistors" deviceset="?" device="1K"/>
+<part name="R36" library="resistors" deviceset="?" device="1K"/>
 <part name="C30" library="capacitors" deviceset="?" device="47N(FILM)"/>
 <part name="C32" library="capacitors-electrolytic" deviceset="?" device="33U/25V" value="33U/25V"/>
 <part name="GND25" library="supply" deviceset="GND" device=""/>
@@ -4027,8 +4235,8 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="R11" library="resistors" deviceset="?" device="10K"/>
 <part name="R14" library="resistors" deviceset="?" device="1K"/>
 <part name="R15" library="resistors" deviceset="?" device="1K"/>
-<part name="R33" library="potentiometers" deviceset="?" device="B50K**"/>
-<part name="R31" library="potentiometers" deviceset="?" device="B50K**"/>
+<part name="R35" library="potentiometers" deviceset="?" device="B100K" value="B100K"/>
+<part name="R33" library="potentiometers" deviceset="?" device="B100K" value="B100K"/>
 <part name="GND24" library="supply" deviceset="GND" device=""/>
 <part name="SA1" library="switches" deviceset="MJS22R" device=""/>
 <part name="O1" library="hardware" deviceset="450-AA?" device="150(15MM,D,BLACK)"/>
@@ -4047,6 +4255,8 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="U9" library="hardware" deviceset="*?" device="NUT-M2-SELFLOCK"/>
 <part name="U12" library="hardware" deviceset="*?" device="D-SHAFT-ADAPTER"/>
 <part name="U11" library="hardware" deviceset="*?" device="D-SHAFT-ADAPTER"/>
+<part name="R29" library="resistors" deviceset="?" device="100K"/>
+<part name="R28" library="resistors" deviceset="?" device="100K"/>
 </parts>
 <sheets>
 <sheet>
@@ -4085,16 +4295,16 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <instance part="C19" gate="G$1" x="302.26" y="-2.54"/>
 <instance part="C13" gate="G$1" x="289.56" y="-45.72" rot="R90"/>
 <instance part="C17" gate="G$1" x="294.64" y="-45.72" rot="R270"/>
-<instance part="R32" gate="G$1" x="314.96" y="-48.26" rot="R90"/>
+<instance part="R34" gate="G$1" x="314.96" y="-45.72" rot="R90"/>
 <instance part="C25" gate="G$1" x="320.04" y="-45.72" rot="R90"/>
 <instance part="C29" gate="G$1" x="325.12" y="-45.72" rot="R90"/>
 <instance part="R21" gate="G$1" x="289.56" y="7.62" rot="R90"/>
 <instance part="R25" gate="G$1" x="299.72" y="7.62" rot="R90"/>
 <instance part="R27" gate="G$1" x="304.8" y="7.62" rot="R90"/>
-<instance part="R29" gate="G$1" x="309.88" y="7.62" rot="R90"/>
+<instance part="R31" gate="G$1" x="309.88" y="7.62" rot="R90"/>
 <instance part="R23" gate="G$1" x="294.64" y="7.62" rot="R90"/>
 <instance part="C23" gate="G$1" x="317.5" y="10.16" rot="R90"/>
-<instance part="R35" gate="G$1" x="332.74" y="15.24"/>
+<instance part="R37" gate="G$1" x="332.74" y="15.24"/>
 <instance part="C31" gate="G$1" x="340.36" y="10.16" rot="R90"/>
 <instance part="C33" gate="G$1" x="345.44" y="15.24"/>
 <instance part="GND15" gate="VR1" x="281.94" y="0"/>
@@ -4130,16 +4340,16 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <instance part="C18" gate="G$1" x="299.72" y="-129.54"/>
 <instance part="C12" gate="G$1" x="287.02" y="-172.72" rot="R90"/>
 <instance part="C16" gate="G$1" x="292.1" y="-172.72" rot="R270"/>
-<instance part="R30" gate="G$1" x="312.42" y="-175.26" rot="R90"/>
+<instance part="R32" gate="G$1" x="312.42" y="-172.72" rot="R90"/>
 <instance part="C24" gate="G$1" x="317.5" y="-172.72" rot="R90"/>
 <instance part="C28" gate="G$1" x="322.58" y="-172.72" rot="R90"/>
 <instance part="R20" gate="G$1" x="287.02" y="-119.38" rot="R90"/>
 <instance part="R24" gate="G$1" x="297.18" y="-119.38" rot="R90"/>
 <instance part="R26" gate="G$1" x="302.26" y="-119.38" rot="R90"/>
-<instance part="R28" gate="G$1" x="307.34" y="-119.38" rot="R90"/>
+<instance part="R30" gate="G$1" x="307.34" y="-119.38" rot="R90"/>
 <instance part="R22" gate="G$1" x="292.1" y="-119.38" rot="R90"/>
 <instance part="C22" gate="G$1" x="314.96" y="-116.84" rot="R90"/>
-<instance part="R34" gate="G$1" x="330.2" y="-111.76"/>
+<instance part="R36" gate="G$1" x="330.2" y="-111.76"/>
 <instance part="C30" gate="G$1" x="337.82" y="-116.84" rot="R90"/>
 <instance part="C32" gate="G$1" x="342.9" y="-111.76"/>
 <instance part="GND25" gate="VR1" x="314.96" y="-73.66"/>
@@ -4185,8 +4395,8 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <instance part="R11" gate="G$1" x="86.36" y="-152.4"/>
 <instance part="R14" gate="G$1" x="231.14" y="15.24"/>
 <instance part="R15" gate="G$1" x="231.14" y="-111.76"/>
-<instance part="R33" gate="G$1" x="314.96" y="-60.96" rot="R270"/>
-<instance part="R31" gate="G$1" x="312.42" y="-187.96" rot="R270"/>
+<instance part="R35" gate="G$1" x="314.96" y="-60.96" rot="R270"/>
+<instance part="R33" gate="G$1" x="312.42" y="-187.96" rot="R270"/>
 <instance part="GND24" gate="VR1" x="312.42" y="-200.66"/>
 <instance part="SA1" gate=".1" x="215.9" y="12.7" rot="MR0"/>
 <instance part="SA1" gate=".2" x="215.9" y="-114.3" rot="MR0"/>
@@ -4206,6 +4416,8 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <instance part="U9" gate="G$1" x="132.08" y="12.7"/>
 <instance part="U12" gate="G$1" x="284.48" y="-76.2"/>
 <instance part="U11" gate="G$1" x="281.94" y="-203.2"/>
+<instance part="R29" gate="G$1" x="307.34" y="-60.96" rot="R90"/>
+<instance part="R28" gate="G$1" x="304.8" y="-187.96" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -4354,7 +4566,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <wire x1="317.5" y1="15.24" x2="317.5" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="R25" gate="G$1" pin="2"/>
 <pinref part="R27" gate="G$1" pin="2"/>
-<pinref part="R29" gate="G$1" pin="2"/>
+<pinref part="R31" gate="G$1" pin="2"/>
 <pinref part="C23" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -4391,7 +4603,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="322.58" y1="22.86" x2="322.58" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="15.24" x2="327.66" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="R35" gate="G$1" pin="1"/>
+<pinref part="R37" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -4411,7 +4623,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="309.88" y1="-2.54" x2="309.88" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="309.88" y="-2.54"/>
-<pinref part="R29" gate="G$1" pin="1"/>
+<pinref part="R31" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -4441,7 +4653,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <wire x1="340.36" y1="15.24" x2="340.36" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="15.24" x2="340.36" y2="15.24" width="0.1524" layer="91"/>
 <junction x="340.36" y="15.24"/>
-<pinref part="R35" gate="G$1" pin="2"/>
+<pinref part="R37" gate="G$1" pin="2"/>
 <pinref part="C31" gate="G$1" pin="2"/>
 <pinref part="C33" gate="G$1" pin="+"/>
 </segment>
@@ -4463,8 +4675,8 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <net name="N$33" class="0">
 <segment>
 <pinref part="DD2" gate="G$1" pin="6"/>
-<wire x1="314.96" y1="-38.1" x2="314.96" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="R32" gate="G$1" pin="2"/>
+<wire x1="314.96" y1="-38.1" x2="314.96" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="R34" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$44" class="0">
@@ -4684,8 +4896,11 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <wire x1="322.58" y1="-60.96" x2="322.58" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-68.58" x2="314.96" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="314.96" y="-68.58"/>
-<pinref part="R33" gate="G$1" pin="CW"/>
-<pinref part="R33" gate="G$1" pin="W"/>
+<pinref part="R35" gate="G$1" pin="CW"/>
+<pinref part="R35" gate="G$1" pin="W"/>
+<pinref part="R29" gate="G$1" pin="1"/>
+<wire x1="307.34" y1="-66.04" x2="307.34" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="-68.58" x2="314.96" y2="-68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="279.4" y1="-119.38" x2="279.4" y2="-124.46" width="0.1524" layer="91"/>
@@ -4765,15 +4980,18 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <pinref part="GND11" gate="VR1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R31" gate="G$1" pin="CW"/>
+<pinref part="R33" gate="G$1" pin="CW"/>
 <pinref part="GND24" gate="VR1" pin="GND"/>
 <wire x1="312.42" y1="-193.04" x2="312.42" y2="-195.58" width="0.1524" layer="91"/>
-<pinref part="R31" gate="G$1" pin="W"/>
+<pinref part="R33" gate="G$1" pin="W"/>
 <wire x1="312.42" y1="-195.58" x2="312.42" y2="-198.12" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="-187.96" x2="320.04" y2="-187.96" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="-187.96" x2="320.04" y2="-195.58" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="-195.58" x2="312.42" y2="-195.58" width="0.1524" layer="91"/>
 <junction x="312.42" y="-195.58"/>
+<pinref part="R28" gate="G$1" pin="1"/>
+<wire x1="304.8" y1="-193.04" x2="304.8" y2="-195.58" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="-195.58" x2="312.42" y2="-195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -4832,7 +5050,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <wire x1="314.96" y1="-111.76" x2="314.96" y2="-114.3" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="2"/>
 <pinref part="R26" gate="G$1" pin="2"/>
-<pinref part="R28" gate="G$1" pin="2"/>
+<pinref part="R30" gate="G$1" pin="2"/>
 <pinref part="C22" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -4869,7 +5087,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <pinref part="R24" gate="G$1" pin="1"/>
 <wire x1="320.04" y1="-104.14" x2="320.04" y2="-111.76" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="-111.76" x2="325.12" y2="-111.76" width="0.1524" layer="91"/>
-<pinref part="R34" gate="G$1" pin="1"/>
+<pinref part="R36" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$52" class="0">
@@ -4889,7 +5107,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="-129.54" x2="307.34" y2="-134.62" width="0.1524" layer="91"/>
 <junction x="307.34" y="-129.54"/>
-<pinref part="R28" gate="G$1" pin="1"/>
+<pinref part="R30" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$54" class="0">
@@ -4919,7 +5137,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <wire x1="337.82" y1="-111.76" x2="337.82" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="-111.76" x2="337.82" y2="-111.76" width="0.1524" layer="91"/>
 <junction x="337.82" y="-111.76"/>
-<pinref part="R34" gate="G$1" pin="2"/>
+<pinref part="R36" gate="G$1" pin="2"/>
 <pinref part="C30" gate="G$1" pin="2"/>
 <pinref part="C32" gate="G$1" pin="+"/>
 </segment>
@@ -4941,8 +5159,8 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <net name="N$60" class="0">
 <segment>
 <pinref part="DD1" gate="G$1" pin="6"/>
-<wire x1="312.42" y1="-165.1" x2="312.42" y2="-170.18" width="0.1524" layer="91"/>
-<pinref part="R30" gate="G$1" pin="2"/>
+<wire x1="312.42" y1="-165.1" x2="312.42" y2="-167.64" width="0.1524" layer="91"/>
+<pinref part="R32" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$62" class="0">
@@ -5066,16 +5284,26 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R32" gate="G$1" pin="1"/>
+<pinref part="R34" gate="G$1" pin="1"/>
 <wire x1="314.96" y1="-55.88" x2="314.96" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="R33" gate="G$1" pin="CCW"/>
+<pinref part="R35" gate="G$1" pin="CCW"/>
+<pinref part="R29" gate="G$1" pin="2"/>
+<wire x1="314.96" y1="-53.34" x2="314.96" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="-55.88" x2="307.34" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="-53.34" x2="314.96" y2="-53.34" width="0.1524" layer="91"/>
+<junction x="314.96" y="-53.34"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R30" gate="G$1" pin="1"/>
+<pinref part="R32" gate="G$1" pin="1"/>
 <wire x1="312.42" y1="-182.88" x2="312.42" y2="-180.34" width="0.1524" layer="91"/>
-<pinref part="R31" gate="G$1" pin="CCW"/>
+<pinref part="R33" gate="G$1" pin="CCW"/>
+<pinref part="R28" gate="G$1" pin="2"/>
+<wire x1="312.42" y1="-180.34" x2="312.42" y2="-177.8" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="-182.88" x2="304.8" y2="-180.34" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="-180.34" x2="312.42" y2="-180.34" width="0.1524" layer="91"/>
+<junction x="312.42" y="-180.34"/>
 </segment>
 </net>
 <net name="N$11" class="0">
