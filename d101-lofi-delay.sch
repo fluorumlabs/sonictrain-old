@@ -4114,7 +4114,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 </class>
 </classes>
 <parts>
-<part name="PCB1" library="module-footprints" deviceset="ST2-BOARD-?" device="50" value="D101 rev.A"/>
+<part name="PCB1" library="module-footprints" deviceset="ST2-BOARD-?" device="50" value="D104 rev.A"/>
 <part name="U5" library="hardware" deviceset="?" device="FX2-20P-1.27DS"/>
 <part name="U10" library="hardware" deviceset="?" device="FX2-20S-1.27DS"/>
 <part name="PWR1" library="f-supply" deviceset="+15V" device=""/>
@@ -4253,8 +4253,6 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="U4" library="hardware" deviceset="*?" device="NUT-M2-SELFLOCK"/>
 <part name="U8" library="hardware" deviceset="*?" device="NUT-M2-SELFLOCK"/>
 <part name="U9" library="hardware" deviceset="*?" device="NUT-M2-SELFLOCK"/>
-<part name="U12" library="hardware" deviceset="*?" device="D-SHAFT-ADAPTER"/>
-<part name="U11" library="hardware" deviceset="*?" device="D-SHAFT-ADAPTER"/>
 <part name="R29" library="resistors" deviceset="?" device="100K"/>
 <part name="R28" library="resistors" deviceset="?" device="100K"/>
 </parts>
@@ -4414,8 +4412,6 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <instance part="U4" gate="G$1" x="99.06" y="12.7"/>
 <instance part="U8" gate="G$1" x="132.08" y="15.24"/>
 <instance part="U9" gate="G$1" x="132.08" y="12.7"/>
-<instance part="U12" gate="G$1" x="284.48" y="-76.2"/>
-<instance part="U11" gate="G$1" x="281.94" y="-203.2"/>
 <instance part="R29" gate="G$1" x="307.34" y="-60.96" rot="R90"/>
 <instance part="R28" gate="G$1" x="304.8" y="-187.96" rot="R90"/>
 </instances>
