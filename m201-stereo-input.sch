@@ -187,8 +187,6 @@
 <wire x1="-6" y1="37" x2="-8" y2="38" width="0.127" layer="43"/>
 <wire x1="-8" y1="38" x2="-8" y2="36" width="0.127" layer="43"/>
 <wire x1="-8" y1="36" x2="-6" y2="37" width="0.127" layer="43"/>
-<text x="97" y="25" size="1.27" layer="21" ratio="15" rot="R90" align="center">fluorumlabs.com</text>
-<text x="98" y="25" size="1.27" layer="21" ratio="15" rot="R270" align="bottom-center">&gt;VALUE</text>
 <rectangle x1="0" y1="7" x2="4" y2="43" layer="39"/>
 <rectangle x1="96" y1="7" x2="100" y2="43" layer="39"/>
 <rectangle x1="0" y1="7" x2="4" y2="43" layer="40"/>
@@ -276,6 +274,8 @@
 <circle x="65" y="4" radius="1.6" width="0.4064" layer="42"/>
 <circle x="35" y="4" radius="1.6" width="0.4064" layer="42"/>
 <circle x="4" y="4" radius="1.6" width="0.4064" layer="42"/>
+<text x="98" y="25" size="1.27" layer="21" ratio="15" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="98" y="25" size="1.27" layer="22" ratio="15" rot="SMR270" align="top-center">fluorumlabs.com</text>
 </package>
 <package name="ST2-BOARD-74">
 <text x="0" y="76" size="2.54" layer="51" align="center-left">TOP</text>
@@ -342,8 +342,6 @@
 <wire x1="-8" y1="12" x2="-6" y2="13" width="0.127" layer="43"/>
 <wire x1="-6" y1="37" x2="-8" y2="38" width="0.127" layer="43"/>
 <wire x1="-8" y1="38" x2="-8" y2="36" width="0.127" layer="43"/>
-<text x="97" y="37" size="1.27" layer="21" ratio="15" rot="R90" align="center">fluorumlabs.com</text>
-<text x="98" y="37" size="1.27" layer="21" ratio="15" rot="R270" align="bottom-center">&gt;VALUE</text>
 <rectangle x1="0" y1="7" x2="4" y2="67" layer="39"/>
 <rectangle x1="96" y1="7" x2="100" y2="67" layer="39"/>
 <rectangle x1="0" y1="7" x2="4" y2="67" layer="40"/>
@@ -438,6 +436,8 @@
 <circle x="65" y="4" radius="1.6" width="0.4064" layer="42"/>
 <circle x="35" y="4" radius="1.6" width="0.4064" layer="42"/>
 <circle x="4" y="4" radius="1.6" width="0.4064" layer="42"/>
+<text x="98" y="37" size="1.27" layer="21" ratio="15" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="98" y="37" size="1.27" layer="22" ratio="15" rot="SMR270" align="top-center">fluorumlabs.com</text>
 </package>
 <package name="ST2-BOARD-26">
 <text x="0" y="28" size="2.54" layer="51" align="center-left">TOP</text>
@@ -493,8 +493,8 @@
 <wire x1="-6" y1="13" x2="-8" y2="14" width="0.127" layer="43"/>
 <wire x1="-8" y1="14" x2="-8" y2="12" width="0.127" layer="43"/>
 <wire x1="-8" y1="12" x2="-6" y2="13" width="0.127" layer="43"/>
-<text x="98" y="13" size="1.27" layer="21" ratio="15" rot="R90" align="top-center">fluorumlabs.com</text>
-<text x="97" y="13" size="1.27" layer="21" ratio="15" rot="R270" align="center">&gt;VALUE</text>
+<text x="98" y="13" size="1.27" layer="21" ratio="15" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="98" y="13" size="1.27" layer="22" ratio="15" rot="SMR270" align="top-center">fluorumlabs.com</text>
 <rectangle x1="0" y1="7" x2="4" y2="19" layer="39"/>
 <rectangle x1="96" y1="7" x2="100" y2="19" layer="39"/>
 <rectangle x1="0" y1="7" x2="4" y2="19" layer="40"/>
@@ -4114,7 +4114,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 </class>
 </classes>
 <parts>
-<part name="PCB1" library="module-footprints" deviceset="ST2-BOARD-?" device="50" value="M201 rev.C"/>
+<part name="PCB1" library="module-footprints" deviceset="ST2-BOARD-?" device="50" value="M202 rev.C"/>
 <part name="XS1" library="connectors" deviceset="35RAPC4BHN2" device=""/>
 <part name="SA1" library="switches" deviceset="MJS12R" device=""/>
 <part name="L1" library="inductors" deviceset="BL01RN1A?" device="1F1J"/>
