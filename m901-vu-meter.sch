@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.1">
+<eagle version="7.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -119,34 +119,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="text">
-<packages>
-<package name="EMPTY">
-</package>
-</packages>
-<symbols>
-<symbol name="TITLE">
-<text x="0" y="0" size="5.08" layer="94" ratio="15">&gt;DRAWING_NAME</text>
-<text x="0" y="-2.54" size="1.778" layer="94" align="top-left">Copyright (c) 2015 fluorumlabs.com
-CERN Open Hardware License v1.2</text>
-<text x="0" y="-10.16" size="1.778" layer="94" align="top-left">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TITLE" prefix="O" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="TITLE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="EMPTY">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="module-footprints">
 <packages>
 <package name="ST2-BOARD-26">
@@ -203,8 +175,8 @@ CERN Open Hardware License v1.2</text>
 <wire x1="-6" y1="13" x2="-8" y2="14" width="0.127" layer="43"/>
 <wire x1="-8" y1="14" x2="-8" y2="12" width="0.127" layer="43"/>
 <wire x1="-8" y1="12" x2="-6" y2="13" width="0.127" layer="43"/>
-<text x="98" y="13" size="1.27" layer="21" ratio="15" rot="R90" align="top-center">&gt;DRAWING_NAME</text>
-<text x="97" y="13" size="1.27" layer="21" ratio="15" rot="R270" align="center">&gt;VALUE</text>
+<text x="98" y="13" size="1.27" layer="21" ratio="15" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="98" y="13" size="1.27" layer="22" ratio="15" rot="SMR270" align="top-center">fluorumlabs.com</text>
 <rectangle x1="0" y1="7" x2="4" y2="19" layer="39"/>
 <rectangle x1="96" y1="7" x2="100" y2="19" layer="39"/>
 <rectangle x1="0" y1="7" x2="4" y2="19" layer="40"/>
@@ -284,6 +256,14 @@ CERN Open Hardware License v1.2</text>
 <circle x="59.025" y="15.595" radius="1.6" width="0.4064" layer="42"/>
 <circle x="40.975" y="5.405" radius="1.6" width="0.4064" layer="42"/>
 <circle x="59.025" y="5.405" radius="1.6" width="0.4064" layer="42"/>
+<circle x="4" y="22" radius="1.6" width="0.4064" layer="42"/>
+<circle x="4" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="35" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="35" y="22" radius="1.6" width="0.4064" layer="42"/>
+<circle x="65" y="22" radius="1.6" width="0.4064" layer="42"/>
+<circle x="65" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="96" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="96" y="22" radius="1.6" width="0.4064" layer="42"/>
 </package>
 <package name="ST2-BOARD-50">
 <text x="0" y="52" size="2.54" layer="51" align="center-left">TOP</text>
@@ -351,8 +331,6 @@ CERN Open Hardware License v1.2</text>
 <wire x1="-6" y1="37" x2="-8" y2="38" width="0.127" layer="43"/>
 <wire x1="-8" y1="38" x2="-8" y2="36" width="0.127" layer="43"/>
 <wire x1="-8" y1="36" x2="-6" y2="37" width="0.127" layer="43"/>
-<text x="97" y="25" size="1.27" layer="21" ratio="15" rot="R90" align="center">&gt;DRAWING_NAME</text>
-<text x="98" y="25" size="1.27" layer="21" ratio="15" rot="R270" align="bottom-center">&gt;VALUE</text>
 <rectangle x1="0" y1="7" x2="4" y2="43" layer="39"/>
 <rectangle x1="96" y1="7" x2="100" y2="43" layer="39"/>
 <rectangle x1="0" y1="7" x2="4" y2="43" layer="40"/>
@@ -432,6 +410,16 @@ CERN Open Hardware License v1.2</text>
 <circle x="59.025" y="39.595" radius="1.6" width="0.4064" layer="42"/>
 <circle x="40.975" y="5.405" radius="1.6" width="0.4064" layer="42"/>
 <circle x="59.025" y="5.405" radius="1.6" width="0.4064" layer="42"/>
+<circle x="4" y="46" radius="1.6" width="0.4064" layer="42"/>
+<circle x="35" y="46" radius="1.6" width="0.4064" layer="42"/>
+<circle x="65" y="46" radius="1.6" width="0.4064" layer="42"/>
+<circle x="96" y="46" radius="1.6" width="0.4064" layer="42"/>
+<circle x="96" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="65" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="35" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="4" y="4" radius="1.6" width="0.4064" layer="42"/>
+<text x="98" y="25" size="1.27" layer="21" ratio="15" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="98" y="25" size="1.27" layer="22" ratio="15" rot="SMR270" align="top-center">fluorumlabs.com</text>
 </package>
 <package name="ST2-BOARD-74">
 <text x="0" y="76" size="2.54" layer="51" align="center-left">TOP</text>
@@ -498,8 +486,6 @@ CERN Open Hardware License v1.2</text>
 <wire x1="-8" y1="12" x2="-6" y2="13" width="0.127" layer="43"/>
 <wire x1="-6" y1="37" x2="-8" y2="38" width="0.127" layer="43"/>
 <wire x1="-8" y1="38" x2="-8" y2="36" width="0.127" layer="43"/>
-<text x="97" y="37" size="1.27" layer="21" ratio="15" rot="R90" align="center">&gt;DRAWING_NAME</text>
-<text x="98" y="37" size="1.27" layer="21" ratio="15" rot="R270" align="bottom-center">&gt;VALUE</text>
 <rectangle x1="0" y1="7" x2="4" y2="67" layer="39"/>
 <rectangle x1="96" y1="7" x2="100" y2="67" layer="39"/>
 <rectangle x1="0" y1="7" x2="4" y2="67" layer="40"/>
@@ -586,15 +572,25 @@ CERN Open Hardware License v1.2</text>
 <wire x1="-6" y1="61" x2="-8" y2="62" width="0.127" layer="43"/>
 <wire x1="-8" y1="62" x2="-8" y2="60" width="0.127" layer="43"/>
 <wire x1="-8" y1="60" x2="-6" y2="61" width="0.127" layer="43"/>
+<circle x="4" y="70" radius="1.6" width="0.4064" layer="42"/>
+<circle x="35" y="70" radius="1.6" width="0.4064" layer="42"/>
+<circle x="65" y="70" radius="1.6" width="0.4064" layer="42"/>
+<circle x="96" y="70" radius="1.6" width="0.4064" layer="42"/>
+<circle x="96" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="65" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="35" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="4" y="4" radius="1.6" width="0.4064" layer="42"/>
+<text x="98" y="37" size="1.27" layer="21" ratio="15" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="98" y="37" size="1.27" layer="22" ratio="15" rot="SMR270" align="top-center">fluorumlabs.com</text>
 </package>
 </packages>
 <symbols>
 <symbol name="VERSION">
 <text x="0" y="0" size="2.1844" layer="94" ratio="15" align="center">&gt;VALUE</text>
-<wire x1="-12.7" y1="2.54" x2="12.7" y2="2.54" width="1.016" layer="94"/>
-<wire x1="12.7" y1="2.54" x2="12.7" y2="-2.54" width="1.016" layer="94"/>
-<wire x1="12.7" y1="-2.54" x2="-12.7" y2="-2.54" width="1.016" layer="94"/>
-<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="2.54" width="1.016" layer="94"/>
+<wire x1="-20.32" y1="2.54" x2="20.32" y2="2.54" width="1.016" layer="94"/>
+<wire x1="20.32" y1="2.54" x2="20.32" y2="-2.54" width="1.016" layer="94"/>
+<wire x1="20.32" y1="-2.54" x2="-20.32" y2="-2.54" width="1.016" layer="94"/>
+<wire x1="-20.32" y1="-2.54" x2="-20.32" y2="2.54" width="1.016" layer="94"/>
 </symbol>
 <symbol name="INL">
 <pin name="INL" x="20.32" y="0" visible="off" rot="R180"/>
@@ -1836,6 +1832,10 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <vertex x="10.16" y="-3.048"/>
 </polygon>
 </symbol>
+<symbol name="MISC_COMPONENT_MINI">
+<text x="6.35" y="0" size="1.4224" layer="94" ratio="15">&gt;VALUE</text>
+<text x="0" y="0" size="1.4224" layer="94" rot="MR0" align="bottom-right">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="?" prefix="U">
@@ -1900,6 +1900,33 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 </technologies>
 </device>
 <device name="ERM1-5MM" package="EMPTY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="*?" prefix="U">
+<gates>
+<gate name="G$1" symbol="MISC_COMPONENT_MINI" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="SCREW-M2X8" package="EMPTY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NUT-M2-SELFLOCK" package="EMPTY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FADER-KNOB-8MM(BLACK/WHITE)" package="EMPTY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D-SHAFT-ADAPTER" package="EMPTY">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -3145,8 +3172,7 @@ type 0207, grid 10 mm</description>
 </class>
 </classes>
 <parts>
-<part name="O1" library="text" deviceset="TITLE" device=""/>
-<part name="PCB1" library="module-footprints" deviceset="ST2-BOARD-?" device="26" value="rev.A"/>
+<part name="PCB1" library="module-footprints" deviceset="ST2-BOARD-?" device="26" value="M907 rev.A"/>
 <part name="L1" library="inductors" deviceset="BL01RN1A?" device="1F1J"/>
 <part name="C5" library="capacitors-electrolytic" deviceset="?" device="10U/35V" value="10U/35V"/>
 <part name="PWR3" library="supply" deviceset="+15V" device=""/>
@@ -3202,14 +3228,21 @@ type 0207, grid 10 mm</description>
 <part name="U10" library="hardware" deviceset="?" device="ERM1-5MM"/>
 <part name="U11" library="hardware" deviceset="?" device="ERM1-5MM"/>
 <part name="U12" library="hardware" deviceset="?" device="ERM1-5MM"/>
+<part name="U13" library="hardware" deviceset="*?" device="SCREW-M2X8"/>
+<part name="U14" library="hardware" deviceset="*?" device="SCREW-M2X8"/>
+<part name="U15" library="hardware" deviceset="*?" device="SCREW-M2X8"/>
+<part name="U16" library="hardware" deviceset="*?" device="SCREW-M2X8"/>
+<part name="U17" library="hardware" deviceset="*?" device="NUT-M2-SELFLOCK"/>
+<part name="U18" library="hardware" deviceset="*?" device="NUT-M2-SELFLOCK"/>
+<part name="U19" library="hardware" deviceset="*?" device="NUT-M2-SELFLOCK"/>
+<part name="U20" library="hardware" deviceset="*?" device="NUT-M2-SELFLOCK"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="O1" gate="G$1" x="0" y="231.14"/>
-<instance part="PCB1" gate="G$1" x="93.98" y="233.68"/>
+<instance part="PCB1" gate="G$1" x="20.32" y="213.36"/>
 <instance part="PCB1" gate="G$2" x="12.7" y="147.32"/>
 <instance part="PCB1" gate="G$3" x="12.7" y="104.14"/>
 <instance part="PCB1" gate="G$4" x="12.7" y="142.24" rot="R180"/>
@@ -3227,8 +3260,8 @@ type 0207, grid 10 mm</description>
 <instance part="GND8" gate="VR1" x="134.62" y="20.32"/>
 <instance part="PCB1" gate="G$8" x="12.7" y="157.48"/>
 <instance part="PCB1" gate="G$9" x="12.7" y="35.56"/>
-<instance part="U3" gate="G$1" x="86.36" y="205.74"/>
-<instance part="U4" gate="G$1" x="86.36" y="198.12"/>
+<instance part="U3" gate="G$1" x="58.42" y="213.36"/>
+<instance part="U4" gate="G$1" x="86.36" y="213.36"/>
 <instance part="C1" gate="G$1" x="81.28" y="35.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="79.248" y="35.56" size="1.778" layer="94" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="83.82" y="43.18" size="1.778" layer="96" rot="R180" align="bottom-center"/>
@@ -3283,6 +3316,14 @@ type 0207, grid 10 mm</description>
 <instance part="U10" gate="G$1" x="149.86" y="83.82"/>
 <instance part="U11" gate="G$1" x="149.86" y="76.2"/>
 <instance part="U12" gate="G$1" x="149.86" y="68.58"/>
+<instance part="U13" gate="G$1" x="48.26" y="205.74"/>
+<instance part="U14" gate="G$1" x="48.26" y="203.2"/>
+<instance part="U15" gate="G$1" x="76.2" y="205.74"/>
+<instance part="U16" gate="G$1" x="76.2" y="203.2"/>
+<instance part="U17" gate="G$1" x="48.26" y="200.66"/>
+<instance part="U18" gate="G$1" x="48.26" y="198.12"/>
+<instance part="U19" gate="G$1" x="76.2" y="200.66"/>
+<instance part="U20" gate="G$1" x="76.2" y="198.12"/>
 </instances>
 <busses>
 </busses>
@@ -3736,10 +3777,4 @@ type 0207, grid 10 mm</description>
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
