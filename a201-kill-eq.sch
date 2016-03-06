@@ -3505,7 +3505,7 @@ type 0207, grid 10 mm</description>
 </class>
 </classes>
 <parts>
-<part name="PCB1" library="module-footprints" deviceset="ST2-BOARD-?" device="50" value="A201 rev.A"/>
+<part name="PCB1" library="module-footprints" deviceset="ST2-BOARD-?" device="50" value="A212 rev.A"/>
 <part name="U6" library="hardware" deviceset="?" device="FX2-20P-1.27DS"/>
 <part name="U11" library="hardware" deviceset="?" device="FX2-20S-1.27DS"/>
 <part name="U2" library="hardware" deviceset="*?" device="SCREW-M2X8"/>
