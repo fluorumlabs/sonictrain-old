@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1825,37 +1825,6 @@ type 0207, grid 10 mm</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="text">
-<packages>
-<package name="EMPTY">
-</package>
-</packages>
-<symbols>
-<symbol name="TITLE">
-<text x="0" y="0" size="5.08" layer="94" ratio="15">&gt;DRAWING_NAME</text>
-<text x="20.828" y="-2.54" size="1.778" layer="94" ratio="15" align="top-left">&gt;LAST_DATE_TIME</text>
-<text x="0" y="-2.54" size="1.778" layer="94" align="top-left">Last Modified:
-
-Copyright (c) 2015 fluorumlabs.com
-CERN Open Hardware License v1.2</text>
-<text x="0" y="-15.24" size="1.778" layer="94" align="top-left">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TITLE" prefix="O" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="TITLE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="EMPTY">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="module-footprints">
 <packages>
 <package name="ST2-BOARD-50-PSU">
@@ -1925,8 +1894,6 @@ CERN Open Hardware License v1.2</text>
 <wire x1="-6" y1="37" x2="-8" y2="38" width="0.127" layer="43"/>
 <wire x1="-8" y1="38" x2="-8" y2="36" width="0.127" layer="43"/>
 <wire x1="-8" y1="36" x2="-6" y2="37" width="0.127" layer="43"/>
-<text x="97" y="25" size="1.27" layer="21" ratio="15" rot="R270" align="center">&gt;DRAWING_NAME</text>
-<text x="99" y="25" size="1.27" layer="21" ratio="15" rot="R90" align="bottom-center">&gt;VALUE</text>
 <rectangle x1="0" y1="7" x2="4" y2="43" layer="39"/>
 <rectangle x1="96" y1="7" x2="100" y2="43" layer="39"/>
 <rectangle x1="0" y1="7" x2="4" y2="43" layer="40"/>
@@ -1969,15 +1936,25 @@ CERN Open Hardware License v1.2</text>
 <circle x="4" y="4" radius="1.6" width="0.4064" layer="41"/>
 <circle x="40.975" y="39.595" radius="1.6" width="0.4064" layer="42"/>
 <circle x="59.025" y="39.595" radius="1.6" width="0.4064" layer="42"/>
+<circle x="4" y="46" radius="1.6" width="0.4064" layer="42"/>
+<circle x="35" y="46" radius="1.6" width="0.4064" layer="42"/>
+<circle x="65" y="46" radius="1.6" width="0.4064" layer="42"/>
+<circle x="96" y="46" radius="1.6" width="0.4064" layer="42"/>
+<circle x="96" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="65" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="35" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="4" y="4" radius="1.6" width="0.4064" layer="42"/>
+<text x="98" y="25" size="1.27" layer="21" ratio="15" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="98" y="25" size="1.27" layer="22" ratio="15" rot="SMR270" align="top-center">fluorumlabs.com</text>
 </package>
 </packages>
 <symbols>
 <symbol name="VERSION">
 <text x="0" y="0" size="2.1844" layer="94" ratio="15" align="center">&gt;VALUE</text>
-<wire x1="-12.7" y1="2.54" x2="12.7" y2="2.54" width="1.016" layer="94"/>
-<wire x1="12.7" y1="2.54" x2="12.7" y2="-2.54" width="1.016" layer="94"/>
-<wire x1="12.7" y1="-2.54" x2="-12.7" y2="-2.54" width="1.016" layer="94"/>
-<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="2.54" width="1.016" layer="94"/>
+<wire x1="-20.32" y1="2.54" x2="20.32" y2="2.54" width="1.016" layer="94"/>
+<wire x1="20.32" y1="2.54" x2="20.32" y2="-2.54" width="1.016" layer="94"/>
+<wire x1="20.32" y1="-2.54" x2="-20.32" y2="-2.54" width="1.016" layer="94"/>
+<wire x1="-20.32" y1="-2.54" x2="-20.32" y2="2.54" width="1.016" layer="94"/>
 </symbol>
 <symbol name="OUTL">
 <pin name="OUTL" x="-20.32" y="0" visible="off"/>
@@ -2706,6 +2683,10 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <vertex x="10.16" y="-3.048"/>
 </polygon>
 </symbol>
+<symbol name="MISC_COMPONENT_MINI">
+<text x="6.35" y="0" size="1.4224" layer="94" ratio="15">&gt;VALUE</text>
+<text x="0" y="0" size="1.4224" layer="94" rot="MR0" align="bottom-right">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="?" prefix="U">
@@ -2770,6 +2751,33 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 </technologies>
 </device>
 <device name="ERM1-5MM" package="EMPTY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="*?" prefix="U">
+<gates>
+<gate name="G$1" symbol="MISC_COMPONENT_MINI" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="SCREW-M2X8" package="EMPTY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NUT-M2-SELFLOCK" package="EMPTY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FADER-KNOB-8MM(BLACK/WHITE)" package="EMPTY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D-SHAFT-ADAPTER" package="EMPTY">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -2944,9 +2952,8 @@ Solder type</description>
 <part name="L1" library="inductors" deviceset="BL01RN1A?" device="1F1J">
 <variant name="+15V/0/-15V Input" populate="no"/>
 </part>
-<part name="O1" library="text" deviceset="TITLE" device="" value="Designed by Artem Godin // fluorumlabs.com"/>
 <part name="XS1" library="connectors" deviceset="PJ-051?" device="AH"/>
-<part name="PCB1" library="module-footprints" deviceset="ST2-BOARD-50-PSU" device="" value="rev.B"/>
+<part name="PCB1" library="module-footprints" deviceset="ST2-BOARD-50-PSU" device="" value="M101 rev.B"/>
 <part name="GND1" library="supply" deviceset="GND" device=""/>
 <part name="VD1" library="diodes" deviceset="DF?M" device="01"/>
 <part name="R1" library="resistors" deviceset="?" device="100K(TH)" value="100K(TH)"/>
@@ -2977,6 +2984,10 @@ Solder type</description>
 <part name="U4" library="hardware" deviceset="?" device="ERM1-5MM" value="ERM1-5MM"/>
 <part name="SA1" library="switches" deviceset="MHS122K" device=""/>
 <part name="S1" library="switches" deviceset="JUMPER-1POS-SOLDER" device=""/>
+<part name="U5" library="hardware" deviceset="*?" device="SCREW-M2X8"/>
+<part name="U6" library="hardware" deviceset="*?" device="SCREW-M2X8"/>
+<part name="U7" library="hardware" deviceset="*?" device="NUT-M2-SELFLOCK"/>
+<part name="U8" library="hardware" deviceset="*?" device="NUT-M2-SELFLOCK"/>
 </parts>
 <sheets>
 <sheet>
@@ -3013,9 +3024,8 @@ Solder type</description>
 <attribute name="NAME" x="45.72" y="-101.6" size="1.778" layer="94" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="45.72" y="-111.76" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="O1" gate="G$1" x="55.88" y="0"/>
 <instance part="XS1" gate="G$1" x="-2.54" y="-93.98"/>
-<instance part="PCB1" gate="G$1" x="137.16" y="2.54"/>
+<instance part="PCB1" gate="G$1" x="73.66" y="2.54"/>
 <instance part="PCB1" gate="G$2" x="5.08" y="2.54" rot="MR0"/>
 <instance part="PCB1" gate="G$3" x="5.08" y="-2.54" rot="MR0"/>
 <instance part="PCB1" gate="G$4" x="5.08" y="-7.62" rot="MR0"/>
@@ -3049,7 +3059,7 @@ Solder type</description>
 <instance part="PWR1" gate="G$1" x="53.34" y="-73.66" rot="R90"/>
 <instance part="R8" gate="G$1" x="195.58" y="-132.08" rot="R90"/>
 <instance part="R9" gate="G$1" x="215.9" y="-132.08" rot="R90"/>
-<instance part="U1" gate="G$1" x="5.08" y="-48.26"/>
+<instance part="U1" gate="G$1" x="111.76" y="2.54"/>
 <instance part="U3" gate=".1A" x="144.78" y="-40.64" rot="R270"/>
 <instance part="U3" gate=".2A" x="132.08" y="-40.64" rot="R270"/>
 <instance part="U3" gate=".1B" x="205.74" y="-124.46" rot="MR90"/>
@@ -3064,6 +3074,10 @@ Solder type</description>
 <instance part="SA1" gate=".1" x="93.98" y="-86.36" rot="MR0"/>
 <instance part="SA1" gate=".2" x="93.98" y="-99.06" rot="MR0"/>
 <instance part="S1" gate="G$1" x="93.98" y="-114.3"/>
+<instance part="U5" gate="G$1" x="101.6" y="-5.08"/>
+<instance part="U6" gate="G$1" x="101.6" y="-7.62"/>
+<instance part="U7" gate="G$1" x="101.6" y="-10.16"/>
+<instance part="U8" gate="G$1" x="101.6" y="-12.7"/>
 </instances>
 <busses>
 </busses>
@@ -3435,10 +3449,4 @@ Solder type</description>
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
