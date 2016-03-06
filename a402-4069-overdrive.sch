@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -119,34 +119,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="text">
-<packages>
-<package name="EMPTY">
-</package>
-</packages>
-<symbols>
-<symbol name="TITLE">
-<text x="0" y="0" size="5.08" layer="94" ratio="15">&gt;DRAWING_NAME</text>
-<text x="0" y="-2.54" size="1.778" layer="94" align="top-left">Copyright (c) 2015 fluorumlabs.com
-CERN Open Hardware License v1.2</text>
-<text x="0" y="-10.16" size="1.778" layer="94" align="top-left">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TITLE" prefix="O" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="TITLE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="EMPTY">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="module-footprints">
 <packages>
 <package name="ST2-BOARD-50">
@@ -215,8 +187,6 @@ CERN Open Hardware License v1.2</text>
 <wire x1="-6" y1="37" x2="-8" y2="38" width="0.127" layer="43"/>
 <wire x1="-8" y1="38" x2="-8" y2="36" width="0.127" layer="43"/>
 <wire x1="-8" y1="36" x2="-6" y2="37" width="0.127" layer="43"/>
-<text x="97" y="25" size="1.27" layer="21" ratio="15" rot="R90" align="center">&gt;DRAWING_NAME</text>
-<text x="98" y="25" size="1.27" layer="21" ratio="15" rot="R270" align="bottom-center">&gt;VALUE</text>
 <rectangle x1="0" y1="7" x2="4" y2="43" layer="39"/>
 <rectangle x1="96" y1="7" x2="100" y2="43" layer="39"/>
 <rectangle x1="0" y1="7" x2="4" y2="43" layer="40"/>
@@ -296,15 +266,331 @@ CERN Open Hardware License v1.2</text>
 <circle x="59.025" y="39.595" radius="1.6" width="0.4064" layer="42"/>
 <circle x="40.975" y="5.405" radius="1.6" width="0.4064" layer="42"/>
 <circle x="59.025" y="5.405" radius="1.6" width="0.4064" layer="42"/>
+<circle x="4" y="46" radius="1.6" width="0.4064" layer="42"/>
+<circle x="35" y="46" radius="1.6" width="0.4064" layer="42"/>
+<circle x="65" y="46" radius="1.6" width="0.4064" layer="42"/>
+<circle x="96" y="46" radius="1.6" width="0.4064" layer="42"/>
+<circle x="96" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="65" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="35" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="4" y="4" radius="1.6" width="0.4064" layer="42"/>
+<text x="98" y="25" size="1.27" layer="21" ratio="15" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="98" y="25" size="1.27" layer="22" ratio="15" rot="SMR270" align="top-center">fluorumlabs.com</text>
+</package>
+<package name="ST2-BOARD-74">
+<text x="0" y="76" size="2.54" layer="51" align="center-left">TOP</text>
+<text x="100" y="76" size="2.54" layer="52" rot="MR0" align="center-left">BOTTOM</text>
+<wire x1="98" y1="74" x2="2" y2="74" width="0" layer="48" style="longdash"/>
+<wire x1="2" y1="74" x2="0" y2="72" width="0" layer="48" style="longdash" curve="90"/>
+<wire x1="0" y1="72" x2="0" y2="2" width="0" layer="48" style="longdash"/>
+<wire x1="0" y1="2" x2="2" y2="0" width="0" layer="48" style="longdash" curve="90"/>
+<wire x1="2" y1="0" x2="98" y2="0" width="0" layer="48" style="longdash"/>
+<wire x1="98" y1="0" x2="100" y2="2" width="0" layer="48" style="longdash" curve="90"/>
+<wire x1="100" y1="2" x2="100" y2="72" width="0" layer="48" style="longdash"/>
+<wire x1="100" y1="72" x2="98" y2="74" width="0" layer="48" style="longdash" curve="90"/>
+<hole x="4" y="4" drill="2.2"/>
+<hole x="4" y="70" drill="2.2"/>
+<hole x="96" y="4" drill="2.2"/>
+<hole x="96" y="70" drill="2.2"/>
+<hole x="35" y="70" drill="2.2"/>
+<hole x="65" y="70" drill="2.2"/>
+<hole x="65" y="4" drill="2.2"/>
+<hole x="35" y="4" drill="2.2"/>
+<rectangle x1="0" y1="67" x2="7" y2="74" layer="39"/>
+<rectangle x1="62" y1="0" x2="68" y2="7" layer="39" rot="R180"/>
+<rectangle x1="32" y1="0" x2="38" y2="7" layer="39" rot="R180"/>
+<rectangle x1="93" y1="0" x2="100" y2="7" layer="39"/>
+<rectangle x1="62" y1="67" x2="68" y2="74" layer="39" rot="R180"/>
+<rectangle x1="0" y1="0" x2="7" y2="7" layer="39"/>
+<rectangle x1="7" y1="70" x2="32" y2="74" layer="39"/>
+<rectangle x1="7" y1="0" x2="32" y2="4" layer="39"/>
+<rectangle x1="32" y1="67" x2="38" y2="74" layer="39" rot="R180"/>
+<rectangle x1="93" y1="67" x2="100" y2="74" layer="39"/>
+<rectangle x1="68" y1="70" x2="93" y2="74" layer="39"/>
+<rectangle x1="68" y1="0" x2="93" y2="4" layer="39"/>
+<rectangle x1="0" y1="67" x2="7" y2="74" layer="40"/>
+<rectangle x1="62" y1="0" x2="68" y2="7" layer="40" rot="R180"/>
+<rectangle x1="32" y1="0" x2="38" y2="7" layer="40" rot="R180"/>
+<rectangle x1="93" y1="67" x2="100" y2="74" layer="40"/>
+<rectangle x1="93" y1="0" x2="100" y2="7" layer="40"/>
+<rectangle x1="32" y1="67" x2="38" y2="74" layer="40" rot="R180"/>
+<rectangle x1="62" y1="67" x2="68" y2="74" layer="40" rot="R180"/>
+<rectangle x1="0" y1="0" x2="7" y2="7" layer="40"/>
+<rectangle x1="7" y1="70" x2="32" y2="74" layer="40"/>
+<rectangle x1="38" y1="0" x2="62" y2="7" layer="40" rot="R180"/>
+<rectangle x1="68" y1="70" x2="93" y2="74" layer="40"/>
+<rectangle x1="68" y1="0" x2="93" y2="4" layer="40"/>
+<rectangle x1="7" y1="0" x2="32" y2="4" layer="40"/>
+<rectangle x1="38" y1="70" x2="62" y2="74" layer="40" rot="R180"/>
+<wire x1="17" y1="-3" x2="18" y2="-5" width="0.127" layer="43"/>
+<wire x1="18" y1="-5" x2="16" y2="-5" width="0.127" layer="43"/>
+<wire x1="16" y1="-5" x2="17" y2="-3" width="0.127" layer="43"/>
+<wire x1="39" y1="-3" x2="38" y2="-5" width="0.127" layer="43"/>
+<wire x1="38" y1="-5" x2="40" y2="-5" width="0.127" layer="43"/>
+<wire x1="40" y1="-5" x2="39" y2="-3" width="0.127" layer="43"/>
+<wire x1="61" y1="-3" x2="60" y2="-5" width="0.127" layer="43"/>
+<wire x1="60" y1="-5" x2="62" y2="-5" width="0.127" layer="43"/>
+<wire x1="62" y1="-5" x2="61" y2="-3" width="0.127" layer="43"/>
+<wire x1="83" y1="-3" x2="82" y2="-5" width="0.127" layer="43"/>
+<wire x1="82" y1="-5" x2="84" y2="-5" width="0.127" layer="43"/>
+<wire x1="84" y1="-5" x2="83" y2="-3" width="0.127" layer="43"/>
+<wire x1="-6" y1="25" x2="-8" y2="26" width="0.127" layer="43"/>
+<wire x1="-8" y1="26" x2="-8" y2="24" width="0.127" layer="43"/>
+<wire x1="-8" y1="24" x2="-6" y2="25" width="0.127" layer="43"/>
+<wire x1="-6" y1="13" x2="-8" y2="14" width="0.127" layer="43"/>
+<wire x1="-8" y1="14" x2="-8" y2="12" width="0.127" layer="43"/>
+<wire x1="-8" y1="12" x2="-6" y2="13" width="0.127" layer="43"/>
+<wire x1="-6" y1="37" x2="-8" y2="38" width="0.127" layer="43"/>
+<wire x1="-8" y1="38" x2="-8" y2="36" width="0.127" layer="43"/>
+<rectangle x1="0" y1="7" x2="4" y2="67" layer="39"/>
+<rectangle x1="96" y1="7" x2="100" y2="67" layer="39"/>
+<rectangle x1="0" y1="7" x2="4" y2="67" layer="40"/>
+<rectangle x1="96" y1="7" x2="100" y2="67" layer="40"/>
+<wire x1="61.375" y1="0" x2="38.625" y2="0" width="0.1524" layer="21"/>
+<wire x1="38.625" y1="0" x2="38.625" y2="10" width="0.1524" layer="21"/>
+<wire x1="38.625" y1="10" x2="61.375" y2="10" width="0.1524" layer="21"/>
+<wire x1="61.375" y1="10" x2="61.375" y2="0" width="0.1524" layer="21"/>
+<hole x="59.025" y="5.405" drill="2.2"/>
+<hole x="40.975" y="5.405" drill="2.2"/>
+<pad name="A+15" x="44.285" y="7.31" drill="0.8" rot="R180"/>
+<pad name="ALMIX" x="46.825" y="7.31" drill="0.8" rot="R180"/>
+<pad name="ALFBK" x="49.365" y="7.31" drill="0.8" rot="R180"/>
+<pad name="ACV1" x="51.905" y="7.31" drill="0.8" rot="R180"/>
+<pad name="ASMBDAT" x="54.445" y="7.31" drill="0.8" rot="R180"/>
+<pad name="A-15" x="45.555" y="9.215" drill="0.8" rot="R180"/>
+<pad name="ARMIX" x="48.095" y="9.215" drill="0.8" rot="R180"/>
+<pad name="ARFBK" x="50.635" y="9.215" drill="0.8" rot="R180"/>
+<pad name="ACV2" x="53.175" y="9.215" drill="0.8" rot="R180"/>
+<pad name="ASMBCLK" x="55.715" y="9.215" drill="0.8" rot="R180"/>
+<pad name="B-15" x="45.555" y="5.405" drill="0.8" rot="R180"/>
+<pad name="B4" x="48.095" y="5.405" drill="0.8" rot="R180"/>
+<pad name="B6" x="50.635" y="5.405" drill="0.8" rot="R180"/>
+<pad name="B8" x="53.175" y="5.405" drill="0.8" rot="R180"/>
+<pad name="BINR" x="55.715" y="5.405" drill="0.8" rot="R180"/>
+<pad name="B+15" x="44.285" y="3.5" drill="0.8" rot="R180"/>
+<pad name="BSENSE" x="46.825" y="3.5" drill="0.8" rot="R180"/>
+<pad name="B5" x="49.365" y="3.5" drill="0.8" rot="R180"/>
+<pad name="B7" x="51.905" y="3.5" drill="0.8" rot="R180"/>
+<pad name="BINL" x="54.445" y="3.5" drill="0.8" rot="R180"/>
+<wire x1="58.815" y1="0" x2="58.815" y2="-5" width="0.1524" layer="51"/>
+<wire x1="58.815" y1="-5" x2="57.815" y2="-6" width="0.1524" layer="51" curve="-90"/>
+<wire x1="57.815" y1="-6" x2="44.5" y2="-6" width="0.1524" layer="51"/>
+<wire x1="44.5" y1="-6" x2="43.5" y2="-6" width="0.1524" layer="51"/>
+<wire x1="43.5" y1="-6" x2="42.185" y2="-6" width="0.1524" layer="51"/>
+<wire x1="42.185" y1="-6" x2="41.185" y2="-5" width="0.1524" layer="51" curve="-90"/>
+<wire x1="41.185" y1="-5" x2="41.185" y2="0" width="0.1524" layer="51"/>
+<wire x1="43.5" y1="-6" x2="44" y2="-5" width="0.1524" layer="51"/>
+<wire x1="44" y1="-5" x2="44.5" y2="-6" width="0.1524" layer="51"/>
+<wire x1="38.625" y1="74" x2="61.375" y2="74" width="0.1524" layer="21"/>
+<wire x1="61.375" y1="74" x2="61.375" y2="59" width="0.1524" layer="21"/>
+<wire x1="61.375" y1="59" x2="38.625" y2="59" width="0.1524" layer="21"/>
+<wire x1="38.625" y1="59" x2="38.625" y2="74" width="0.1524" layer="21"/>
+<hole x="40.975" y="63.595" drill="2.2"/>
+<hole x="59.025" y="63.595" drill="2.2"/>
+<pad name="A+15'" x="44.285" y="61.69" drill="0.8" rot="R180"/>
+<pad name="ALMIX'" x="46.825" y="61.69" drill="0.8" rot="R180"/>
+<pad name="ALFBK'" x="49.365" y="61.69" drill="0.8" rot="R180"/>
+<pad name="ACV1'" x="51.905" y="61.69" drill="0.8" rot="R180"/>
+<pad name="ASMBDAT'" x="54.445" y="61.69" drill="0.8" rot="R180"/>
+<pad name="A-15'" x="45.555" y="59.785" drill="0.8" rot="R180"/>
+<pad name="ARMIX'" x="48.095" y="59.785" drill="0.8" rot="R180"/>
+<pad name="ARFBK'" x="50.635" y="59.785" drill="0.8" rot="R180"/>
+<pad name="ACV2'" x="53.175" y="59.785" drill="0.8" rot="R180"/>
+<pad name="ASMBCLK'" x="55.715" y="59.785" drill="0.8" rot="R180"/>
+<pad name="B-15'" x="45.555" y="63.595" drill="0.8" rot="R180"/>
+<pad name="B4'" x="48.095" y="63.595" drill="0.8" rot="R180"/>
+<pad name="B6'" x="50.635" y="63.595" drill="0.8" rot="R180"/>
+<pad name="B8'" x="53.175" y="63.595" drill="0.8" rot="R180"/>
+<pad name="BOUTR'" x="55.715" y="63.595" drill="0.8" rot="R180"/>
+<pad name="B+15'" x="44.285" y="65.5" drill="0.8" rot="R180"/>
+<pad name="BSENSE'" x="46.825" y="65.5" drill="0.8" rot="R180"/>
+<pad name="B5'" x="49.365" y="65.5" drill="0.8" rot="R180"/>
+<pad name="B7'" x="51.905" y="65.5" drill="0.8" rot="R180"/>
+<pad name="BOUTL'" x="54.445" y="65.5" drill="0.8" rot="R180"/>
+<wire x1="44.5" y1="74" x2="44" y2="73" width="0.1524" layer="21"/>
+<wire x1="44" y1="73" x2="43.5" y2="74" width="0.1524" layer="21"/>
+<circle x="4" y="70" radius="1.6" width="0.4064" layer="41"/>
+<circle x="35" y="70" radius="1.6" width="0.4064" layer="41"/>
+<circle x="65" y="70" radius="1.6" width="0.4064" layer="41"/>
+<circle x="96" y="70" radius="1.6" width="0.4064" layer="41"/>
+<circle x="96" y="4" radius="1.6" width="0.4064" layer="41"/>
+<circle x="65" y="4" radius="1.6" width="0.4064" layer="41"/>
+<circle x="35" y="4" radius="1.6" width="0.4064" layer="41"/>
+<circle x="4" y="4" radius="1.6" width="0.4064" layer="41"/>
+<circle x="40.975" y="63.595" radius="1.6" width="0.4064" layer="42"/>
+<circle x="59.025" y="63.595" radius="1.6" width="0.4064" layer="42"/>
+<circle x="40.975" y="5.405" radius="1.6" width="0.4064" layer="42"/>
+<circle x="59.025" y="5.405" radius="1.6" width="0.4064" layer="42"/>
+<wire x1="-6" y1="49" x2="-8" y2="50" width="0.127" layer="43"/>
+<wire x1="-8" y1="50" x2="-8" y2="48" width="0.127" layer="43"/>
+<wire x1="-8" y1="48" x2="-6" y2="49" width="0.127" layer="43"/>
+<wire x1="-8" y1="36" x2="-6" y2="37" width="0.127" layer="43"/>
+<wire x1="-6" y1="61" x2="-8" y2="62" width="0.127" layer="43"/>
+<wire x1="-8" y1="62" x2="-8" y2="60" width="0.127" layer="43"/>
+<wire x1="-8" y1="60" x2="-6" y2="61" width="0.127" layer="43"/>
+<circle x="4" y="70" radius="1.6" width="0.4064" layer="42"/>
+<circle x="35" y="70" radius="1.6" width="0.4064" layer="42"/>
+<circle x="65" y="70" radius="1.6" width="0.4064" layer="42"/>
+<circle x="96" y="70" radius="1.6" width="0.4064" layer="42"/>
+<circle x="96" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="65" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="35" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="4" y="4" radius="1.6" width="0.4064" layer="42"/>
+<text x="98" y="37" size="1.27" layer="21" ratio="15" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="98" y="37" size="1.27" layer="22" ratio="15" rot="SMR270" align="top-center">fluorumlabs.com</text>
+</package>
+<package name="ST2-BOARD-26">
+<text x="0" y="28" size="2.54" layer="51" align="center-left">TOP</text>
+<text x="100" y="28" size="2.54" layer="52" rot="MR0" align="center-left">BOTTOM</text>
+<wire x1="98" y1="26" x2="2" y2="26" width="0" layer="48" style="longdash"/>
+<wire x1="2" y1="26" x2="0" y2="24" width="0" layer="48" style="longdash" curve="90"/>
+<wire x1="0" y1="24" x2="0" y2="2" width="0" layer="48" style="longdash"/>
+<wire x1="0" y1="2" x2="2" y2="0" width="0" layer="48" style="longdash" curve="90"/>
+<wire x1="2" y1="0" x2="98" y2="0" width="0" layer="48" style="longdash"/>
+<wire x1="98" y1="0" x2="100" y2="2" width="0" layer="48" style="longdash" curve="90"/>
+<wire x1="100" y1="2" x2="100" y2="24" width="0" layer="48" style="longdash"/>
+<wire x1="100" y1="24" x2="98" y2="26" width="0" layer="48" style="longdash" curve="90"/>
+<hole x="4" y="4" drill="2.2"/>
+<hole x="4" y="22" drill="2.2"/>
+<hole x="96" y="4" drill="2.2"/>
+<hole x="96" y="22" drill="2.2"/>
+<hole x="35" y="22" drill="2.2"/>
+<hole x="65" y="22" drill="2.2"/>
+<hole x="65" y="4" drill="2.2"/>
+<hole x="35" y="4" drill="2.2"/>
+<rectangle x1="0" y1="19" x2="7" y2="26" layer="39"/>
+<rectangle x1="62" y1="0" x2="68" y2="7" layer="39" rot="R180"/>
+<rectangle x1="32" y1="0" x2="38" y2="7" layer="39" rot="R180"/>
+<rectangle x1="93" y1="0" x2="100" y2="7" layer="39"/>
+<rectangle x1="62" y1="19" x2="68" y2="26" layer="39" rot="R180"/>
+<rectangle x1="0" y1="0" x2="7" y2="7" layer="39"/>
+<rectangle x1="7" y1="22" x2="32" y2="26" layer="39"/>
+<rectangle x1="7" y1="0" x2="32" y2="4" layer="39"/>
+<rectangle x1="32" y1="19" x2="38" y2="26" layer="39" rot="R180"/>
+<rectangle x1="93" y1="19" x2="100" y2="26" layer="39"/>
+<rectangle x1="68" y1="22" x2="93" y2="26" layer="39"/>
+<rectangle x1="68" y1="0" x2="93" y2="4" layer="39"/>
+<rectangle x1="0" y1="19" x2="7" y2="26" layer="40"/>
+<rectangle x1="62" y1="0" x2="68" y2="7" layer="40" rot="R180"/>
+<rectangle x1="32" y1="0" x2="38" y2="7" layer="40" rot="R180"/>
+<rectangle x1="93" y1="19" x2="100" y2="26" layer="40"/>
+<rectangle x1="93" y1="0" x2="100" y2="7" layer="40"/>
+<rectangle x1="32" y1="19" x2="38" y2="26" layer="40" rot="R180"/>
+<rectangle x1="62" y1="19" x2="68" y2="26" layer="40" rot="R180"/>
+<rectangle x1="0" y1="0" x2="7" y2="7" layer="40"/>
+<rectangle x1="7" y1="22" x2="32" y2="26" layer="40"/>
+<rectangle x1="38" y1="0" x2="62" y2="7" layer="40" rot="R180"/>
+<rectangle x1="68" y1="22" x2="93" y2="26" layer="40"/>
+<rectangle x1="68" y1="0" x2="93" y2="4" layer="40"/>
+<rectangle x1="7" y1="0" x2="32" y2="4" layer="40"/>
+<rectangle x1="38" y1="22" x2="62" y2="26" layer="40" rot="R180"/>
+<wire x1="17" y1="-3" x2="18" y2="-5" width="0.127" layer="43"/>
+<wire x1="18" y1="-5" x2="16" y2="-5" width="0.127" layer="43"/>
+<wire x1="16" y1="-5" x2="17" y2="-3" width="0.127" layer="43"/>
+<wire x1="83" y1="-3" x2="82" y2="-5" width="0.127" layer="43"/>
+<wire x1="82" y1="-5" x2="84" y2="-5" width="0.127" layer="43"/>
+<wire x1="84" y1="-5" x2="83" y2="-3" width="0.127" layer="43"/>
+<wire x1="-6" y1="13" x2="-8" y2="14" width="0.127" layer="43"/>
+<wire x1="-8" y1="14" x2="-8" y2="12" width="0.127" layer="43"/>
+<wire x1="-8" y1="12" x2="-6" y2="13" width="0.127" layer="43"/>
+<text x="98" y="13" size="1.27" layer="21" ratio="15" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="98" y="13" size="1.27" layer="22" ratio="15" rot="SMR270" align="top-center">fluorumlabs.com</text>
+<rectangle x1="0" y1="7" x2="4" y2="19" layer="39"/>
+<rectangle x1="96" y1="7" x2="100" y2="19" layer="39"/>
+<rectangle x1="0" y1="7" x2="4" y2="19" layer="40"/>
+<rectangle x1="96" y1="7" x2="100" y2="19" layer="40"/>
+<wire x1="61.375" y1="0" x2="38.625" y2="0" width="0.1524" layer="21"/>
+<wire x1="38.625" y1="0" x2="38.625" y2="10" width="0.1524" layer="21"/>
+<wire x1="38.625" y1="10" x2="61.375" y2="10" width="0.1524" layer="21"/>
+<wire x1="61.375" y1="10" x2="61.375" y2="0" width="0.1524" layer="21"/>
+<hole x="59.025" y="5.405" drill="2.2"/>
+<hole x="40.975" y="5.405" drill="2.2"/>
+<pad name="A+15" x="44.285" y="7.31" drill="0.8" rot="R180"/>
+<pad name="ALMIX" x="46.825" y="7.31" drill="0.8" rot="R180"/>
+<pad name="ALFBK" x="49.365" y="7.31" drill="0.8" rot="R180"/>
+<pad name="ACV1" x="51.905" y="7.31" drill="0.8" rot="R180"/>
+<pad name="ASMBDAT" x="54.445" y="7.31" drill="0.8" rot="R180"/>
+<pad name="A-15" x="45.555" y="9.215" drill="0.8" rot="R180"/>
+<pad name="ARMIX" x="48.095" y="9.215" drill="0.8" rot="R180"/>
+<pad name="ARFBK" x="50.635" y="9.215" drill="0.8" rot="R180"/>
+<pad name="ACV2" x="53.175" y="9.215" drill="0.8" rot="R180"/>
+<pad name="ASMBCLK" x="55.715" y="9.215" drill="0.8" rot="R180"/>
+<pad name="B-15" x="45.555" y="5.405" drill="0.8" rot="R180"/>
+<pad name="B4" x="48.095" y="5.405" drill="0.8" rot="R180"/>
+<pad name="B6" x="50.635" y="5.405" drill="0.8" rot="R180"/>
+<pad name="B8" x="53.175" y="5.405" drill="0.8" rot="R180"/>
+<pad name="BINR" x="55.715" y="5.405" drill="0.8" rot="R180"/>
+<pad name="B+15" x="44.285" y="3.5" drill="0.8" rot="R180"/>
+<pad name="BSENSE" x="46.825" y="3.5" drill="0.8" rot="R180"/>
+<pad name="B5" x="49.365" y="3.5" drill="0.8" rot="R180"/>
+<pad name="B7" x="51.905" y="3.5" drill="0.8" rot="R180"/>
+<pad name="BINL" x="54.445" y="3.5" drill="0.8" rot="R180"/>
+<wire x1="58.815" y1="0" x2="58.815" y2="-5" width="0.1524" layer="51"/>
+<wire x1="58.815" y1="-5" x2="57.815" y2="-6" width="0.1524" layer="51" curve="-90"/>
+<wire x1="57.815" y1="-6" x2="44.5" y2="-6" width="0.1524" layer="51"/>
+<wire x1="44.5" y1="-6" x2="43.5" y2="-6" width="0.1524" layer="51"/>
+<wire x1="43.5" y1="-6" x2="42.185" y2="-6" width="0.1524" layer="51"/>
+<wire x1="42.185" y1="-6" x2="41.185" y2="-5" width="0.1524" layer="51" curve="-90"/>
+<wire x1="41.185" y1="-5" x2="41.185" y2="0" width="0.1524" layer="51"/>
+<wire x1="43.5" y1="-6" x2="44" y2="-5" width="0.1524" layer="51"/>
+<wire x1="44" y1="-5" x2="44.5" y2="-6" width="0.1524" layer="51"/>
+<wire x1="38.625" y1="26" x2="61.375" y2="26" width="0.1524" layer="21"/>
+<wire x1="61.375" y1="26" x2="61.375" y2="11" width="0.1524" layer="21"/>
+<wire x1="61.375" y1="11" x2="38.625" y2="11" width="0.1524" layer="21"/>
+<wire x1="38.625" y1="11" x2="38.625" y2="26" width="0.1524" layer="21"/>
+<hole x="40.975" y="15.595" drill="2.2"/>
+<hole x="59.025" y="15.595" drill="2.2"/>
+<pad name="A+15'" x="44.285" y="13.69" drill="0.8" rot="R180"/>
+<pad name="ALMIX'" x="46.825" y="13.69" drill="0.8" rot="R180"/>
+<pad name="ALFBK'" x="49.365" y="13.69" drill="0.8" rot="R180"/>
+<pad name="ACV1'" x="51.905" y="13.69" drill="0.8" rot="R180"/>
+<pad name="ASMBDAT'" x="54.445" y="13.69" drill="0.8" rot="R180"/>
+<pad name="A-15'" x="45.555" y="11.785" drill="0.8" rot="R180"/>
+<pad name="ARMIX'" x="48.095" y="11.785" drill="0.8" rot="R180"/>
+<pad name="ARFBK'" x="50.635" y="11.785" drill="0.8" rot="R180"/>
+<pad name="ACV2'" x="53.175" y="11.785" drill="0.8" rot="R180"/>
+<pad name="ASMBCLK'" x="55.715" y="11.785" drill="0.8" rot="R180"/>
+<pad name="B-15'" x="45.555" y="15.595" drill="0.8" rot="R180"/>
+<pad name="B4'" x="48.095" y="15.595" drill="0.8" rot="R180"/>
+<pad name="B6'" x="50.635" y="15.595" drill="0.8" rot="R180"/>
+<pad name="B8'" x="53.175" y="15.595" drill="0.8" rot="R180"/>
+<pad name="BOUTR'" x="55.715" y="15.595" drill="0.8" rot="R180"/>
+<pad name="B+15'" x="44.285" y="17.5" drill="0.8" rot="R180"/>
+<pad name="BSENSE'" x="46.825" y="17.5" drill="0.8" rot="R180"/>
+<pad name="B5'" x="49.365" y="17.5" drill="0.8" rot="R180"/>
+<pad name="B7'" x="51.905" y="17.5" drill="0.8" rot="R180"/>
+<pad name="BOUTL'" x="54.445" y="17.5" drill="0.8" rot="R180"/>
+<wire x1="44.5" y1="26" x2="44" y2="25" width="0.1524" layer="21"/>
+<wire x1="44" y1="25" x2="43.5" y2="26" width="0.1524" layer="21"/>
+<circle x="4" y="22" radius="1.6" width="0.4064" layer="41"/>
+<circle x="35" y="22" radius="1.6" width="0.4064" layer="41"/>
+<circle x="65" y="22" radius="1.6" width="0.4064" layer="41"/>
+<circle x="96" y="22" radius="1.6" width="0.4064" layer="41"/>
+<circle x="96" y="4" radius="1.6" width="0.4064" layer="41"/>
+<circle x="65" y="4" radius="1.6" width="0.4064" layer="41"/>
+<circle x="35" y="4" radius="1.6" width="0.4064" layer="41"/>
+<circle x="4" y="4" radius="1.6" width="0.4064" layer="41"/>
+<circle x="40.975" y="15.595" radius="1.6" width="0.4064" layer="42"/>
+<circle x="59.025" y="15.595" radius="1.6" width="0.4064" layer="42"/>
+<circle x="40.975" y="5.405" radius="1.6" width="0.4064" layer="42"/>
+<circle x="59.025" y="5.405" radius="1.6" width="0.4064" layer="42"/>
+<circle x="4" y="22" radius="1.6" width="0.4064" layer="42"/>
+<circle x="4" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="35" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="35" y="22" radius="1.6" width="0.4064" layer="42"/>
+<circle x="65" y="22" radius="1.6" width="0.4064" layer="42"/>
+<circle x="65" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="96" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="96" y="22" radius="1.6" width="0.4064" layer="42"/>
 </package>
 </packages>
 <symbols>
 <symbol name="VERSION">
 <text x="0" y="0" size="2.1844" layer="94" ratio="15" align="center">&gt;VALUE</text>
-<wire x1="-12.7" y1="2.54" x2="12.7" y2="2.54" width="1.016" layer="94"/>
-<wire x1="12.7" y1="2.54" x2="12.7" y2="-2.54" width="1.016" layer="94"/>
-<wire x1="12.7" y1="-2.54" x2="-12.7" y2="-2.54" width="1.016" layer="94"/>
-<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="2.54" width="1.016" layer="94"/>
+<wire x1="-20.32" y1="2.54" x2="20.32" y2="2.54" width="1.016" layer="94"/>
+<wire x1="20.32" y1="2.54" x2="20.32" y2="-2.54" width="1.016" layer="94"/>
+<wire x1="20.32" y1="-2.54" x2="-20.32" y2="-2.54" width="1.016" layer="94"/>
+<wire x1="-20.32" y1="-2.54" x2="-20.32" y2="2.54" width="1.016" layer="94"/>
 </symbol>
 <symbol name="INL">
 <pin name="INL" x="20.32" y="0" visible="off" rot="R180"/>
@@ -584,7 +870,7 @@ CERN Open Hardware License v1.2</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ST2-BOARD-50" prefix="PCB" uservalue="yes">
+<deviceset name="ST2-BOARD-?" prefix="PCB" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="VERSION" x="-25.4" y="17.78"/>
 <gate name="G$2" symbol="INL" x="-25.4" y="10.16"/>
@@ -597,7 +883,67 @@ CERN Open Hardware License v1.2</text>
 <gate name="G$9" symbol="SUPPLY" x="-25.4" y="-55.88"/>
 </gates>
 <devices>
-<device name="" package="ST2-BOARD-50">
+<device name="50" package="ST2-BOARD-50">
+<connects>
+<connect gate="G$2" pin="INL" pad="BINL"/>
+<connect gate="G$3" pin="INR" pad="BINR"/>
+<connect gate="G$4" pin="OUTL" pad="BOUTL'"/>
+<connect gate="G$5" pin="OUTR" pad="BOUTR'"/>
+<connect gate="G$6" pin="CV1" pad="ACV1"/>
+<connect gate="G$6" pin="CV2" pad="ACV2"/>
+<connect gate="G$6" pin="LFBK" pad="ALFBK"/>
+<connect gate="G$6" pin="LMIX" pad="ALMIX"/>
+<connect gate="G$6" pin="RFBK" pad="ARFBK"/>
+<connect gate="G$6" pin="RMIX" pad="ARMIX"/>
+<connect gate="G$6" pin="SENSE" pad="BSENSE"/>
+<connect gate="G$7" pin="CV1'" pad="ACV1'"/>
+<connect gate="G$7" pin="CV2'" pad="ACV2'"/>
+<connect gate="G$7" pin="LFBK'" pad="ALFBK'"/>
+<connect gate="G$7" pin="LMIX'" pad="ALMIX'"/>
+<connect gate="G$7" pin="RFBK'" pad="ARFBK'"/>
+<connect gate="G$7" pin="RMIX'" pad="ARMIX'"/>
+<connect gate="G$7" pin="SENSE'" pad="BSENSE'"/>
+<connect gate="G$8" pin="SMBCLK" pad="ASMBCLK ASMBCLK'"/>
+<connect gate="G$8" pin="SMBDAT" pad="ASMBDAT ASMBDAT'"/>
+<connect gate="G$9" pin="GND" pad="B4 B4' B5 B5' B6 B6' B7 B7' B8 B8'"/>
+<connect gate="G$9" pin="P+15V" pad="A+15 A+15' B+15 B+15'"/>
+<connect gate="G$9" pin="P-15V" pad="A-15 A-15' B-15 B-15'"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="74" package="ST2-BOARD-74">
+<connects>
+<connect gate="G$2" pin="INL" pad="BINL"/>
+<connect gate="G$3" pin="INR" pad="BINR"/>
+<connect gate="G$4" pin="OUTL" pad="BOUTL'"/>
+<connect gate="G$5" pin="OUTR" pad="BOUTR'"/>
+<connect gate="G$6" pin="CV1" pad="ACV1"/>
+<connect gate="G$6" pin="CV2" pad="ACV2"/>
+<connect gate="G$6" pin="LFBK" pad="ALFBK"/>
+<connect gate="G$6" pin="LMIX" pad="ALMIX"/>
+<connect gate="G$6" pin="RFBK" pad="ARFBK"/>
+<connect gate="G$6" pin="RMIX" pad="ARMIX"/>
+<connect gate="G$6" pin="SENSE" pad="BSENSE"/>
+<connect gate="G$7" pin="CV1'" pad="ACV1'"/>
+<connect gate="G$7" pin="CV2'" pad="ACV2'"/>
+<connect gate="G$7" pin="LFBK'" pad="ALFBK'"/>
+<connect gate="G$7" pin="LMIX'" pad="ALMIX'"/>
+<connect gate="G$7" pin="RFBK'" pad="ARFBK'"/>
+<connect gate="G$7" pin="RMIX'" pad="ARMIX'"/>
+<connect gate="G$7" pin="SENSE'" pad="BSENSE'"/>
+<connect gate="G$8" pin="SMBCLK" pad="ASMBCLK ASMBCLK'"/>
+<connect gate="G$8" pin="SMBDAT" pad="ASMBDAT ASMBDAT'"/>
+<connect gate="G$9" pin="GND" pad="B4 B4' B5 B5' B6 B6' B7 B7' B8 B8'"/>
+<connect gate="G$9" pin="P+15V" pad="A+15 A+15' B+15 B+15'"/>
+<connect gate="G$9" pin="P-15V" pad="A-15 A-15' B-15 B-15'"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="26" package="ST2-BOARD-26">
 <connects>
 <connect gate="G$2" pin="INL" pad="BINL"/>
 <connect gate="G$3" pin="INR" pad="BINR"/>
@@ -684,6 +1030,10 @@ CERN Open Hardware License v1.2</text>
 <text x="0" y="-7.62" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 <circle x="0" y="0" radius="3.81" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="3.81" width="0.254" layer="94"/>
+</symbol>
+<symbol name="MISC_COMPONENT_MINI">
+<text x="6.35" y="0" size="1.4224" layer="94" ratio="15">&gt;VALUE</text>
+<text x="0" y="0" size="1.4224" layer="94" rot="MR0" align="bottom-right">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -877,6 +1227,33 @@ CERN Open Hardware License v1.2</text>
 <technology name="">
 <attribute name="MOUSER" value="450-CP195" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="*?" prefix="U">
+<gates>
+<gate name="G$1" symbol="MISC_COMPONENT_MINI" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="SCREW-M2X8" package="EMPTY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NUT-M2-SELFLOCK" package="EMPTY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FADER-KNOB-8MM(BLACK/WHITE)" package="EMPTY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D-SHAFT-ADAPTER" package="EMPTY">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -2893,8 +3270,7 @@ type 0207, grid 10 mm</description>
 </class>
 </classes>
 <parts>
-<part name="O1" library="text" deviceset="TITLE" device=""/>
-<part name="PCB1" library="module-footprints" deviceset="ST2-BOARD-50" device="" value="rev.A"/>
+<part name="PCB1" library="module-footprints" deviceset="ST2-BOARD-?" device="50" value="A406 rev.A"/>
 <part name="U1" library="hardware" deviceset="?" device="FX2-20P-1.27DS"/>
 <part name="U2" library="hardware" deviceset="?" device="FX2-20S-1.27DS"/>
 <part name="PWR1" library="f-supply" deviceset="+15V" device=""/>
@@ -2979,19 +3355,26 @@ type 0207, grid 10 mm</description>
 <part name="O5" library="hardware" deviceset="450-C?" device="P153(15MM,BLUE/WHITE)"/>
 <part name="C16" library="capacitors-electrolytic" deviceset="?" device="10U/35V"/>
 <part name="GND16" library="supply" deviceset="GND" device=""/>
+<part name="U3" library="hardware" deviceset="*?" device="SCREW-M2X8"/>
+<part name="U4" library="hardware" deviceset="*?" device="SCREW-M2X8"/>
+<part name="U5" library="hardware" deviceset="*?" device="SCREW-M2X8"/>
+<part name="U6" library="hardware" deviceset="*?" device="SCREW-M2X8"/>
+<part name="U7" library="hardware" deviceset="*?" device="NUT-M2-SELFLOCK"/>
+<part name="U8" library="hardware" deviceset="*?" device="NUT-M2-SELFLOCK"/>
+<part name="U9" library="hardware" deviceset="*?" device="NUT-M2-SELFLOCK"/>
+<part name="U10" library="hardware" deviceset="*?" device="NUT-M2-SELFLOCK"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="O1" gate="G$1" x="0" y="246.38"/>
-<instance part="PCB1" gate="G$1" x="111.76" y="248.92"/>
+<instance part="PCB1" gate="G$1" x="20.32" y="223.52"/>
 <instance part="PCB1" gate="G$6" x="12.7" y="203.2"/>
 <instance part="PCB1" gate="G$7" x="86.36" y="203.2"/>
 <instance part="PCB1" gate="G$8" x="12.7" y="172.72"/>
-<instance part="U1" gate="G$1" x="86.36" y="220.98"/>
-<instance part="U2" gate="G$1" x="86.36" y="213.36"/>
+<instance part="U1" gate="G$1" x="119.38" y="223.52"/>
+<instance part="U2" gate="G$1" x="154.94" y="223.52"/>
 <instance part="PWR1" gate="G$1" x="58.42" y="154.94" rot="R270"/>
 <instance part="PWR2" gate="G$1" x="58.42" y="119.38" rot="R270"/>
 <instance part="L2" gate="G$1" x="43.18" y="147.32"/>
@@ -3093,6 +3476,14 @@ type 0207, grid 10 mm</description>
 <instance part="O5" gate="G$1" x="124.46" y="-20.32"/>
 <instance part="C16" gate="G$1" x="147.32" y="152.4" rot="R270"/>
 <instance part="GND16" gate="VR1" x="147.32" y="142.24"/>
+<instance part="U3" gate="G$1" x="109.22" y="215.9"/>
+<instance part="U4" gate="G$1" x="109.22" y="213.36"/>
+<instance part="U5" gate="G$1" x="144.78" y="215.9"/>
+<instance part="U6" gate="G$1" x="144.78" y="213.36"/>
+<instance part="U7" gate="G$1" x="109.22" y="210.82"/>
+<instance part="U8" gate="G$1" x="109.22" y="208.28"/>
+<instance part="U9" gate="G$1" x="144.78" y="210.82"/>
+<instance part="U10" gate="G$1" x="144.78" y="208.28"/>
 </instances>
 <busses>
 </busses>
@@ -3800,10 +4191,4 @@ type 0207, grid 10 mm</description>
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
