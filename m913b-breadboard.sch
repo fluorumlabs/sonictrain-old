@@ -2179,11 +2179,48 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <packages>
 <package name="EMPTY">
 </package>
+<package name="BIVAR-H201C">
+<wire x1="-2.286" y1="0" x2="2.286" y2="0" width="0.127" layer="21"/>
+<wire x1="2.286" y1="0" x2="2.286" y2="-8.128" width="0.127" layer="21"/>
+<wire x1="2.286" y1="-8.128" x2="2.032" y2="-8.128" width="0.127" layer="21"/>
+<wire x1="2.032" y1="-8.128" x2="0.508" y2="-8.128" width="0.127" layer="51"/>
+<wire x1="0.508" y1="-8.128" x2="-0.508" y2="-8.128" width="0.127" layer="21"/>
+<wire x1="-0.508" y1="-8.128" x2="-2.032" y2="-8.128" width="0.127" layer="51"/>
+<wire x1="-2.032" y1="-8.128" x2="-2.286" y2="-8.128" width="0.127" layer="21"/>
+<wire x1="-2.286" y1="-8.128" x2="-2.286" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="0" x2="-1.524" y2="1.016" width="0.127" layer="51"/>
+<wire x1="-1.524" y1="1.016" x2="-0.254" y2="2.286" width="0.127" layer="51" curve="-90"/>
+<wire x1="-0.254" y1="2.286" x2="0.254" y2="2.286" width="0.127" layer="51"/>
+<wire x1="0.254" y1="2.286" x2="1.524" y2="1.016" width="0.127" layer="51" curve="-90"/>
+<wire x1="1.524" y1="1.016" x2="1.524" y2="0" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MISC_COMPONENT_MINI">
 <text x="6.35" y="0" size="1.4224" layer="94" ratio="15">&gt;VALUE</text>
 <text x="0" y="0" size="1.4224" layer="94" rot="MR0" align="bottom-right">&gt;NAME</text>
+</symbol>
+<symbol name="MISC_COMPONENT">
+<text x="-8.89" y="-1.778" size="1.4224" layer="94" ratio="15">&gt;VALUE</text>
+<wire x1="-10.16" y1="-3.048" x2="-10.16" y2="3.302" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="3.302" x2="10.16" y2="3.302" width="0.254" layer="94"/>
+<wire x1="10.16" y1="3.302" x2="10.16" y2="2.794" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.794" x2="10.16" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-3.048" x2="-9.652" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="-9.652" y1="-3.048" x2="-10.16" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="-9.652" y1="-3.048" x2="-9.652" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="-9.652" y1="-3.556" x2="10.668" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="10.668" y1="-3.556" x2="10.668" y2="2.794" width="0.254" layer="94"/>
+<wire x1="10.668" y1="2.794" x2="10.16" y2="2.794" width="0.254" layer="94"/>
+<text x="-8.89" y="0.762" size="1.4224" layer="94">&gt;NAME</text>
+<polygon width="0.254" layer="94">
+<vertex x="-9.652" y="-3.048"/>
+<vertex x="-9.652" y="-3.556"/>
+<vertex x="10.668" y="-3.556"/>
+<vertex x="10.668" y="2.794"/>
+<vertex x="10.16" y="2.794"/>
+<vertex x="10.16" y="-3.048"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -2193,6 +2230,74 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </gates>
 <devices>
 <device name="" package="EMPTY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="?" prefix="U">
+<gates>
+<gate name="G$1" symbol="MISC_COMPONENT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DIP8" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="653-XR2A-0811-N" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="H201C" package="BIVAR-H201C">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="749-H-201C" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="DIP16" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="653-XR2A-1611-N" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="DIP14" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="653-XR2A-1401-N" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="IDC_FEMALE_2X3" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="617-09185065813" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="ERM1-4MM" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="749-ERM1-4MM" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="FX2-20P-1.27DS" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="798-FX2-20P-1.27DS71" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="FX2-20S-1.27DS" package="EMPTY">
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="798-FX2-20S-1.27DS71" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="ERM1-5MM" package="EMPTY">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -2237,6 +2342,8 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <part name="PCB1" library="module-footprints" deviceset="GENERIC" device="" value="M913b rev.A"/>
 <part name="U1" library="hardware" deviceset="OTHER" device="" value="IDC 2x5 CABLE"/>
 <part name="U2" library="hardware" deviceset="OTHER" device="" value="IDC 2x5 CABLE"/>
+<part name="U3" library="hardware" deviceset="?" device="ERM1-4MM"/>
+<part name="U4" library="hardware" deviceset="?" device="ERM1-4MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -2269,6 +2376,8 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <instance part="PCB1" gate="G$1" x="12.7" y="0"/>
 <instance part="U1" gate="G$1" x="-7.62" y="-7.62"/>
 <instance part="U2" gate="G$1" x="-7.62" y="-10.16"/>
+<instance part="U3" gate="G$1" x="38.1" y="-55.88"/>
+<instance part="U4" gate="G$1" x="38.1" y="-78.74"/>
 </instances>
 <busses>
 </busses>

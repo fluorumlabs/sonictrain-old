@@ -624,6 +624,12 @@ Please make sure your boards conform to these design rules.</description>
 <element name="PCB1" library="module-footprints" package="EMPTY" value="M913b rev.A" x="0" y="0"/>
 <element name="U1" library="hardware" package="EMPTY" value="IDC 2x5 CABLE" x="-1.016" y="0"/>
 <element name="U2" library="hardware" package="EMPTY" value="IDC 2x5 CABLE" x="-2.032" y="0"/>
+<element name="U3" library="hardware" package="EMPTY" value="ERM1-4MM" x="-3" y="-1.25">
+<attribute name="MOUSER" value="749-ERM1-4MM" x="-3" y="-1.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U4" library="hardware" package="EMPTY" value="ERM1-4MM" x="-4" y="-2.5">
+<attribute name="MOUSER" value="749-ERM1-4MM" x="-4" y="-2.5" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
