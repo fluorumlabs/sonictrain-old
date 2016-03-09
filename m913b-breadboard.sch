@@ -2177,6 +2177,8 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </library>
 <library name="hardware">
 <packages>
+<package name="EMPTY">
+</package>
 </packages>
 <symbols>
 <symbol name="MISC_COMPONENT_MINI">
@@ -2190,7 +2192,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <gate name="G$1" symbol="MISC_COMPONENT_MINI" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="EMPTY">
 <technologies>
 <technology name=""/>
 </technologies>

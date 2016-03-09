@@ -405,6 +405,12 @@ type 0207, grid 10 mm</description>
 </package>
 </packages>
 </library>
+<library name="hardware">
+<packages>
+<package name="EMPTY">
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -616,6 +622,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="HL1" library="optoelectronics" package="LED2X5" value="RED(2MMX5MM)" x="7.62" y="42.545" smashed="yes"/>
 <element name="HL2" library="optoelectronics" package="LED2X5" value="BLUE(2MMX5MM)" x="7.62" y="1.905" smashed="yes" rot="R180"/>
 <element name="PCB1" library="module-footprints" package="EMPTY" value="M913b rev.A" x="0" y="0"/>
+<element name="U1" library="hardware" package="EMPTY" value="IDC 2x5 FEMALE" x="-1.016" y="0"/>
+<element name="U2" library="hardware" package="EMPTY" value="IDC 2x5 FEMALE" x="-2.032" y="0"/>
 </elements>
 <signals>
 <signal name="GND">
