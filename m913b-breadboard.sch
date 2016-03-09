@@ -2235,8 +2235,8 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <part name="GND5" library="supply" deviceset="GND" device=""/>
 <part name="GND6" library="supply" deviceset="GND" device=""/>
 <part name="PCB1" library="module-footprints" deviceset="GENERIC" device="" value="M913b rev.A"/>
-<part name="U1" library="hardware" deviceset="OTHER" device="" value="IDC 2x5 FEMALE"/>
-<part name="U2" library="hardware" deviceset="OTHER" device="" value="IDC 2x5 FEMALE"/>
+<part name="U1" library="hardware" deviceset="OTHER" device="" value="IDC 2x5 CABLE"/>
+<part name="U2" library="hardware" deviceset="OTHER" device="" value="IDC 2x5 CABLE"/>
 </parts>
 <sheets>
 <sheet>
