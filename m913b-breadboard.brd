@@ -596,11 +596,11 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="capacitors-electrolytic" package="E2-5" value="10U/35V(11MM)" x="7.62" y="37.06" rot="R270">
-<attribute name="MOUSER" value="75-515D106M035JA6AE3" x="7.62" y="37.06" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C1" library="capacitors-electrolytic" package="E2-5" value="10U/35V" x="7.62" y="37.06" rot="R270">
+<attribute name="MOUSER" value="647-USW1V100MDD" x="7.62" y="37.06" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C2" library="capacitors-electrolytic" package="E2-5" value="10U/35V(11MM)" x="7.62" y="7.39" rot="R270">
-<attribute name="MOUSER" value="75-515D106M035JA6AE3" x="7.62" y="7.39" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C2" library="capacitors-electrolytic" package="E2-5" value="10U/35V" x="7.62" y="7.39" rot="R270">
+<attribute name="MOUSER" value="647-USW1V100MDD" x="7.62" y="7.39" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R1" library="resistors" package="R-0207/10" value="10R(TH)" x="1.27" y="38.1" rot="R90">
 <attribute name="MOUSER" value="71-RN55D-F-10/R" x="1.27" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
@@ -624,12 +624,6 @@ Please make sure your boards conform to these design rules.</description>
 <element name="PCB1" library="module-footprints" package="EMPTY" value="M913b rev.A" x="0" y="0"/>
 <element name="U1" library="hardware" package="EMPTY" value="IDC 2x5 CABLE" x="-1.016" y="0"/>
 <element name="U2" library="hardware" package="EMPTY" value="IDC 2x5 CABLE" x="-2.032" y="0"/>
-<element name="U3" library="hardware" package="EMPTY" value="ERM1-4MM" x="-3" y="-1.25">
-<attribute name="MOUSER" value="749-ERM1-4MM" x="-3" y="-1.25" size="1.778" layer="27" display="off"/>
-</element>
-<element name="U4" library="hardware" package="EMPTY" value="ERM1-4MM" x="-4" y="-2.5">
-<attribute name="MOUSER" value="749-ERM1-4MM" x="-4" y="-2.5" size="1.778" layer="27" display="off"/>
-</element>
 </elements>
 <signals>
 <signal name="GND">
