@@ -145,7 +145,7 @@
 <text x="10.16" y="11.43" size="1.27" layer="21" ratio="15" align="center-right">OUT&lt;</text>
 <text x="2.54" y="1.27" size="1.27" layer="21" ratio="15" align="center">-15V</text>
 <text x="2.54" y="49.53" size="1.27" layer="21" ratio="15" align="center">+15V</text>
-<text x="1.25" y="22.25" size="0.8128" layer="22" ratio="15" rot="MR90" align="center">fluorumlabs.com M913b rev.A</text>
+<text x="1.25" y="25.375" size="0.8128" layer="22" ratio="15" rot="MR90" align="center">fluorumlabs.com M913b rev.A</text>
 </plain>
 <libraries>
 <library name="capacitors-electrolytic">
