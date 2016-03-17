@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.2">
+<eagle version="7.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -231,12 +231,6 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 </package>
 </packages>
 </library>
-<library name="text">
-<packages>
-<package name="EMPTY">
-</package>
-</packages>
-</library>
 <library name="resistors">
 <packages>
 <package name="R-0207/10">
@@ -358,8 +352,6 @@ type 0207, grid 10 mm</description>
 <wire x1="-6" y1="37" x2="-8" y2="38" width="0.127" layer="43"/>
 <wire x1="-8" y1="38" x2="-8" y2="36" width="0.127" layer="43"/>
 <wire x1="-8" y1="36" x2="-6" y2="37" width="0.127" layer="43"/>
-<text x="97" y="25" size="1.27" layer="21" ratio="15" rot="R270" align="center">&gt;DRAWING_NAME</text>
-<text x="99" y="25" size="1.27" layer="21" ratio="15" rot="R90" align="bottom-center">&gt;VALUE</text>
 <rectangle x1="0" y1="7" x2="4" y2="43" layer="39"/>
 <rectangle x1="96" y1="7" x2="100" y2="43" layer="39"/>
 <rectangle x1="0" y1="7" x2="4" y2="43" layer="40"/>
@@ -402,6 +394,16 @@ type 0207, grid 10 mm</description>
 <circle x="4" y="4" radius="1.6" width="0.4064" layer="41"/>
 <circle x="40.975" y="39.595" radius="1.6" width="0.4064" layer="42"/>
 <circle x="59.025" y="39.595" radius="1.6" width="0.4064" layer="42"/>
+<circle x="4" y="46" radius="1.6" width="0.4064" layer="42"/>
+<circle x="35" y="46" radius="1.6" width="0.4064" layer="42"/>
+<circle x="65" y="46" radius="1.6" width="0.4064" layer="42"/>
+<circle x="96" y="46" radius="1.6" width="0.4064" layer="42"/>
+<circle x="96" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="65" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="35" y="4" radius="1.6" width="0.4064" layer="42"/>
+<circle x="4" y="4" radius="1.6" width="0.4064" layer="42"/>
+<text x="98" y="25" size="1.27" layer="21" ratio="15" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="98" y="25" size="1.27" layer="22" ratio="15" rot="SMR270" align="top-center">fluorumlabs.com</text>
 </package>
 </packages>
 </library>
@@ -860,11 +862,10 @@ Please make sure your boards conform to these design rules.</description>
 <element name="L1" library="inductors" package="BL01RN1A" value="BL01RN1A1F1J" x="39.5" y="14" rot="R90">
 <attribute name="MOUSER" value="81-BL01RN1A1F1J" x="39.5" y="14" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="O1" library="text" package="EMPTY" value="Designed by Artem Godin // fluorumlabs.com" x="-78.74" y="95.25"/>
 <element name="U2" library="regulators-switch-mode" package="DC/DC-C1" value="SHHN000A3CL41Z" x="81" y="25" rot="R90">
 <attribute name="MOUSER" value="894-SHHN000A3CL41Z" x="81" y="25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="PCB1" library="module-footprints" package="ST2-BOARD-50-PSU" value="rev.A" x="0" y="0"/>
+<element name="PCB1" library="module-footprints" package="ST2-BOARD-50-PSU" value="M101 rev.B" x="0" y="0"/>
 <element name="VD1" library="diodes" package="MDIP-4" value="DF01M" x="31" y="14" rot="R270">
 <attribute name="MOUSER" value="512-DF01M" x="31" y="14" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -943,6 +944,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MOUSER" value="642-MHS122K" x="17" y="13" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="S1" library="switches" package="JP1-SOLDER" value="" x="15" y="12" rot="MR270"/>
+<element name="U5" library="hardware" package="EMPTY" value="SCREW-M2X8" x="-83" y="-103"/>
+<element name="U6" library="hardware" package="EMPTY" value="SCREW-M2X8" x="-84" y="-105"/>
+<element name="U7" library="hardware" package="EMPTY" value="NUT-M2-SELFLOCK" x="-85" y="-107"/>
+<element name="U8" library="hardware" package="EMPTY" value="NUT-M2-SELFLOCK" x="-86" y="-109"/>
 </elements>
 <signals>
 <signal name="N$20">
@@ -1266,14 +1271,18 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="27.15" y1="11.5" x2="27.19" y2="11.46" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$2">
-<contactref element="XS1" pad="2"/>
+<contactref element="XS1" pad="3"/>
 <contactref element="VD1" pad="1"/>
 <wire x1="27.19" y1="16.54" x2="24.23670625" y2="17.76329375" width="0.6096" layer="1" curve="-44.99997"/>
 <wire x1="24.23670625" y1="17.76329375" x2="23.464465625" y2="18.535534375" width="0.6096" layer="1"/>
 <wire x1="23.464465625" y1="18.535534375" x2="19.92893125" y2="20" width="0.6096" layer="1" curve="45"/>
-<wire x1="19.92893125" y1="20" x2="17.37106875" y2="20" width="0.6096" layer="1"/>
-<wire x1="17.37106875" y1="20" x2="13.835534375" y2="21.464465625" width="0.6096" layer="1" curve="-45"/>
-<wire x1="13.835534375" y1="21.464465625" x2="10.3" y2="25" width="0.6096" layer="1"/>
+<wire x1="19.92893125" y1="20" x2="15.828428125" y2="20" width="0.6096" layer="1"/>
+<wire x1="15.828428125" y1="20" x2="14.4142125" y2="20.5857875" width="0.6096" layer="1" curve="-45.000063"/>
+<wire x1="14.4142125" y1="20.5857875" x2="13.5857875" y2="21.4142125" width="0.6096" layer="1"/>
+<wire x1="13.5857875" y1="21.4142125" x2="13" y2="22.828428125" width="0.6096" layer="1" curve="-45.00009"/>
+<wire x1="13" y1="22.828428125" x2="13" y2="26.671571875" width="0.6096" layer="1"/>
+<wire x1="13" y1="26.671571875" x2="12.4142125" y2="28.0857875" width="0.6096" layer="1" curve="45.000063"/>
+<wire x1="12.4142125" y1="28.0857875" x2="10.3" y2="30.2" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="SA1" pad="2"/>
