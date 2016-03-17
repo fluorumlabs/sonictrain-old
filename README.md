@@ -4,4 +4,22 @@
 
 This is the schematics and PCB repository for the second revision of SonicTrain: Hardware analog audio signal chain modules.
 
-It is still WIP and there are no tested modules at the moment.
+Version: 0.1-alpha2
+
+Modules
+
+Module | Revision | Status | Known issues
+------ | -------- | ----------- | ------------
+M101 Power Supply | B | Tested | 
+M202 Stereo Input | C | |
+M303 Stereo Output | C | |
+M907 VU Meter | A | |
+M913 Dev Adapter | A | |
+A111 Fader | A | |
+A210 4-Band EQ | A | |
+A212 Kill EQ | A | |
+A405 Diode Distortion | A | Tested | Diodes should be connected to ground instead of OpAmp (#19), Output gain too low (#20)
+A406 4069 Overdrive | A | |
+D104 LoFi Delay | A | |
+D108 SpinSemi FX | A | |
+D709 VS1053 Synth | A | |
