@@ -10,7 +10,7 @@ Modules
 
 Module | Revision | Status | Known issues
 ------ | -------- | ----------- | ------------
-M101 Power Supply | B | Tested | 
+M101 Power Supply | B | Tested | Polarity protection diode bridge is getting hot (50ºC) (#24)
 M202 Stereo Input | C | |
 M303 Stereo Output | C | |
 M907 VU Meter | A | |
