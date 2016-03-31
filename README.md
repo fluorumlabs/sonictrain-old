@@ -14,7 +14,7 @@ M101 Power Supply | B | Tested | Polarity protection diode bridge is getting hot
 M202 Stereo Input | C | Tested |
 M303 Stereo Output | C | Tested |
 M907 VU Meter | A | |
-M913 Dev Adapter | A | |
+M913 Dev Adapter | A | Tested | Blue LED is brighter then Red LED (#25)
 A111 Fader | A | |
 A210 4-Band EQ | A | |
 A212 Kill EQ | A | |
