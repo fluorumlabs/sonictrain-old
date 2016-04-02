@@ -8,18 +8,18 @@ Version: 0.1-alpha2
 
 Modules
 
-Module | Revision | Status | Known issues
------- | -------- | ----------- | ------------
-M101 Power Supply | B | Tested | Polarity protection diode bridge is getting hot (50ºC) (#24)
-M202 Stereo Input | C | Tested |
-M303 Stereo Output | C | Tested |
-M907 VU Meter | A | |
-M913 Dev Adapter | A | Tested | Blue LED is brighter then Red LED (#25)
-A111 Fader | A | |
-A210 4-Band EQ | A | |
-A212 Kill EQ | A | |
-A405 Diode Distortion | A | Tested | Diodes should be connected to ground instead of OpAmp (#19), Output gain too low (#20)
-A406 4069 Overdrive | A | |
-D104 LoFi Delay | A | |
-D108 SpinSemi FX | A | |
-D709 VS1053 Synth | A | |
+Module | Revision | Status | Current Consumption (+15V / -15V) | Known issues
+------ | -------- | ----------- | ------------ | ------- |
+M101 Power Supply | B | Tested | | Polarity protection diode bridge is getting hot (50ºC) (#24)
+M202 Stereo Input | C | Tested | 21mA / 35mA |
+M303 Stereo Output | C | Tested | 31mA / 45mA |
+M907 VU Meter | A | | |
+M913 Dev Adapter | A | Tested | 5mA / 5mA | Blue LED is brighter then Red LED (#25)
+A111 Fader | A | | |
+A210 4-Band EQ | A | | |
+A212 Kill EQ | A | | |
+A405 Diode Distortion | A | Tested | 55mA / 60mA | Diodes should be connected to ground instead of OpAmp (#19), Output gain too low (#20)
+A406 4069 Overdrive | A | | |
+D104 LoFi Delay | A | | |
+D108 SpinSemi FX | A | | |
+D709 VS1053 Synth | A | | |
