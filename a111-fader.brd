@@ -812,8 +812,8 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MOUSER" value="513-NJM2068D" x="109" y="73" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="79" y="46.35" size="0.8128" layer="25" ratio="15" rot="R180" align="bottom-center"/>
 </element>
-<element name="R4" library="resistors" package="R-0207/10" value="10K(TH)" x="73" y="40" smashed="yes" rot="R90">
-<attribute name="MOUSER" value="71-RN55D-F-10K" x="37" y="0" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R4" library="resistors" package="R-0207/10" value="22K(TH)" x="73" y="40" smashed="yes" rot="R90">
+<attribute name="MOUSER" value="71-CCF0722K0GKE36" x="37" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="73" y="40" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
 </element>
 <element name="R2" library="resistors" package="R-0207/10" value="10K(TH)" x="68" y="15" smashed="yes">
@@ -824,8 +824,8 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MOUSER" value="71-RN55D-F-10K" x="55" y="-17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="85" y="10" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R5" library="resistors" package="R-0207/10" value="10K(TH)" x="85" y="40" smashed="yes" rot="R90">
-<attribute name="MOUSER" value="71-RN55D-F-10K" x="58" y="-13" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R5" library="resistors" package="R-0207/10" value="22K(TH)" x="85" y="40" smashed="yes" rot="R90">
+<attribute name="MOUSER" value="71-CCF0722K0GKE36" x="58" y="-13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="85" y="40" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
 </element>
 <element name="C5" library="capacitors" package="C050-024X044" value="22P(TH)" x="70" y="40" smashed="yes" rot="R90">

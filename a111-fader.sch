@@ -3057,6 +3057,60 @@ type 0207, grid 10 mm</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="8K2(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="6K8(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3K9(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2K7(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5K6(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="20K(TH)" package="R-0207/10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -3771,10 +3825,10 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <part name="GND3" library="supply" deviceset="GND" device=""/>
 <part name="GND4" library="supply" deviceset="GND" device=""/>
 <part name="DA1" library="ic-jrc" deviceset="NJM2068" device="D"/>
-<part name="R4" library="resistors" deviceset="?" device="10K(TH)"/>
+<part name="R4" library="resistors" deviceset="?" device="22K(TH)" value="22K(TH)"/>
 <part name="R2" library="resistors" deviceset="?" device="10K(TH)"/>
 <part name="R3" library="resistors" deviceset="?" device="10K(TH)"/>
-<part name="R5" library="resistors" deviceset="?" device="10K(TH)"/>
+<part name="R5" library="resistors" deviceset="?" device="22K(TH)" value="22K(TH)"/>
 <part name="C5" library="capacitors" deviceset="?" device="22P(TH)"/>
 <part name="C6" library="capacitors" deviceset="?" device="22P(TH)"/>
 <part name="GND1" library="supply" deviceset="GND" device=""/>
