@@ -1202,11 +1202,11 @@ Please make sure your boards conform to these design rules.</description>
 <element name="O2" library="hardware" package="EMPTY" value="450-CP155(15MM,GRAY/WHITE)" x="-65" y="-14">
 <attribute name="MOUSER" value="450-CP155" x="-65" y="-14" size="1.778" layer="27" display="off"/>
 </element>
-<element name="O6" library="hardware" package="EMPTY" value="450-CP157(15MM,WHITE/BLACK)" x="-66" y="-15.25">
-<attribute name="MOUSER" value="450-CP157" x="-66" y="-15.25" size="1.778" layer="27" display="off"/>
+<element name="O6" library="hardware" package="EMPTY" value="450-CP153(15MM,BLUE/WHITE)" x="-66" y="-15.25">
+<attribute name="MOUSER" value="450-CP153" x="-66" y="-15.25" size="1.778" layer="27" display="off"/>
 </element>
-<element name="O4" library="hardware" package="EMPTY" value="450-CP157(15MM,WHITE/BLACK)" x="-67" y="-16.5">
-<attribute name="MOUSER" value="450-CP157" x="-67" y="-16.5" size="1.778" layer="27" display="off"/>
+<element name="O4" library="hardware" package="EMPTY" value="450-CP153(15MM,BLUE/WHITE)" x="-67" y="-16.5">
+<attribute name="MOUSER" value="450-CP153" x="-67" y="-16.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U1" library="hardware" package="EMPTY" value="SCREW-M2X8" x="-68" y="-17.75"/>
 <element name="U2" library="hardware" package="EMPTY" value="SCREW-M2X8" x="-69" y="-19"/>
@@ -1216,12 +1216,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U4" library="hardware" package="EMPTY" value="NUT-M2-SELFLOCK" x="-73" y="-24"/>
 <element name="U8" library="hardware" package="EMPTY" value="NUT-M2-SELFLOCK" x="-74" y="-25.25"/>
 <element name="U9" library="hardware" package="EMPTY" value="NUT-M2-SELFLOCK" x="-75" y="-26.5"/>
-<element name="R29" library="resistors" package="R-0805" value="100K" x="87.5" y="23" rot="R180">
-<attribute name="MOUSER" value="660-RK73H2ATTD1003F" x="87.5" y="23" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="R28" library="resistors" package="R-0805" value="100K" x="87.5" y="27" rot="R180">
-<attribute name="MOUSER" value="660-RK73H2ATTD1003F" x="87.5" y="27" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
+<element name="R29" library="resistors" package="R-0805" value="NF" x="87.5" y="23" rot="R180"/>
+<element name="R28" library="resistors" package="R-0805" value="NF" x="87.5" y="27" rot="R180"/>
 </elements>
 <signals>
 <signal name="LMIX">

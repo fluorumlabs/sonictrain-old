@@ -2231,6 +2231,15 @@ type 0207, grid 10 mm</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="NF" package="R-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -4243,8 +4252,8 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="O5" library="hardware" deviceset="450-AA?" device="150(15MM,D,BLACK)"/>
 <part name="O3" library="hardware" deviceset="450-AA?" device="150(15MM,D,BLACK)"/>
 <part name="O2" library="hardware" deviceset="450-C?" device="P155(15MM,GRAY/WHITE)"/>
-<part name="O6" library="hardware" deviceset="450-C?" device="P157(15MM,WHITE/BLACK)"/>
-<part name="O4" library="hardware" deviceset="450-C?" device="P157(15MM,WHITE/BLACK)"/>
+<part name="O6" library="hardware" deviceset="450-C?" device="P153(15MM,BLUE/WHITE)" value="450-CP153(15MM,BLUE/WHITE)"/>
+<part name="O4" library="hardware" deviceset="450-C?" device="P153(15MM,BLUE/WHITE)" value="450-CP153(15MM,BLUE/WHITE)"/>
 <part name="U1" library="hardware" deviceset="*?" device="SCREW-M2X8"/>
 <part name="U2" library="hardware" deviceset="*?" device="SCREW-M2X8"/>
 <part name="U6" library="hardware" deviceset="*?" device="SCREW-M2X8"/>
@@ -4253,8 +4262,8 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="U4" library="hardware" deviceset="*?" device="NUT-M2-SELFLOCK"/>
 <part name="U8" library="hardware" deviceset="*?" device="NUT-M2-SELFLOCK"/>
 <part name="U9" library="hardware" deviceset="*?" device="NUT-M2-SELFLOCK"/>
-<part name="R29" library="resistors" deviceset="?" device="100K"/>
-<part name="R28" library="resistors" deviceset="?" device="100K"/>
+<part name="R29" library="resistors" deviceset="?" device="NF" value="NF"/>
+<part name="R28" library="resistors" deviceset="?" device="NF" value="NF"/>
 </parts>
 <sheets>
 <sheet>
