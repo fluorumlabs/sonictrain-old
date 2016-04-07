@@ -754,6 +754,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MOUSER" value="652-PTV09A-4225FB104" x="85" y="3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="XP1" library="connectors" package="ML10" value="" x="88" y="13" rot="R90"/>
+<element name="O1" library="hardware" package="EMPTY" value="450-AA150(15MM,D,BLACK)" x="-8" y="-59.25">
+<attribute name="MOUSER" value="450-AA150" x="-8" y="-59.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="O2" library="hardware" package="EMPTY" value="450-CP151(15MM,RED/WHITE)" x="-9" y="-60.5"/>
 </elements>
 <signals>
 <signal name="LMIX">
