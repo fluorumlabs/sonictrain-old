@@ -20,6 +20,6 @@ A210 4-Band EQ | A | | |
 A212 Kill EQ | A | | |
 A405 Diode Distortion | A | Tested | 55mA / 60mA | Diodes should be connected to ground instead of OpAmp (#19), Output gain too low (#20)
 A406 4069 Overdrive | A | | |
-D104 LoFi Delay | A | | |
+D104 LoFi Delay | A | Tested | |
 D108 SpinSemi FX | A | | |
 D709 VS1053 Synth | A | | |
