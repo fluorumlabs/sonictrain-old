@@ -2935,6 +2935,45 @@ type 0207, grid 10 mm</description>
 <rectangle x1="5" y1="4" x2="6.5" y2="6" layer="41"/>
 <rectangle x1="-6.5" y1="4" x2="-5" y2="6" layer="41"/>
 </package>
+<package name="64W">
+<wire x1="-3.175" y1="-3.68" x2="3.175" y2="-3.68" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.651" x2="3.175" y2="-1.85" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-1.85" x2="3.175" y2="-3.68" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="0.51" x2="1.905" y2="0.51" width="0.1524" layer="51"/>
+<wire x1="1.905" y1="0.51" x2="0.635" y2="0.51" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0.51" x2="-0.635" y2="0.51" width="0.1524" layer="51"/>
+<wire x1="-0.635" y1="0.51" x2="-1.905" y2="0.51" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="0.51" x2="-3.175" y2="0.51" width="0.1524" layer="51"/>
+<wire x1="-3.175" y1="-3.68" x2="-3.175" y2="-1.85" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="2.34" x2="-3.175" y2="2.032" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="2.34" x2="-0.381" y2="2.34" width="0.1524" layer="21"/>
+<wire x1="0.381" y1="2.34" x2="3.175" y2="2.34" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="2.34" x2="3.175" y2="2.032" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-1.85" x2="-3.175" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-1.85" x2="-3.175" y2="-1.85" width="0.1524" layer="21"/>
+<pad name="3" x="-2.54" y="0" drill="0.6"/>
+<pad name="1" x="2.54" y="0" drill="0.6" shape="square"/>
+<pad name="S" x="0" y="-2.54" drill="0.6"/>
+<pad name="S@1" x="0" y="0" drill="0.6"/>
+<text x="0" y="3.81" size="0.8128" layer="25" ratio="15" rot="R180" align="bottom-center">&gt;NAME</text>
+<text x="2.54" y="1.27" size="0.8128" layer="21" ratio="10" align="center">1</text>
+<text x="-2.54" y="1.27" size="0.8128" layer="21" ratio="10" align="center">3</text>
+<wire x1="-1.016" y1="1.3335" x2="-0.635" y2="1.3335" width="0.1524" layer="51"/>
+<wire x1="-1.016" y1="1.3335" x2="-0.889" y2="1.4605" width="0.1524" layer="51"/>
+<wire x1="-1.016" y1="1.3335" x2="-0.889" y2="1.2065" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="1.5875" x2="-0.762" y2="1.0795" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="1.5875" x2="-0.635" y2="1.7145" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="1.0795" x2="-0.635" y2="0.9525" width="0.1524" layer="51"/>
+<wire x1="-0.889" y1="1.4605" x2="-0.889" y2="1.2065" width="0.1524" layer="51"/>
+<wire x1="-0.889" y1="1.4605" x2="-0.762" y2="1.5875" width="0.1524" layer="51"/>
+<wire x1="-0.889" y1="1.2065" x2="-0.762" y2="1.0795" width="0.1524" layer="51"/>
+<wire x1="-0.635" y1="1.3335" x2="-0.635" y2="0.9525" width="0.1524" layer="51"/>
+<wire x1="-0.635" y1="1.7145" x2="-0.635" y2="1.3335" width="0.1524" layer="51"/>
+<wire x1="-0.508" y1="1.8415" x2="-0.635" y2="1.7145" width="0.1524" layer="51"/>
+<wire x1="-0.635" y1="0.9525" x2="-0.508" y2="0.8255" width="0.1524" layer="51"/>
+<wire x1="-0.508" y1="0.8255" x2="-0.508" y2="1.8415" width="0.1524" layer="51"/>
+<wire x1="1.016" y1="1.3335" x2="-0.635" y2="1.3335" width="0.1524" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="POTENTIOMETER">
@@ -2956,6 +2995,28 @@ type 0207, grid 10 mm</description>
 <wire x1="0.762" y1="1.778" x2="2.54" y2="1.778" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="2.54" y1="1.778" x2="2.032" y2="1.27" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="2.54" y1="1.778" x2="2.032" y2="2.286" width="0.1524" layer="94" style="shortdash"/>
+</symbol>
+<symbol name="TRIMMER">
+<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.016" width="0.1524" layer="94"/>
+<text x="-1.27" y="5.08" size="1.778" layer="94" rot="R180">&gt;NAME</text>
+<text x="0" y="-1.27" size="1.778" layer="96" rot="R180" align="bottom-center">&gt;VALUE</text>
+<pin name="CW" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="CCW" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="W" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0" y="1.016"/>
+<vertex x="0.508" y="2.54"/>
+<vertex x="-0.508" y="2.54"/>
+</polygon>
+<wire x1="0.762" y1="1.778" x2="2.54" y2="1.778" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="2.54" y1="1.778" x2="2.032" y2="1.27" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="2.54" y1="1.778" x2="2.032" y2="2.286" width="0.1524" layer="94" style="shortdash"/>
+<circle x="-2.032" y="1.778" radius="0.508" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-1.524" y2="2.286" width="0.1524" layer="94" style="shortdash"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3389,6 +3450,25 @@ type 0207, grid 10 mm</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="?(64W/Y)" prefix="R">
+<gates>
+<gate name="G$1" symbol="TRIMMER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="10K" package="64W">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="S S@1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="858-64WR10KLF" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4182,6 +4262,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <part name="O4" library="hardware" deviceset="450-C?" device="P151(15MM,RED/WHITE)"/>
 <part name="O5" library="hardware" deviceset="450-C?" device="P153(15MM,BLUE/WHITE)"/>
 <part name="O6" library="hardware" deviceset="450-C?" device="P153(15MM,BLUE/WHITE)"/>
+<part name="R23" library="potentiometers" deviceset="?(64W/Y)" device="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -4228,7 +4309,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <instance part="PWR3" gate="G$1" x="241.3" y="-48.26" rot="R270"/>
 <instance part="R2" gate="G$1" x="55.88" y="-86.36"/>
 <instance part="R1" gate="G$1" x="43.18" y="-86.36" rot="MR90"/>
-<instance part="GND1" gate="VR1" x="43.18" y="-96.52"/>
+<instance part="GND1" gate="VR1" x="43.18" y="-109.22"/>
 <instance part="PWR1" gate="G$1" x="43.18" y="-78.74"/>
 <instance part="DA2" gate=".1" x="154.94" y="-154.94" rot="MR180"/>
 <instance part="R8" gate="G$1" x="129.54" y="-132.08"/>
@@ -4278,12 +4359,13 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <instance part="C10" gate="G$1" x="175.26" y="-43.18" rot="R90"/>
 <instance part="C7" gate="G$1" x="165.1" y="-33.02" rot="R270"/>
 <instance part="C8" gate="G$1" x="165.1" y="-43.18" rot="R270"/>
-<instance part="O1" gate="G$1" x="43.18" y="-111.76"/>
+<instance part="O1" gate="G$1" x="43.18" y="-124.46"/>
 <instance part="O2" gate="G$1" x="119.38" y="-60.96"/>
 <instance part="O3" gate="G$1" x="160.02" y="-101.6"/>
 <instance part="O4" gate="G$1" x="119.38" y="-60.96"/>
-<instance part="O5" gate="G$1" x="43.18" y="-111.76"/>
+<instance part="O5" gate="G$1" x="43.18" y="-124.46"/>
 <instance part="O6" gate="G$1" x="160.02" y="-101.6"/>
+<instance part="R23" gate="G$1" x="43.18" y="-101.6" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -4359,9 +4441,8 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="104.14" y1="-91.44" x2="104.14" y2="-93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="CCW"/>
 <pinref part="GND1" gate="VR1" pin="GND"/>
-<wire x1="43.18" y1="-91.44" x2="43.18" y2="-93.98" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="CCW"/>
 </segment>
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
@@ -4884,6 +4965,19 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="213.36" y1="-137.16" x2="223.52" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="-137.16" x2="223.52" y2="-144.78" width="0.1524" layer="91"/>
 <junction x="223.52" y="-144.78"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="CCW"/>
+<wire x1="43.18" y1="-91.44" x2="43.18" y2="-93.98" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="CW"/>
+<wire x1="43.18" y1="-93.98" x2="43.18" y2="-96.52" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="W"/>
+<wire x1="38.1" y1="-101.6" x2="35.56" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-101.6" x2="35.56" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-93.98" x2="43.18" y2="-93.98" width="0.1524" layer="91"/>
+<junction x="43.18" y="-93.98"/>
 </segment>
 </net>
 </nets>
