@@ -864,7 +864,9 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R17" library="resistors" package="R-0207/10" value="100K(TH)" x="32" y="11">
 <attribute name="MOUSER" value="71-RN55D-F-100K" x="-74" y="-62" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R16" library="potentiometers" package="RV11-DUAL" value="2*B5K" x="83" y="37" rot="R90"/>
+<element name="R16" library="potentiometers" package="RV11-DUAL" value="2*A10K" x="83" y="37" rot="R90">
+<attribute name="MOUSER" value="688-RK12L12C0A0E" x="83" y="37" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="C5" library="capacitors" package="C050-025X075" value="22N(FILM)" x="74" y="12" smashed="yes" rot="R90">
 <attribute name="MOUSER" value="80-R82EC2220DQ50J" x="161" y="-88" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="74" y="7.595" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
@@ -955,6 +957,22 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="C8" library="capacitors-electrolytic" package="E2-5" value="10U/35V" x="14" y="35" rot="R180">
 <attribute name="MOUSER" value="647-USW1V100MDD" x="14" y="35" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="O1" library="hardware" package="EMPTY" value="450-AA150(15MM,D,BLACK)" x="-8" y="-101.25">
+<attribute name="MOUSER" value="450-AA150" x="-8" y="-101.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="O2" library="hardware" package="EMPTY" value="450-AA150(15MM,D,BLACK)" x="-9" y="-102.5">
+<attribute name="MOUSER" value="450-AA150" x="-9" y="-102.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="O3" library="hardware" package="EMPTY" value="450-AA150(15MM,D,BLACK)" x="-10" y="-103.75">
+<attribute name="MOUSER" value="450-AA150" x="-10" y="-103.75" size="1.778" layer="27" display="off"/>
+</element>
+<element name="O4" library="hardware" package="EMPTY" value="450-CP151(15MM,RED/WHITE)" x="-11" y="-105"/>
+<element name="O5" library="hardware" package="EMPTY" value="450-CP153(15MM,BLUE/WHITE)" x="-12" y="-106.25">
+<attribute name="MOUSER" value="450-CP153" x="-12" y="-106.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="O6" library="hardware" package="EMPTY" value="450-CP153(15MM,BLUE/WHITE)" x="-13" y="-107.5">
+<attribute name="MOUSER" value="450-CP153" x="-13" y="-107.5" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
