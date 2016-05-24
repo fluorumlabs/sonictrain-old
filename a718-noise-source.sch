@@ -4043,6 +4043,10 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <part name="GND5" library="supply" deviceset="GND" device=""/>
 <part name="O1" library="hardware" deviceset="450-AA?" device="150(15MM,D,BLACK)"/>
 <part name="O2" library="hardware" deviceset="450-C?" device="P156(15MM,BLACK/WHITE)"/>
+<part name="R13" library="resistors" deviceset="?" device="100K(TH)"/>
+<part name="R14" library="resistors" deviceset="?" device="100K(TH)"/>
+<part name="GND7" library="supply" deviceset="GND" device=""/>
+<part name="GND8" library="supply" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4117,6 +4121,10 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <instance part="DA1" gate="*" x="228.6" y="-45.72"/>
 <instance part="O1" gate="G$1" x="170.18" y="-144.78"/>
 <instance part="O2" gate="G$1" x="170.18" y="-144.78"/>
+<instance part="R13" gate="G$1" x="55.88" y="-66.04" rot="R90"/>
+<instance part="R14" gate="G$1" x="60.96" y="-66.04" rot="R90"/>
+<instance part="GND7" gate="VR1" x="55.88" y="-73.66"/>
+<instance part="GND8" gate="VR1" x="60.96" y="-73.66"/>
 </instances>
 <busses>
 </busses>
@@ -4266,6 +4274,14 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <pinref part="GND5" gate="VR1" pin="GND"/>
 <wire x1="170.18" y1="-116.84" x2="170.18" y2="-129.54" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="GND7" gate="VR1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="GND8" gate="VR1" pin="GND"/>
+</segment>
 </net>
 <net name="N$38" class="0">
 <segment>
@@ -4284,20 +4300,6 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <pinref part="PCB1" gate="G$7" pin="SENSE'"/>
 <pinref part="PCB1" gate="G$6" pin="SENSE"/>
 <wire x1="66.04" y1="-58.42" x2="33.02" y2="-58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="PCB1" gate="G$6" pin="RFBK"/>
-<pinref part="PCB1" gate="G$7" pin="RFBK'"/>
-<wire x1="33.02" y1="-38.1" x2="66.04" y2="-38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="PCB1" gate="G$6" pin="LFBK"/>
-<pinref part="PCB1" gate="G$7" pin="LFBK'"/>
-<wire x1="33.02" y1="-35.56" x2="66.04" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -4452,16 +4454,26 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <segment>
 <pinref part="PCB1" gate="G$3" pin="INR"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="-20.32" x2="45.72" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-20.32" x2="40.64" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-20.32" x2="45.72" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="-20.32" x2="45.72" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-20.32" x2="40.64" y2="-38.1" width="0.1524" layer="91"/>
+<junction x="40.64" y="-20.32"/>
+<pinref part="PCB1" gate="G$6" pin="RFBK"/>
+<wire x1="40.64" y1="-38.1" x2="33.02" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="PCB1" gate="G$2" pin="INL"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="-15.24" x2="50.8" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-15.24" x2="38.1" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-15.24" x2="50.8" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-15.24" x2="50.8" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-15.24" x2="38.1" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="38.1" y="-15.24"/>
+<pinref part="PCB1" gate="G$6" pin="LFBK"/>
+<wire x1="38.1" y1="-35.56" x2="33.02" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -4494,6 +4506,22 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <pinref part="PCB1" gate="G$5" pin="OUTR"/>
 <wire x1="205.74" y1="-124.46" x2="203.2" y2="-124.46" width="0.1524" layer="91"/>
 <junction x="203.2" y="-124.46"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="-60.96" x2="60.96" y2="-38.1" width="0.1524" layer="91"/>
+<pinref part="PCB1" gate="G$7" pin="RFBK'"/>
+<wire x1="60.96" y1="-38.1" x2="66.04" y2="-38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="PCB1" gate="G$7" pin="LFBK'"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="-35.56" x2="55.88" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-35.56" x2="55.88" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
