@@ -1037,8 +1037,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R14" library="resistors" package="R-0805" value="1K" x="13" y="37" rot="R270">
 <attribute name="MOUSER" value="660-RK73H2ATTD1001F" x="13" y="37" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="HL2" library="optoelectronics" package="LED2X5" value="ORANGE(2MMX5MM)" x="12" y="43" rot="R270"/>
-<element name="HL1" library="optoelectronics" package="LED2X5" value="WHITE(2MMX5MM)" x="9" y="43" rot="R270"/>
+<element name="HL2" library="optoelectronics" package="LED2X5" value="RED(2MMX5MM)" x="12" y="43" rot="R270"/>
+<element name="HL1" library="optoelectronics" package="LED2X5" value="BLUE(2MMX5MM)" x="9" y="43" rot="R270"/>
 <element name="C12" library="capacitors" package="C-0805" value="100N" x="20.5" y="8" rot="R90">
 <attribute name="MOUSER" value="77-VJ0805V104MXBPBC" x="20.5" y="8" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
