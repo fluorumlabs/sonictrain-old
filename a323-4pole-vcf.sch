@@ -4013,58 +4013,6 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <rectangle x1="2.286" y1="-3.0988" x2="2.794" y2="-1.9558" layer="51"/>
 <rectangle x1="3.556" y1="-3.0988" x2="4.064" y2="-1.9558" layer="51"/>
 </package>
-<package name="DIP-8">
-<wire x1="-5.08" y1="1.016" x2="-5.08" y2="2.286" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="2.286" x2="-4.445" y2="2.921" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-4.445" y1="2.921" x2="4.445" y2="2.921" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="2.921" x2="5.08" y2="2.286" width="0.1524" layer="21" curve="-90"/>
-<wire x1="5.08" y1="2.286" x2="5.08" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-2.286" x2="4.445" y2="-2.921" width="0.1524" layer="21" curve="-90"/>
-<wire x1="4.445" y1="-2.921" x2="-4.445" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-2.921" x2="-5.08" y2="-2.286" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-5.08" y1="-2.286" x2="-5.08" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
-<pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="square" rot="R90"/>
-<pad name="2" x="-1.27" y="-3.81" drill="0.8128" rot="R90"/>
-<pad name="7" x="-1.27" y="3.81" drill="0.8128" rot="R90"/>
-<pad name="8" x="-3.81" y="3.81" drill="0.8128" rot="R90"/>
-<pad name="3" x="1.27" y="-3.81" drill="0.8128" rot="R90"/>
-<pad name="4" x="3.81" y="-3.81" drill="0.8128" rot="R90"/>
-<pad name="6" x="1.27" y="3.81" drill="0.8128" rot="R90"/>
-<pad name="5" x="3.81" y="3.81" drill="0.8128" rot="R90"/>
-<text x="-6.35" y="0" size="0.8128" layer="25" ratio="15" rot="R270" align="bottom-center">&gt;NAME</text>
-</package>
-<package name="SO-8">
-<wire x1="2.159" y1="1.9558" x2="-2.159" y2="1.9558" width="0.1524" layer="21"/>
-<wire x1="2.159" y1="-1.9558" x2="2.54" y2="-1.5748" width="0.1524" layer="21" curve="90"/>
-<wire x1="-2.54" y1="1.5748" x2="-2.159" y2="1.9558" width="0.1524" layer="21" curve="-90"/>
-<wire x1="2.159" y1="1.9558" x2="2.54" y2="1.5748" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.54" y1="-1.5748" x2="-2.159" y2="-1.9558" width="0.1524" layer="21" curve="90"/>
-<wire x1="-2.159" y1="-1.9558" x2="2.159" y2="-1.9558" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.5748" x2="2.54" y2="1.5748" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="1.5748" x2="-2.54" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.508" x2="-2.54" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-1.5748" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.508" x2="-2.54" y2="-0.508" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-2.54" y1="-1.6002" x2="2.54" y2="-1.6002" width="0.0508" layer="21"/>
-<smd name="1" x="-1.905" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="8" x="-1.905" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="2" x="-0.635" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="3" x="0.635" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="7" x="-0.635" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="6" x="0.635" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="4" x="1.905" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="5" x="1.905" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<text x="-3.81" y="0" size="0.8128" layer="25" ratio="15" rot="R270" align="bottom-center">&gt;NAME</text>
-<rectangle x1="1.651" y1="1.9558" x2="2.159" y2="3.0988" layer="51"/>
-<rectangle x1="-2.159" y1="-3.0988" x2="-1.651" y2="-1.9558" layer="51"/>
-<rectangle x1="-0.889" y1="-3.0988" x2="-0.381" y2="-1.9558" layer="51"/>
-<rectangle x1="0.381" y1="-3.0734" x2="0.889" y2="-1.9304" layer="51"/>
-<rectangle x1="1.651" y1="-3.0988" x2="2.159" y2="-1.9558" layer="51"/>
-<rectangle x1="0.381" y1="1.9558" x2="0.889" y2="3.0988" layer="51"/>
-<rectangle x1="-0.889" y1="1.9558" x2="-0.381" y2="3.0988" layer="51"/>
-<rectangle x1="-2.159" y1="1.9558" x2="-1.651" y2="3.0988" layer="51"/>
-</package>
 </packages>
 <symbols>
 <symbol name="OPAMP">
@@ -4142,49 +4090,6 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TL072" prefix="DA">
-<gates>
-<gate name=".1" symbol="OPAMP" x="0" y="15.24" swaplevel="1"/>
-<gate name=".2" symbol="OPAMP" x="0" y="-2.54" swaplevel="1"/>
-<gate name="*" symbol="SUPPLY" x="0" y="-20.32"/>
-</gates>
-<devices>
-<device name="IP" package="DIP-8">
-<connects>
-<connect gate="*" pin="V+" pad="8"/>
-<connect gate="*" pin="V-" pad="4"/>
-<connect gate=".1" pin="IN+" pad="3"/>
-<connect gate=".1" pin="IN-" pad="2"/>
-<connect gate=".1" pin="OUT" pad="1"/>
-<connect gate=".2" pin="IN+" pad="5"/>
-<connect gate=".2" pin="IN-" pad="6"/>
-<connect gate=".2" pin="OUT" pad="7"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MOUSER" value="595-TL072IP" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="ID" package="SO-8">
-<connects>
-<connect gate="*" pin="V+" pad="8"/>
-<connect gate="*" pin="V-" pad="4"/>
-<connect gate=".1" pin="IN+" pad="3"/>
-<connect gate=".1" pin="IN-" pad="2"/>
-<connect gate=".1" pin="OUT" pad="1"/>
-<connect gate=".2" pin="IN+" pad="5"/>
-<connect gate=".2" pin="IN-" pad="6"/>
-<connect gate=".2" pin="OUT" pad="7"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MOUSER" value="511-TL072IDT" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -4784,8 +4689,8 @@ diameter 9 mm, horizontal, grid 15.24 mm</description>
 <part name="R7" library="resistors" deviceset="?" device="4K7(TH)" value="4K7(TH)"/>
 <part name="GND4" library="supply" deviceset="GND" device=""/>
 <part name="GND7" library="supply" deviceset="GND" device=""/>
-<part name="DA4" library="ic-ti" deviceset="TL072" device="IP" value="TL072IP"/>
-<part name="DA5" library="ic-ti" deviceset="TL072" device="IP" value="TL072IP"/>
+<part name="DA4" library="ic-jrc" deviceset="NJM2068" device="D" value="NJM2068D"/>
+<part name="DA5" library="ic-jrc" deviceset="NJM2068" device="D" value="NJM2068D"/>
 <part name="C22" library="capacitors" deviceset="?" device="1N(FILM)"/>
 <part name="C23" library="capacitors" deviceset="?" device="1N(FILM)"/>
 <part name="C24" library="capacitors" deviceset="?" device="1N(FILM)"/>
