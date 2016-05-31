@@ -4577,7 +4577,7 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 </class>
 </classes>
 <parts>
-<part name="PCB1" library="module-footprints" deviceset="ST2-BOARD-?" device="74" value="A323 rev.A"/>
+<part name="PCB1" library="module-footprints" deviceset="ST2-BOARD-?" device="74" value="A124 rev.A"/>
 <part name="U5" library="hardware" deviceset="?" device="FX2-20P-1.27DS"/>
 <part name="U10" library="hardware" deviceset="?" device="FX2-20S-1.27DS"/>
 <part name="C12" library="capacitors" deviceset="?" device="100N(TH)" value="100N(TH)"/>

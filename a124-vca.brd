@@ -802,7 +802,7 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="PCB1" library="module-footprints" package="ST2-BOARD-74" value="A323 rev.A" x="0" y="0"/>
+<element name="PCB1" library="module-footprints" package="ST2-BOARD-74" value="A124 rev.A" x="0" y="0"/>
 <element name="U5" library="hardware" package="EMPTY" value="FX2-20P-1.27DS" x="62" y="-142">
 <attribute name="MOUSER" value="798-FX2-20P-1.27DS71" x="0" y="-86" size="1.778" layer="27" display="off"/>
 </element>
