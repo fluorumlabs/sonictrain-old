@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.1">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -3202,14 +3202,14 @@ type 0207, grid 10 mm</description>
 <part name="PWR2" library="supply" deviceset="+15V" device=""/>
 <part name="HL1" library="optoelectronics" deviceset="?(2MMX5MM)" device="GREEN"/>
 <part name="HL2" library="optoelectronics" deviceset="?(2MMX5MM)" device="GREEN"/>
-<part name="HL3" library="optoelectronics" deviceset="?(2MMX5MM)" device="BLUE"/>
-<part name="HL4" library="optoelectronics" deviceset="?(2MMX5MM)" device="BLUE"/>
-<part name="HL5" library="optoelectronics" deviceset="?(2MMX5MM)" device="WHITE"/>
+<part name="HL3" library="optoelectronics" deviceset="?(2MMX5MM)" device="YELLOW" value="YELLOW(2MMX5MM)"/>
+<part name="HL4" library="optoelectronics" deviceset="?(2MMX5MM)" device="YELLOW" value="YELLOW(2MMX5MM)"/>
+<part name="HL5" library="optoelectronics" deviceset="?(2MMX5MM)" device="RED" value="RED(2MMX5MM)"/>
 <part name="HL6" library="optoelectronics" deviceset="?(2MMX5MM)" device="GREEN"/>
 <part name="HL7" library="optoelectronics" deviceset="?(2MMX5MM)" device="GREEN"/>
-<part name="HL8" library="optoelectronics" deviceset="?(2MMX5MM)" device="BLUE"/>
-<part name="HL9" library="optoelectronics" deviceset="?(2MMX5MM)" device="BLUE"/>
-<part name="HL10" library="optoelectronics" deviceset="?(2MMX5MM)" device="WHITE"/>
+<part name="HL8" library="optoelectronics" deviceset="?(2MMX5MM)" device="YELLOW" value="YELLOW(2MMX5MM)"/>
+<part name="HL9" library="optoelectronics" deviceset="?(2MMX5MM)" device="YELLOW" value="YELLOW(2MMX5MM)"/>
+<part name="HL10" library="optoelectronics" deviceset="?(2MMX5MM)" device="RED" value="RED(2MMX5MM)"/>
 <part name="C4" library="capacitors-electrolytic" deviceset="?" device="10U/35V"/>
 <part name="C6" library="capacitors-electrolytic" deviceset="?" device="10U/35V"/>
 <part name="C8" library="capacitors" deviceset="?" device="100N(TH)"/>

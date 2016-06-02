@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.1">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -727,19 +727,19 @@ Please make sure your boards conform to these design rules.</description>
 <element name="HL1" library="optoelectronics" package="LED2X5" value="GREEN(2MMX5MM)" x="34" y="8.5" smashed="yes">
 <attribute name="NAME" x="34" y="7.04" size="0.8128" layer="25" ratio="15" rot="R180" align="bottom-center"/>
 </element>
-<element name="HL10" library="optoelectronics" package="LED2X5" value="WHITE(2MMX5MM)" x="10" y="17.5" smashed="yes">
+<element name="HL10" library="optoelectronics" package="LED2X5" value="RED(2MMX5MM)" x="10" y="17.5" smashed="yes">
 <attribute name="NAME" x="11" y="21.96" size="0.8128" layer="25" ratio="15" align="bottom-center"/>
 </element>
 <element name="HL2" library="optoelectronics" package="LED2X5" value="GREEN(2MMX5MM)" x="28" y="8.5" smashed="yes">
 <attribute name="NAME" x="28" y="4.04" size="0.8128" layer="25" ratio="15" rot="R180" align="bottom-center"/>
 </element>
-<element name="HL3" library="optoelectronics" package="LED2X5" value="BLUE(2MMX5MM)" x="22" y="8.5" smashed="yes">
+<element name="HL3" library="optoelectronics" package="LED2X5" value="YELLOW(2MMX5MM)" x="22" y="8.5" smashed="yes">
 <attribute name="NAME" x="22" y="4.04" size="0.8128" layer="25" ratio="15" rot="R180" align="bottom-center"/>
 </element>
-<element name="HL4" library="optoelectronics" package="LED2X5" value="BLUE(2MMX5MM)" x="16" y="8.5" smashed="yes">
+<element name="HL4" library="optoelectronics" package="LED2X5" value="YELLOW(2MMX5MM)" x="16" y="8.5" smashed="yes">
 <attribute name="NAME" x="16" y="4.04" size="0.8128" layer="25" ratio="15" rot="R180" align="bottom-center"/>
 </element>
-<element name="HL5" library="optoelectronics" package="LED2X5" value="WHITE(2MMX5MM)" x="10" y="8.5" smashed="yes">
+<element name="HL5" library="optoelectronics" package="LED2X5" value="RED(2MMX5MM)" x="10" y="8.5" smashed="yes">
 <attribute name="NAME" x="10" y="4.04" size="0.8128" layer="25" ratio="15" rot="R180" align="bottom-center"/>
 </element>
 <element name="HL6" library="optoelectronics" package="LED2X5" value="GREEN(2MMX5MM)" x="34" y="17.5" smashed="yes">
@@ -748,10 +748,10 @@ Please make sure your boards conform to these design rules.</description>
 <element name="HL7" library="optoelectronics" package="LED2X5" value="GREEN(2MMX5MM)" x="28" y="17.5" smashed="yes">
 <attribute name="NAME" x="28" y="21.96" size="0.8128" layer="25" ratio="15" align="bottom-center"/>
 </element>
-<element name="HL8" library="optoelectronics" package="LED2X5" value="BLUE(2MMX5MM)" x="22" y="17.5" smashed="yes">
+<element name="HL8" library="optoelectronics" package="LED2X5" value="YELLOW(2MMX5MM)" x="22" y="17.5" smashed="yes">
 <attribute name="NAME" x="22" y="21.96" size="0.8128" layer="25" ratio="15" align="bottom-center"/>
 </element>
-<element name="HL9" library="optoelectronics" package="LED2X5" value="BLUE(2MMX5MM)" x="16" y="17.5" smashed="yes">
+<element name="HL9" library="optoelectronics" package="LED2X5" value="YELLOW(2MMX5MM)" x="16" y="17.5" smashed="yes">
 <attribute name="NAME" x="16" y="21.96" size="0.8128" layer="25" ratio="15" align="bottom-center"/>
 </element>
 <element name="PCB1" library="module-footprints" package="ST2-BOARD-26" value="M907 rev.A" x="0" y="0"/>
