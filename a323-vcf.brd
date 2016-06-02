@@ -1028,7 +1028,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MOUSER" value="71-RN55D-F-1.0K" x="154" y="-4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="VT3" library="transistors-npn" package="TO92" value="BC548" x="11" y="52" rot="R180"/>
-<element name="VT2" library="transistors-pnp" package="TO92" value="BC558" x="11" y="46"/>
+<element name="VT2" library="transistors-pnp" package="TO92" value="BC556" x="11" y="46"/>
 <element name="R9" library="resistors" package="R-0207/10" value="3K9(TH)" x="17" y="49" rot="R90"/>
 <element name="VD1" library="diodes" package="DO35-7" value="1N4148" x="15" y="49" rot="R90">
 <attribute name="MOUSER" value="583-1N4148-T" x="158" y="5" size="1.778" layer="27" rot="R90" display="off"/>

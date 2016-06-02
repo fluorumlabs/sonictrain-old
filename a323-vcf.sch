@@ -4678,7 +4678,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </technology>
 </technologies>
 </device>
-<device name="BC558" package="TO92">
+<device name="BC556" package="TO92">
 <connects>
 <connect gate="G$1" pin="B" pad="2"/>
 <connect gate="G$1" pin="C" pad="1"/>
@@ -5043,7 +5043,7 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <part name="R16" library="resistors" deviceset="?" device="30K(TH)"/>
 <part name="R12" library="resistors" deviceset="?" device="1K(TH)"/>
 <part name="VT3" library="transistors-npn" deviceset="?" device="BC548"/>
-<part name="VT2" library="transistors-pnp" deviceset="?" device="BC558"/>
+<part name="VT2" library="transistors-pnp" deviceset="?" device="BC556"/>
 <part name="R9" library="resistors" deviceset="?" device="3K9(TH)"/>
 <part name="VD1" library="diodes" deviceset="?" device="1N4148"/>
 <part name="VT1" library="transistors-npn" deviceset="?" device="BC548"/>
