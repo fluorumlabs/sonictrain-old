@@ -773,12 +773,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R5" library="resistors" package="R-0207/10" value="10K(TH)" x="73" y="12" rot="R180">
 <attribute name="MOUSER" value="71-RN55D-F-10K" x="73" y="12" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R6" library="resistors" package="R-0207/10" value="100R(TH)" x="23.25" y="11.25" rot="R180">
-<attribute name="MOUSER" value="71-RN55D-F-100/R" x="23.25" y="11.25" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="R7" library="resistors" package="R-0207/10" value="100R(TH)" x="23.25" y="14.75" rot="R180">
-<attribute name="MOUSER" value="71-RN55D-F-100/R" x="23.25" y="14.75" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
+<element name="R6" library="resistors" package="R-0207/10" value="180R(TH)" x="23.25" y="11.25" rot="R180"/>
+<element name="R7" library="resistors" package="R-0207/10" value="180R(TH)" x="23.25" y="14.75" rot="R180"/>
 <element name="U3" library="hardware" package="EMPTY" value="FX2-20P-1.27DS" x="-16.51" y="80.01">
 <attribute name="MOUSER" value="798-FX2-20P-1.27DS71" x="-16.51" y="80.01" size="1.778" layer="27" display="off"/>
 </element>
