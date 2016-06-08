@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.4">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -3713,8 +3713,8 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <instance part="R2" gate=".3" x="223.52" y="-119.38" rot="R270"/>
 <instance part="GND4" gate="VR1" x="228.6" y="-149.86"/>
 <instance part="GND5" gate="VR1" x="279.4" y="-149.86"/>
-<instance part="VT2" gate="G$1" x="22.86" y="-119.38" rot="R270"/>
-<instance part="VT1" gate="G$1" x="12.7" y="-129.54" rot="R270"/>
+<instance part="VT2" gate="G$1" x="17.78" y="-119.38" rot="MR270"/>
+<instance part="VT1" gate="G$1" x="7.62" y="-129.54" rot="MR270"/>
 <instance part="VD1" gate="G$1" x="25.4" y="-111.76" rot="MR0"/>
 <instance part="R1" gate="G$1" x="2.54" y="-111.76"/>
 </instances>
@@ -4014,17 +4014,17 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <pinref part="S1" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="-114.3" x2="83.82" y2="-114.3" width="0.1524" layer="91"/>
 <junction x="83.82" y="-114.3"/>
-<pinref part="VT2" gate="G$1" pin="D"/>
-<wire x1="27.94" y1="-121.92" x2="30.48" y2="-121.92" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-121.92" x2="30.48" y2="-132.08" width="0.1524" layer="91"/>
-<pinref part="VT1" gate="G$1" pin="D"/>
-<wire x1="30.48" y1="-132.08" x2="17.78" y2="-132.08" width="0.1524" layer="91"/>
 <pinref part="VD1" gate="G$1" pin="A"/>
 <wire x1="27.94" y1="-111.76" x2="30.48" y2="-111.76" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-111.76" x2="30.48" y2="-121.92" width="0.1524" layer="91"/>
 <junction x="30.48" y="-121.92"/>
 <wire x1="40.64" y1="-121.92" x2="30.48" y2="-121.92" width="0.1524" layer="91"/>
 <junction x="40.64" y="-121.92"/>
+<pinref part="VT1" gate="G$1" pin="S"/>
+<wire x1="12.7" y1="-132.08" x2="30.48" y2="-132.08" width="0.1524" layer="91"/>
+<pinref part="VT2" gate="G$1" pin="S"/>
+<wire x1="22.86" y1="-121.92" x2="30.48" y2="-121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -4160,16 +4160,16 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="VT2" gate="G$1" pin="S"/>
-<wire x1="17.78" y1="-121.92" x2="5.08" y2="-121.92" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-121.92" x2="5.08" y2="-132.08" width="0.1524" layer="91"/>
-<pinref part="VT1" gate="G$1" pin="S"/>
-<wire x1="5.08" y1="-132.08" x2="7.62" y2="-132.08" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-121.92" x2="-10.16" y2="-121.92" width="0.1524" layer="91"/>
+<wire x1="0" y1="-121.92" x2="0" y2="-132.08" width="0.1524" layer="91"/>
+<wire x1="0" y1="-121.92" x2="-10.16" y2="-121.92" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="-121.92" x2="-10.16" y2="-111.76" width="0.1524" layer="91"/>
-<junction x="5.08" y="-121.92"/>
 <pinref part="XS1" gate="G$1" pin="P"/>
 <wire x1="-10.16" y1="-111.76" x2="-12.7" y2="-111.76" width="0.1524" layer="91"/>
+<pinref part="VT1" gate="G$1" pin="D"/>
+<wire x1="2.54" y1="-132.08" x2="0" y2="-132.08" width="0.1524" layer="91"/>
+<pinref part="VT2" gate="G$1" pin="D"/>
+<wire x1="12.7" y1="-121.92" x2="0" y2="-121.92" width="0.1524" layer="91"/>
+<junction x="0" y="-121.92"/>
 </segment>
 </net>
 <net name="N$12" class="0">

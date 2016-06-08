@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.4">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1020,8 +1020,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R2" library="resistors" package="R-SIL5" value="100K*4(SIL5)" x="52" y="27.5" rot="R90">
 <attribute name="MOUSER" value="652-4605X-1LF-100K" x="52" y="27.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="VT2" library="transistors-fet" package="HVMDIP-4" value="IRFD014" x="30" y="13" rot="R90"/>
-<element name="VT1" library="transistors-fet" package="HVMDIP-4" value="IRFD014" x="30" y="19" rot="R90"/>
+<element name="VT2" library="transistors-fet" package="HVMDIP-4" value="IRFD014" x="30" y="13" rot="R270"/>
+<element name="VT1" library="transistors-fet" package="HVMDIP-4" value="IRFD014" x="30" y="19" rot="R270"/>
 <element name="VD1" library="diodes-zener" package="DO41-10" value="10V(1N4740)" x="17" y="8" rot="R180"/>
 <element name="R1" library="resistors" package="R-0207/10" value="22K(TH)" x="17" y="5">
 <attribute name="MOUSER" value="71-CCF0722K0GKE36" x="17" y="5" size="1.778" layer="27" display="off"/>
@@ -1194,18 +1194,14 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U6" pad="2"/>
 <contactref element="C1" pad="-"/>
 <contactref element="S1" pad="1"/>
-<contactref element="VT2" pad="1"/>
-<contactref element="VT2" pad="2"/>
-<contactref element="VT1" pad="1"/>
-<contactref element="VT1" pad="2"/>
 <contactref element="VD1" pad="A"/>
+<contactref element="VT1" pad="4"/>
+<contactref element="VT2" pad="4"/>
 <wire x1="43.5" y1="14.722" x2="78.46" y2="14.84" width="0" layer="19" extent="1-1"/>
 <wire x1="43.5" y1="6.222" x2="43.5" y2="14.722" width="0" layer="19" extent="1-1"/>
-<wire x1="33.81" y1="17.73" x2="43.5" y2="14.722" width="0" layer="19" extent="1-1"/>
-<wire x1="33.81" y1="20.27" x2="33.81" y2="17.73" width="0" layer="19" extent="1-1"/>
-<wire x1="33.81" y1="14.27" x2="33.81" y2="17.73" width="0" layer="19" extent="1-1"/>
-<wire x1="33.81" y1="11.73" x2="33.81" y2="14.27" width="0" layer="19" extent="1-1"/>
-<wire x1="21" y1="14.29" x2="33.81" y2="17.73" width="0" layer="19" extent="1-1"/>
+<wire x1="33.81" y1="14.27" x2="43.5" y2="14.722" width="0" layer="19" extent="1-1"/>
+<wire x1="33.81" y1="20.27" x2="33.81" y2="14.27" width="0" layer="19" extent="1-1"/>
+<wire x1="21" y1="14.29" x2="33.81" y2="14.27" width="0" layer="19" extent="1-1"/>
 <wire x1="14.974" y1="12.254" x2="21" y2="14.29" width="0" layer="19" extent="16-16"/>
 <wire x1="13" y1="11.75" x2="14.974" y2="12.254" width="0" layer="19" extent="16-16"/>
 <wire x1="11.92" y1="8" x2="13" y2="11.75" width="0" layer="19" extent="1-1"/>
@@ -1298,19 +1294,23 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="33.81" y1="31.81" x2="52" y2="27.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
-<contactref element="VT2" pad="4"/>
-<contactref element="VT1" pad="4"/>
 <contactref element="XS1" pad="1"/>
-<wire x1="26.19" y1="11.73" x2="26.19" y2="17.73" width="0" layer="19" extent="1-1"/>
-<wire x1="10.3" y1="21.6" x2="26.19" y2="17.73" width="0" layer="19" extent="1-1"/>
+<contactref element="VT1" pad="1"/>
+<contactref element="VT1" pad="2"/>
+<contactref element="VT2" pad="1"/>
+<contactref element="VT2" pad="2"/>
+<wire x1="26.19" y1="17.73" x2="26.19" y2="20.27" width="0" layer="19" extent="1-1"/>
+<wire x1="26.19" y1="14.27" x2="26.19" y2="17.73" width="0" layer="19" extent="1-1"/>
+<wire x1="26.19" y1="11.73" x2="26.19" y2="14.27" width="0" layer="19" extent="1-1"/>
+<wire x1="10.3" y1="21.6" x2="26.19" y2="20.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="VT1" pad="3"/>
 <contactref element="VT2" pad="3"/>
 <contactref element="VD1" pad="C"/>
 <contactref element="R1" pad="2"/>
-<wire x1="26.19" y1="14.27" x2="26.19" y2="20.27" width="0" layer="19" extent="1-1"/>
-<wire x1="22.08" y1="8" x2="26.19" y2="14.27" width="0" layer="19" extent="1-1"/>
+<wire x1="33.81" y1="11.73" x2="33.81" y2="17.73" width="0" layer="19" extent="1-1"/>
+<wire x1="22.08" y1="8" x2="33.81" y2="11.73" width="0" layer="19" extent="1-1"/>
 <wire x1="22.08" y1="5" x2="22.08" y2="8" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
