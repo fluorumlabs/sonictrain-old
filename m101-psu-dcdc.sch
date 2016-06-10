@@ -3824,6 +3824,7 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 <class number="1" name="power" width="0" drill="0">
+<clearance class="1" value="0.508"/>
 </class>
 </classes>
 <parts>
@@ -3982,7 +3983,7 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <busses>
 </busses>
 <nets>
-<net name="N$20" class="0">
+<net name="N$20" class="1">
 <segment>
 <pinref part="L1" gate="G$1" pin="1"/>
 <pinref part="C1" gate="G$1" pin="+"/>
@@ -3998,7 +3999,7 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <junction x="-5.08" y="-106.68"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="N$22" class="1">
 <segment>
 <wire x1="111.76" y1="-106.68" x2="66.04" y2="-106.68" width="0.1524" layer="91"/>
 <pinref part="U6" gate="A" pin="IN+"/>
@@ -4252,7 +4253,7 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <wire x1="137.16" y1="-40.64" x2="139.7" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="N$3" class="1">
 <segment>
 <pinref part="SA1" gate=".1" pin="2"/>
 <wire x1="86.36" y1="-88.9" x2="83.82" y2="-88.9" width="0.1524" layer="91"/>
@@ -4288,7 +4289,7 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <wire x1="22.86" y1="-121.92" x2="30.48" y2="-121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="N$16" class="1">
 <segment>
 <pinref part="U6" gate="A" pin="EN"/>
 <pinref part="S1" gate="G$1" pin="2"/>
@@ -4419,7 +4420,7 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <junction x="223.52" y="-124.46"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="N$8" class="1">
 <segment>
 <wire x1="0" y1="-121.92" x2="0" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="0" y1="-121.92" x2="-10.16" y2="-121.92" width="0.1524" layer="91"/>
@@ -4433,7 +4434,7 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <junction x="0" y="-121.92"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="N$12" class="1">
 <segment>
 <pinref part="VT1" gate="G$1" pin="G"/>
 <wire x1="10.16" y1="-124.46" x2="10.16" y2="-111.76" width="0.1524" layer="91"/>
@@ -4446,6 +4447,12 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="-111.76" x2="10.16" y2="-111.76" width="0.1524" layer="91"/>
 <junction x="10.16" y="-111.76"/>
+</segment>
+</net>
+<net name="N$2" class="1">
+<segment>
+<pinref part="XS1" gate="G$1" pin="SS"/>
+<wire x1="-12.7" y1="-109.22" x2="-10.16" y2="-109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
