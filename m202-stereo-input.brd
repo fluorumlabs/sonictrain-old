@@ -1043,18 +1043,16 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MOUSER" value="81-RCER71H104K0A2H3B" x="170" y="-65.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="22.095" y="25" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R12" library="resistors" package="R-0207/10" value="10M(TH)" x="16.5" y="25" smashed="yes" rot="R270">
+<element name="R12" library="resistors" package="R-0207/10" value="1M(TH)" x="16.5" y="25" smashed="yes" rot="R270">
 <attribute name="NAME" x="16.5" y="25" size="0.8128" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="R14" library="resistors" package="R-0207/10" value="10M(TH)" x="20.5" y="25" smashed="yes" rot="R270">
+<element name="R14" library="resistors" package="R-0207/10" value="1M(TH)" x="20.5" y="25" smashed="yes" rot="R270">
 <attribute name="NAME" x="20.5" y="25" size="0.8128" layer="25" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="R13" library="resistors" package="R-0207/10" value="100K(TH)" x="18.5" y="25" smashed="yes" rot="R90">
-<attribute name="MOUSER" value="71-RN55D-F-100K" x="162.5" y="-63.75" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R13" library="resistors" package="R-0207/10" value="33K(TH)" x="18.5" y="25" smashed="yes" rot="R90">
 <attribute name="NAME" x="18.5" y="25" size="0.8128" layer="25" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R15" library="resistors" package="R-0207/10" value="100K(TH)" x="27" y="29" smashed="yes" rot="R180">
-<attribute name="MOUSER" value="71-RN55D-F-100K" x="140.25" y="175.25" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R15" library="resistors" package="R-0207/10" value="33K(TH)" x="27" y="29" smashed="yes" rot="R180">
 <attribute name="NAME" x="27" y="29" size="0.8128" layer="25" ratio="15" rot="R180" align="center"/>
 </element>
 <element name="R16" library="resistors" package="R-0207/10" value="47K(TH)" x="36" y="32" smashed="yes" rot="R90">

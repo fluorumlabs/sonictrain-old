@@ -4554,10 +4554,10 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="U10" library="hardware" deviceset="?" device="FX2-20S-1.27DS"/>
 <part name="C15" library="capacitors" deviceset="?" device="100N(TH)" value="100N(TH)"/>
 <part name="C16" library="capacitors" deviceset="?" device="100N(TH)" value="100N(TH)"/>
-<part name="R12" library="resistors" deviceset="?" device="10M(TH)" value="10M(TH)"/>
-<part name="R14" library="resistors" deviceset="?" device="10M(TH)" value="10M(TH)"/>
-<part name="R13" library="resistors" deviceset="?" device="100K(TH)" value="100K(TH)"/>
-<part name="R15" library="resistors" deviceset="?" device="100K(TH)" value="100K(TH)"/>
+<part name="R12" library="resistors" deviceset="?" device="1M(TH)" value="1M(TH)"/>
+<part name="R14" library="resistors" deviceset="?" device="1M(TH)" value="1M(TH)"/>
+<part name="R13" library="resistors" deviceset="?" device="33K(TH)" value="33K(TH)"/>
+<part name="R15" library="resistors" deviceset="?" device="33K(TH)" value="33K(TH)"/>
 <part name="R16" library="resistors" deviceset="?" device="47K(TH)" value="47K(TH)"/>
 <part name="R17" library="resistors" deviceset="?" device="47K(TH)" value="47K(TH)"/>
 <part name="VD1" library="diodes" deviceset="?" device="1N4148" value="1N4148"/>
