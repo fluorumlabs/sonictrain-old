@@ -4193,7 +4193,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <part name="R29" library="resistors" deviceset="?" device="100K(TH)"/>
 <part name="R27" library="resistors" deviceset="?" device="15K(TH)"/>
 <part name="R26" library="resistors" deviceset="?" device="470K(TH)"/>
-<part name="R32" library="resistors" deviceset="?" device="300K(TH)"/>
+<part name="R32" library="resistors" deviceset="?" device="330K(TH)" value="330K(TH)"/>
 <part name="R31" library="resistors" deviceset="?" device="1K(TH)"/>
 <part name="R30" library="resistors" deviceset="?" device="1K(TH)"/>
 <part name="GND18" library="supply" deviceset="GND" device=""/>
