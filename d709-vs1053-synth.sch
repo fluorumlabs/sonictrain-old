@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.1">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -4532,7 +4532,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <part name="GND23" library="supply" deviceset="DGND" device=""/>
 <part name="GND25" library="supply" deviceset="DGND" device=""/>
 <part name="GND26" library="supply" deviceset="DGND" device=""/>
-<part name="HL1" library="optoelectronics" deviceset="?(2MMX5MM,CC)" device="RED/GREEN"/>
+<part name="HL1" library="optoelectronics" deviceset="?(2MMX5MM,CC)" device="RED/BLUE" value="RED/BLUE(2MMX5MM,CC)"/>
 <part name="GND22" library="supply" deviceset="DGND" device=""/>
 <part name="R14" library="resistors" deviceset="?" device="100R"/>
 <part name="R21" library="resistors" deviceset="?" device="100R"/>
