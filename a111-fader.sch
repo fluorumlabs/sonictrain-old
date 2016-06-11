@@ -4159,7 +4159,7 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <part name="R17" library="resistors" deviceset="?" device="100K(TH)"/>
 <part name="R15" library="resistors" deviceset="?" device="15K(TH)"/>
 <part name="R14" library="resistors" deviceset="?" device="470K(TH)"/>
-<part name="R20" library="resistors" deviceset="?" device="300K(TH)"/>
+<part name="R20" library="resistors" deviceset="?" device="330K(TH)" value="330K(TH)"/>
 <part name="R19" library="resistors" deviceset="?" device="1K(TH)"/>
 <part name="R18" library="resistors" deviceset="?" device="1K(TH)"/>
 <part name="GND10" library="supply" deviceset="GND" device=""/>
