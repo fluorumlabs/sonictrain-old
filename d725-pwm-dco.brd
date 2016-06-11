@@ -932,7 +932,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R7" library="resistors" package="R-0207/10" value="100R(TH)" x="37" y="37" rot="R270">
 <attribute name="MOUSER" value="71-RN55D-F-100/R" x="-30" y="53" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="HL1" library="optoelectronics" package="LED2X5-3PIN" value="RED/GREEN(2MMX5MM,CC)" x="9" y="42" rot="R270"/>
+<element name="HL1" library="optoelectronics" package="LED2X5-3PIN" value="RED/BLUE(2MMX5MM,CC)" x="9" y="42" rot="R270"/>
 <element name="U11" library="hardware" package="EMPTY" value="ERM1-5MM" x="2" y="-109"/>
 <element name="O5" library="hardware" package="EMPTY" value="450-AA150(15MM,D,BLACK)" x="60" y="-106">
 <attribute name="MOUSER" value="450-AA150" x="-17" y="-179" size="1.778" layer="27" display="off"/>

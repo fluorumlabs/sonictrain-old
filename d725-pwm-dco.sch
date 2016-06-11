@@ -4635,7 +4635,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <part name="GND1" library="supply" deviceset="GND" device=""/>
 <part name="R5" library="resistors" deviceset="?" device="100R(TH)"/>
 <part name="R7" library="resistors" deviceset="?" device="100R(TH)"/>
-<part name="HL1" library="optoelectronics" deviceset="?(2MMX5MM,CC)" device="RED/GREEN"/>
+<part name="HL1" library="optoelectronics" deviceset="?(2MMX5MM,CC)" device="RED/BLUE" value="RED/BLUE(2MMX5MM,CC)"/>
 <part name="GND8" library="supply" deviceset="GND" device=""/>
 <part name="GND2" library="supply" deviceset="GND" device=""/>
 <part name="U11" library="hardware" deviceset="?" device="ERM1-5MM"/>
