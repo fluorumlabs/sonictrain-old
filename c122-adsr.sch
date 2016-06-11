@@ -5229,7 +5229,7 @@ diameter 9 mm, horizontal, grid 15.24 mm</description>
 <part name="GND2" library="supply" deviceset="GND" device=""/>
 <part name="R9" library="resistors" deviceset="?" device="100R(TH)"/>
 <part name="R10" library="resistors" deviceset="?" device="100R(TH)"/>
-<part name="HL1" library="optoelectronics" deviceset="?(2MMX5MM,CC)" device="RED/GREEN"/>
+<part name="HL1" library="optoelectronics" deviceset="?(2MMX5MM,CC)" device="RED/BLUE" value="RED/BLUE(2MMX5MM,CC)"/>
 <part name="GND11" library="supply" deviceset="GND" device=""/>
 <part name="GND4" library="supply" deviceset="GND" device=""/>
 <part name="R1" library="resistors" deviceset="?" device="100K(TH)"/>
