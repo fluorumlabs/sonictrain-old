@@ -1104,7 +1104,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="R26" library="resistors" package="R-0207/10" value="15K(TH)" x="14.5" y="25" rot="R90"/>
 <element name="R25" library="resistors" package="R-0207/10" value="470K(TH)" x="27" y="32.5" rot="R180"/>
-<element name="R33" library="resistors" package="R-0207/10" value="300K(TH)" x="12" y="40" rot="R90"/>
+<element name="R33" library="resistors" package="R-0207/10" value="330K(TH)" x="12" y="40" rot="R90"/>
 <element name="R32" library="resistors" package="R-0207/10" value="1K(TH)" x="15" y="32.5" rot="R180">
 <attribute name="MOUSER" value="71-RN55D-F-1.0K" x="22" y="37.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
