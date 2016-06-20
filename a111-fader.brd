@@ -885,7 +885,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U1" library="hardware" package="EMPTY" value="FADER-KNOB-8MM(BLACK/WHITE)" x="3" y="-154"/>
 <element name="DA2" library="ic-ti" package="DIP-8" value="TL072IP" x="30" y="38.5" smashed="yes">
 <attribute name="MOUSER" value="595-TL072IP" x="30" y="38.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="24" y="34.15" size="0.8128" layer="25" ratio="15" align="bottom-center"/>
+<attribute name="NAME" x="36" y="42.15" size="0.8128" layer="25" ratio="15" align="bottom-center"/>
 </element>
 <element name="R13" library="resistors" package="R-0207/10" value="10K(TH)" x="22.5" y="15">
 <attribute name="MOUSER" value="71-RN55D-F-10K" x="22.5" y="15" size="1.778" layer="27" display="off"/>
