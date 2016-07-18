@@ -4152,8 +4152,8 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <part name="C14" library="capacitors" deviceset="?" device="100N"/>
 <part name="R13" library="resistors" deviceset="?" device="1K"/>
 <part name="R14" library="resistors" deviceset="?" device="1K"/>
-<part name="HL2" library="optoelectronics" deviceset="?(2MMX5MM)" device="RED" value="RED(2MMX5MM)"/>
-<part name="HL1" library="optoelectronics" deviceset="?(2MMX5MM)" device="BLUE" value="BLUE(2MMX5MM)"/>
+<part name="HL2" library="optoelectronics" deviceset="?(2MMX5MM)" device="YELLOW" value="YELLOW(2MMX5MM)"/>
+<part name="HL1" library="optoelectronics" deviceset="?(2MMX5MM)" device="GREEN" value="GREEN(2MMX5MM)"/>
 <part name="PWR1" library="supply" deviceset="+3.3V" device=""/>
 <part name="PWR2" library="supply" deviceset="+3.3V" device=""/>
 <part name="PWR4" library="supply" deviceset="+3.3V" device=""/>
