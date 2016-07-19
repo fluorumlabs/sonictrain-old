@@ -3840,7 +3840,7 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <variant name="+15V/0/-15V Input" populate="no"/>
 </part>
 <part name="XS1" library="connectors" deviceset="PJ-051?" device="AH"/>
-<part name="PCB1" library="module-footprints" deviceset="ST2-BOARD-50-PSU" device="" value="M101 rev.C"/>
+<part name="PCB1" library="module-footprints" deviceset="ST2-BOARD-50-PSU" device="" value="M101 rev.D"/>
 <part name="GND1" library="supply" deviceset="GND" device=""/>
 <part name="DA1" library="ic-logic" deviceset="NE555?" device="P"/>
 <part name="C4" library="capacitors" deviceset="?" device="100N(TH)"/>
@@ -3916,7 +3916,7 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <attribute name="NAME" x="53.34" y="-101.6" size="1.778" layer="94" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="53.34" y="-111.76" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="XS1" gate="G$1" x="-12.7" y="-111.76" rot="MR180"/>
+<instance part="XS1" gate="G$1" x="-12.7" y="-106.68"/>
 <instance part="PCB1" gate="G$1" x="73.66" y="2.54"/>
 <instance part="PCB1" gate="G$2" x="5.08" y="2.54" rot="MR0"/>
 <instance part="PCB1" gate="G$3" x="5.08" y="-2.54" rot="MR0"/>
@@ -3989,13 +3989,13 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <pinref part="C1" gate="G$1" pin="+"/>
 <wire x1="40.64" y1="-106.68" x2="48.26" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="-111.76" x2="40.64" y2="-106.68" width="0.1524" layer="91"/>
-<pinref part="XS1" gate="G$1" pin="S"/>
 <wire x1="40.64" y1="-106.68" x2="-5.08" y2="-106.68" width="0.1524" layer="91"/>
 <junction x="40.64" y="-106.68"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="-5.08" y1="-106.68" x2="-12.7" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-111.76" x2="-5.08" y2="-111.76" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="-111.76" x2="-5.08" y2="-106.68" width="0.1524" layer="91"/>
+<pinref part="XS1" gate="G$1" pin="P"/>
+<wire x1="-12.7" y1="-106.68" x2="-5.08" y2="-106.68" width="0.1524" layer="91"/>
 <junction x="-5.08" y="-106.68"/>
 </segment>
 </net>
@@ -4425,13 +4425,13 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <wire x1="0" y1="-121.92" x2="0" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="0" y1="-121.92" x2="-10.16" y2="-121.92" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="-121.92" x2="-10.16" y2="-111.76" width="0.1524" layer="91"/>
-<pinref part="XS1" gate="G$1" pin="P"/>
-<wire x1="-10.16" y1="-111.76" x2="-12.7" y2="-111.76" width="0.1524" layer="91"/>
 <pinref part="VT1" gate="G$1" pin="D"/>
 <wire x1="2.54" y1="-132.08" x2="0" y2="-132.08" width="0.1524" layer="91"/>
 <pinref part="VT2" gate="G$1" pin="D"/>
 <wire x1="12.7" y1="-121.92" x2="0" y2="-121.92" width="0.1524" layer="91"/>
 <junction x="0" y="-121.92"/>
+<pinref part="XS1" gate="G$1" pin="S"/>
+<wire x1="-12.7" y1="-111.76" x2="-10.16" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="1">

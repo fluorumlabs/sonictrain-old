@@ -926,7 +926,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U6" library="regulators-switch-mode" package="DC/DC-C1" value="SHHN000A3CL41Z" x="81" y="25" rot="R90">
 <attribute name="MOUSER" value="894-SHHN000A3CL41Z" x="81" y="25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="PCB1" library="module-footprints" package="ST2-BOARD-50-PSU" value="M101 rev.C" x="0" y="0"/>
+<element name="PCB1" library="module-footprints" package="ST2-BOARD-50-PSU" value="M101 rev.D" x="0" y="0"/>
 <element name="XS1" library="connectors" package="PJ-051AH" value="PJ-051AH" x="0" y="25">
 <attribute name="MOUSER" value="490-PJ-051AH" x="0" y="25" size="1.778" layer="27" display="off"/>
 </element>
@@ -1050,7 +1050,6 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$20" class="1">
 <contactref element="L1" pad="1"/>
 <contactref element="C1" pad="+"/>
-<contactref element="XS1" pad="3"/>
 <contactref element="R1" pad="1"/>
 <wire x1="37.5" y1="18.08" x2="37.5" y2="18.5857875" width="0.4064" layer="16"/>
 <wire x1="37.5" y1="18.5857875" x2="37.20710625" y2="19.29289375" width="0.4064" layer="16" curve="45"/>
@@ -1060,22 +1059,22 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="25.4142125" y1="22" x2="24.70710625" y2="21.70710625" width="0.4064" layer="16" curve="45"/>
 <wire x1="24.70710625" y1="21.70710625" x2="22.29289375" y2="19.29289375" width="0.4064" layer="16"/>
 <wire x1="22.29289375" y1="19.29289375" x2="21.5857875" y2="19" width="0.4064" layer="16" curve="-45"/>
-<wire x1="21.5857875" y1="19" x2="14.4142125" y2="19" width="0.4064" layer="16"/>
-<wire x1="14.4142125" y1="19" x2="13.70710625" y2="19.29289375" width="0.4064" layer="16" curve="-45"/>
-<wire x1="13.70710625" y1="19.29289375" x2="12.79289375" y2="20.20710625" width="0.4064" layer="16"/>
-<wire x1="12.79289375" y1="20.20710625" x2="12.5" y2="20.9142125" width="0.4064" layer="16" curve="-45"/>
-<wire x1="12.5" y1="20.9142125" x2="12.5" y2="27.5857875" width="0.4064" layer="16"/>
-<wire x1="12.5" y1="27.5857875" x2="12.20710625" y2="28.29289375" width="0.4064" layer="16" curve="45"/>
-<wire x1="12.20710625" y1="28.29289375" x2="10.3" y2="30.2" width="0.4064" layer="16"/>
-<wire x1="11.92" y1="5" x2="10.4142125" y2="5" width="0.254" layer="16"/>
-<wire x1="10.4142125" y1="5" x2="9.70710625" y2="5.29289375" width="0.254" layer="16" curve="-45"/>
-<wire x1="9.70710625" y1="5.29289375" x2="7.79289375" y2="7.20710625" width="0.254" layer="16"/>
-<wire x1="7.79289375" y1="7.20710625" x2="7.5" y2="7.9142125" width="0.254" layer="16" curve="-45"/>
-<wire x1="7.5" y1="7.9142125" x2="7.5" y2="26.9857875" width="0.254" layer="16"/>
-<wire x1="7.5" y1="26.9857875" x2="7.79289375" y2="27.69289375" width="0.254" layer="16" curve="-45"/>
-<wire x1="7.79289375" y1="27.69289375" x2="10.3" y2="30.2" width="0.254" layer="16"/>
+<wire x1="21.5857875" y1="19" x2="13.3142125" y2="19" width="0.4064" layer="16"/>
+<wire x1="13.3142125" y1="19" x2="12.60710625" y2="19.29289375" width="0.4064" layer="16" curve="-45"/>
+<wire x1="12.60710625" y1="19.29289375" x2="10.3" y2="21.6" width="0.4064" layer="16"/>
 <wire x1="37.5" y1="18.08" x2="43.302" y2="18.08" width="0.4064" layer="16"/>
 <wire x1="43.302" y1="18.08" x2="43.5" y2="18.278" width="0.4064" layer="16"/>
+<contactref element="XS1" pad="1"/>
+<wire x1="11.92" y1="5" x2="8.4142125" y2="5" width="0.254" layer="1"/>
+<wire x1="8.4142125" y1="5" x2="7.70710625" y2="5.29289375" width="0.254" layer="1" curve="-45"/>
+<wire x1="7.70710625" y1="5.29289375" x2="7.29289375" y2="5.70710625" width="0.254" layer="1"/>
+<wire x1="7.29289375" y1="5.70710625" x2="7" y2="6.4142125" width="0.254" layer="1" curve="-45"/>
+<wire x1="7" y1="6.4142125" x2="7" y2="20.0857875" width="0.254" layer="1"/>
+<wire x1="7" y1="20.0857875" x2="7.29289375" y2="20.79289375" width="0.254" layer="1" curve="-45"/>
+<wire x1="7.29289375" y1="20.79289375" x2="7.70710625" y2="21.20710625" width="0.254" layer="1"/>
+<wire x1="7.70710625" y1="21.20710625" x2="8.4142125" y2="21.5" width="0.254" layer="1" curve="-45"/>
+<wire x1="8.4142125" y1="21.5" x2="10.2" y2="21.5" width="0.254" layer="1"/>
+<wire x1="10.2" y1="21.5" x2="10.3" y2="21.6" width="0.254" layer="1"/>
 </signal>
 <signal name="N$22" class="1">
 <contactref element="U6" pad="1"/>
@@ -1557,20 +1556,22 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="38.4142125" y1="27.5" x2="52" y2="27.5" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$8" class="1">
-<contactref element="XS1" pad="1"/>
 <contactref element="VT1" pad="1"/>
 <contactref element="VT1" pad="2"/>
 <contactref element="VT2" pad="1"/>
 <contactref element="VT2" pad="2"/>
-<wire x1="10.3" y1="21.6" x2="10.3" y2="20.1142125" width="0.4064" layer="16"/>
-<wire x1="10.3" y1="20.1142125" x2="10.59289375" y2="19.40710625" width="0.4064" layer="16" curve="45"/>
-<wire x1="10.59289375" y1="19.40710625" x2="11.70710625" y2="18.29289375" width="0.4064" layer="16"/>
-<wire x1="11.70710625" y1="18.29289375" x2="12.4142125" y2="18" width="0.4064" layer="16" curve="45"/>
-<wire x1="12.4142125" y1="18" x2="25.92" y2="18" width="0.4064" layer="16"/>
+<wire x1="25.92" y1="18" x2="9.4142125" y2="18" width="0.4064" layer="16"/>
+<wire x1="9.4142125" y1="18" x2="8.70710625" y2="18.29289375" width="0.4064" layer="16" curve="-45"/>
+<wire x1="8.70710625" y1="18.29289375" x2="8.29289375" y2="18.70710625" width="0.4064" layer="16"/>
+<wire x1="8.29289375" y1="18.70710625" x2="8" y2="19.4142125" width="0.4064" layer="16" curve="-45"/>
+<wire x1="8" y1="19.4142125" x2="8" y2="27.4857875" width="0.4064" layer="16"/>
 <wire x1="25.92" y1="18" x2="26.19" y2="17.73" width="0.4064" layer="16"/>
 <wire x1="26.19" y1="20.27" x2="26.19" y2="17.73" width="0.4064" layer="16"/>
 <wire x1="26.19" y1="17.73" x2="26.19" y2="14.27" width="0.4064" layer="16"/>
 <wire x1="26.19" y1="11.73" x2="26.19" y2="14.27" width="0.4064" layer="16"/>
+<contactref element="XS1" pad="3"/>
+<wire x1="8" y1="27.4857875" x2="8.29289375" y2="28.19289375" width="0.4064" layer="16" curve="-45"/>
+<wire x1="8.29289375" y1="28.19289375" x2="10.3" y2="30.2" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$12" class="1">
 <contactref element="VT1" pad="3"/>
